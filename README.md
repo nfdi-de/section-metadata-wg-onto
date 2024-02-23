@@ -7,3 +7,8 @@ This repository is meant to organize the work of the [NFDI Section (Meta)Data](h
 * Mailing list [Sign-up link](https://lists.nfdi.de/postorius/lists/section-metadata-wg-onto.lists.nfdi.de/)
   * If you are affiliated with a NFDI consortium and want to be part of the WG, you need to sign up to this mailing list as it is our official communication channel.
 * [our RocketChat channel](https://all-chat.nfdi.de/channel/section-metadata-wg-onto) in the NFDI general workspace
+  * Only for quick chats, use the mailing list for important infos that are to be send to all WG members
+  * The use of RocektChat in NFDI might be abandoned due to licensing issues in the future.
+* we have bi-monthly meetings according to these schedules:
+  * [section-metadata-onto_every_2nd_wednesday_call_series.ics](section-metadata-onto_every_2nd_wednesday_call_series.ics)
+  * [section-metadata-onto_every_4th_tuesday_call_series.ics](section-metadata-onto_every_4th_tuesday_call_series.ics)
