@@ -18,53 +18,21 @@ __Main Topic:__ xxx
 
 # <a id="_4in35gwl6myp"></a>Participants
 
-__Name__
+|Name|NFDI project affiliation\(s\)|
+|--------|---------------------------------|
+|Philip Str√∂mert|Base4NFDI, NFDI4Chem|
+|Hendrik Borgelt|NFDI4Cat, N\.A\.|
+|Josh Moore|NFDI4BIOIMAGE, N\.A\.|
+|L\. Jael Castro|NFDI4DS, N\.A\.|
+|Susanne Kunis|NFDI4BIOIMAGE, N\.A\.|
 
-__NFDI project affiliation\(s\)__
-
-Philip Strˆmert
-
-Base4NFDI, NFDI4Chem
-
-Hendrik Borgelt
-
-NFDI4Cat, N\.A\.
-
-Josh Moore
-
-NFDI4BIOIMAGE, N\.A\.
-
-L\. Jael Castro
-
-NFDI4DS, N\.A\.
-
-Susanne Kunis
-
-NFDI4BIOIMAGE, N\.A\.
-
-Base4NFDI, N\.A\.
-
-Base4NFDI, N\.A\.
-
-Base4NFDI, N\.A\.
-
-Base4NFDI, N\.A\.
-
-Base4NFDI, N\.A\.
 
 # <a id="_3cakx2qk2ogo"></a>Agenda
 
-__discussed aspect of main topic__
-
-__prepared or present by __
-
-Possible Topic: Discussion on how we want to structure further Meetings
-
-Hendrik Borgelt
-
-Possible Topic: DCAT\-AP, who we can use it for Base services and how it is intended to be used in 4Cat
-
-Hendrik Borgelt
+|discussed aspect of main topic|prepared or present by|
+|------------------------------|----------------------|
+|Possible Topic: Discussion on how we want to structure further Meetings|Hendrik Borgelt|
+|Possible Topic: DCAT\-AP, who we can use it for Base services and how it is intended to be used in 4Cat|Hendrik Borgelt|
 
 # <a id="_71znd1hi3viy"></a>Notes
 
@@ -77,7 +45,7 @@ for Possible topics:
 		- when we have presentations, we should
 - If wanted there can be a short overview on DCAT / DCAT\-AP, however with regards to the previous topic i really would like to first discuss how we want to record and document results\.
 	- postponed to another call with more participants
-	- fore shadowing: mainly used in 4Cat to describe the dataset provenance but also contains a way for how to describe a datasetís content with  more domain specific vocabs/ontologies
+	- fore shadowing: mainly used in 4Cat to describe the dataset provenance but also contains a way for how to describe a dataset‚Äôs content with  more domain specific vocabs/ontologies
 - Jeal showed interest in preparing for a call that would discuss the use of the most current DataCite MDS ;\) 
 - Hendrik:
 	- use the first 10 min of each call to upvote the topic for the next call, so it becomes clear who is supposed to do what
@@ -94,8 +62,8 @@ for Possible topics:
 
 - @Cord will set up a WG repo under [https://github\.com/nfdi\-de](https://github.com/nfdi-de/WG)/
 - Philip will start a draft repo \(to be moved to the one that Cord sets up\)
-- We will go over the Goals and Tasks section of our WG charter together with the proposed topics in the overview GDoc to destill this down to possible ìepicsî and ìsubtaskî issues, which will hopefully allow a better collaborative organization of our WG
-	- good first Epic/issue example could be our discussion around the proper vocabularies to describe the research information of all NFDI datasets \(e\.g\. DCAT vs CERIF vs DataCite Ö\)
+- We will go over the Goals and Tasks section of our WG charter together with the proposed topics in the overview GDoc to destill this down to possible ‚Äúepics‚Äù and ‚Äúsubtask‚Äù issues, which will hopefully allow a better collaborative organization of our WG
+	- good first Epic/issue example could be our discussion around the proper vocabularies to describe the research information of all NFDI datasets \(e\.g\. DCAT vs CERIF vs DataCite ‚Ä¶\)
 - this GH test will thus already be helpful to structure our next calls, even if we decide to not use this approach in the end
 - GH handles needed for the test: 
 	- [https://github\.com/Wiljes](https://github.com/Wiljes)
