@@ -3,7 +3,7 @@ name: mapping documentation
 about: " This issue template should be used to discuss concrete action items regarding
   recommendations of our WG on how to document mappings."
 title: 'mapping documentation: [ADD YOUR CONCISE ISSUE TITLE HERE]'
-labels: documentation, mapping
+labels: documentation, mapping, WG recommendation
 assignees: ''
 
 ---

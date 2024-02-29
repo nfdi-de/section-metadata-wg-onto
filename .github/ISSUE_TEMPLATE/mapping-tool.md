@@ -2,7 +2,7 @@
 name: mapping tool
 about: This issue template should be used to discuss a mapping tool or framework..
 title: 'mapping tool: [ADD YOUR CONCISE ISSUE TITLE HERE]'
-labels: mapping, tool or framework
+labels: mapping, tool or framework, WG recommendation
 assignees: ''
 
 ---

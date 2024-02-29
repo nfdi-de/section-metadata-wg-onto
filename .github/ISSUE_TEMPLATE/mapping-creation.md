@@ -3,7 +3,7 @@ name: mapping creation
 about: 'This issue template should be used to discuss concrete action items regarding
   recommendations of our WG on how to create mappings. '
 title: 'mapping creation: [ADD YOUR CONCISE ISSUE TITLE HERE]'
-labels: mapping
+labels: mapping, WG recommendation
 assignees: ''
 
 ---
