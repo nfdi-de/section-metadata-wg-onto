@@ -4,7 +4,7 @@ about: This issue template should be used to introduce a new mapping tool or fra
   our working group needs to consider for evaluation and recommendation.
 title: 'Mapping Tool - '
 labels: mapping tool
-assignees: ''
+assignees: '/assign @username'
 
 ---
 
