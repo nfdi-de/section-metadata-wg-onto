@@ -8,9 +8,9 @@ assignees: ''
 
 ---
 
-This is a subtask of the charter epic #7 that deals with the documentation of mappings.
+This issue is associated with the charter epic #7.
 --- 
-# What mapping documentation aspects does this issue address?
+# What mapping documentation aspect(s) does this issue address?
 [please provide further resources whenever possible]
 
 # What further steps are needed to be taken or discussed by/in our WG regarding this issue?

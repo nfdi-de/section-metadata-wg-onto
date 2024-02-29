@@ -1,16 +1,15 @@
 ---
 name: mapping tool
-about: This issue template should be used to introduce and discuss  a new mapping
-  tool or framework our working group needs to consider for evaluation and recommendation.
+about: This issue template should be used to discuss a mapping tool or framework..
 title: 'Mapping Tool - '
 labels: mapping, tool or framework
 assignees: ''
 
 ---
 
-This is a subtask of the charter epic #7 that deals with the introduction of a specific mapping tool or framework
+This issue is associated with the charter epic #7.
 ----
-# Which mapping tool or framework do you want to introduce to our Working Group? 
+# Which mapping tool or framework do you want to discuss? 
 [please provide links to further resources that describe this mapping tool]
 
 # Why do you think this mapping tool or framework is relevant in the context of our working group?
