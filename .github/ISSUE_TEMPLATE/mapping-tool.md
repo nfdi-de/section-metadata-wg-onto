@@ -3,7 +3,7 @@ name: mapping tool
 about: This issue template should be used to introduce and discuss  a new mapping
   tool or framework our working group needs to consider for evaluation and recommendation.
 title: 'Mapping Tool - '
-labels: mapping tool
+labels: mapping, tool or framework
 assignees: ''
 
 ---
