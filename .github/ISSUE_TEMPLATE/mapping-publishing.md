@@ -8,8 +8,8 @@ assignees: ''
 
 ---
 
-This is a subtask of the charter epic #7 that deals with the documentation of mappings.
---- 
+This issue is associated with the charter epic #7.
+
 # What mapping publication aspect(s) does this issue address?
 [please provide further resources whenever possible]
 

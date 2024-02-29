@@ -9,7 +9,7 @@ assignees: ''
 ---
 
 This issue is associated with the charter epic #7.
---- 
+
 # What mapping validation aspect(s) does this issue address?
 [please provide further resources whenever possible]
 

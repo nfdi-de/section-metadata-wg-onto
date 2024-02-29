@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 This issue is associated with the charter epic #7.
-----
+
 # Which mapping tool or framework do you want to discuss? 
 [please provide links to further resources that describe this mapping tool]
 
