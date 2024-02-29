@@ -7,6 +7,7 @@ labels: 'mapping tool'
 assignees: '/assign @username'
 
 ---
+This is a subtasks of the charter epic #7 that deals with the introduction of a specific mapping tool or framework
 
 ## Which mapping tool or framework do you want to introduce to our Working Group? 
 [please provide links to further resources that describe this mapping tool]
@@ -15,4 +16,5 @@ assignees: '/assign @username'
 
 ## What further steps are needed to be done or discussed by/in our WG regarding this mapping tool?
 
-- []
+1. [x] step 1
+2. [x] step 2
