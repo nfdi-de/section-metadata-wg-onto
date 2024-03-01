@@ -1,5 +1,4 @@
-This folder is the workspace for the work on charter epic #7. Its sub-folders are the working folders of its respective 
-subtasks.
+This folder is the workspace for the work on charter epic #7. 
 This README serves as the documentation of our work regarding this epic. It will therefore have to be edited whenever a 
 subtask of this epic has been closed/resolved to document the outcome of this subtask.
 
@@ -7,14 +6,14 @@ subtask of this epic has been closed/resolved to document the outcome of this su
 
 # Recommendations on Terminology Mappings
 
-## Mapping [tools](tools)
+## Mapping Tools
 ### Simple Standard for Sharing Ontological Mappings (SSSOM)
    * discussed in #11
 
-## Mapping [creation](creation)
+## Mapping Creation
 
-## Mapping [validation](validation)
+## Mapping Validation
 
-## Mapping [documentation](documentation)
+## Mapping Documentation
 
-## Mapping [publishing](publishing)
+## Mapping Publishing
