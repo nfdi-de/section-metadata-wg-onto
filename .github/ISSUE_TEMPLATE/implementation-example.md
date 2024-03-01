@@ -3,14 +3,14 @@ name: implementation example
 about: 'This issue template should be used to discuss concrete action items regarding
   example implementations of our WG mapping recommendations. '
 title: 'implementation example: [ADD YOUR CONCISE ISSUE TITLE HERE] '
-labels: example implementation
+labels: approach assessment, mapping recommendation
 assignees: ''
 
 ---
 
 This issue is associated with the charter epic #8.
 
-# What mapping validation aspect(s) does this issue address?
+# What implementation example aspect(s) does this issue address?
 [please provide further resources whenever possible]
 
 # What further steps are needed to be taken or discussed by/in our WG regarding this issue?
