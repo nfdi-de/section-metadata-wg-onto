@@ -1,8 +1,8 @@
 ---
-name: mapping tool
+name: mapping tool recommendation
 about: This issue template should be used to discuss a mapping tool or framework..
 title: 'mapping tool: [ADD YOUR CONCISE ISSUE TITLE HERE]'
-labels: mapping, tool or framework, WG recommendation
+labels: mapping recommendation
 assignees: ''
 
 ---
@@ -16,5 +16,5 @@ This issue is associated with the charter epic #7.
 
 # What further steps are needed to be taken or discussed by/in our WG regarding this issue?
 
-1. [x] step 1
-2. [x] step 2
+1. [ ] step 1
+2. [ ] step 2

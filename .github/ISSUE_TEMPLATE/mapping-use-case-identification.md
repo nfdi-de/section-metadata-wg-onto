@@ -1,19 +1,19 @@
 ---
-name: mapping validation
+name: mapping use case identification
 about: 'This issue template should be used to discuss concrete action items regarding
-  recommendations of our WG on how to validate mappings. '
-title: 'mapping validation: [ADD YOUR CONCISE ISSUE TITLE HERE]'
-labels: mapping, WG recommendation
+  the identification and prioritization of mapping use cases. '
+title: 'mapping use case:  [ADD YOUR CONCISE ISSUE TITLE HERE]'
+labels: mapping use case
 assignees: ''
 
 ---
 
-This issue is associated with the charter epic #7.
+This issue is associated with the charter epic #6.
 
 # What mapping validation aspect(s) does this issue address?
 [please provide further resources whenever possible]
 
 # What further steps are needed to be taken or discussed by/in our WG regarding this issue?
 
-1. [x] step 1
-2. [x] step 2
+1. [ ] step 1
+2. [ ] step 2
