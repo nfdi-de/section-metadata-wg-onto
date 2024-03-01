@@ -3,7 +3,7 @@ name: mapping validation
 about: 'This issue template should be used to discuss concrete action items regarding
   recommendations of our WG on how to validate mappings. '
 title: 'mapping validation: [ADD YOUR CONCISE ISSUE TITLE HERE]'
-labels: mapping, WG recommendation
+labels: mapping recommendation
 assignees: ''
 
 ---

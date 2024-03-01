@@ -3,7 +3,7 @@ name: mapping publishing
 about: 'This issue template should be used to discuss concrete action items regarding
   recommendations of our WG on how to publish mappings. '
 title: 'mapping publishing: [ADD YOUR CONCISE ISSUE TITLE HERE]'
-labels: mapping
+labels: mapping recommendation
 assignees: ''
 
 ---
