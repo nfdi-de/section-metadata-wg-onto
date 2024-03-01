@@ -1,14 +1,14 @@
 ---
-name: mapping use case identification
+name: implementation example
 about: 'This issue template should be used to discuss concrete action items regarding
-  the identification and prioritization of mapping use cases. '
-title: 'mapping use case: '
-labels: mapping use case
+  example implementations of our WG mapping recommendations. '
+title: 'implementation example: [ADD YOUR CONCISE ISSUE TITLE HERE] '
+labels: example implementation
 assignees: ''
 
 ---
 
-This issue is associated with the charter epic #6.
+This issue is associated with the charter epic #8.
 
 # What mapping validation aspect(s) does this issue address?
 [please provide further resources whenever possible]
