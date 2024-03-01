@@ -1,5 +1,5 @@
 ---
-name: mapping use case
+name: mapping use case identification
 about: 'This issue template should be used to discuss concrete action items regarding
   the identification and prioritization of mapping use cases. '
 title: 'mapping use case: '
