@@ -9,7 +9,7 @@ subtask of this epic has been closed/resolved to document the outcome of this su
 
 ## Mapping [tools](tools)
 ### Simple Standard for Sharing Ontological Mappings (SSSOM)
-   * discussed in #11
+   * discussed in [#11](https://github.com/StroemPhi/section-metadata-wg-onto/issues/11)
 
 ## Mapping [creation](creation)
 
