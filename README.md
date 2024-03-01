@@ -16,10 +16,37 @@ This repository is meant to organize the work of the [NFDI Section (Meta)Data](h
 
 ## Repository Structure
 
-* [Mappings](Mappings) - contains resources (papers, links, semantic artefacts, ...) that we need to provide a standard 
-  way 
-  within NFDI to map between common terminologies/ontologies
+* [mapping](mapping) - is the workspace for charter epic #7 
+  * contains a [README.md](mapping%2FREADME.md) to document the completed work
+* [TLO_Infos](TLO_Infos) - is the workspace for charter epic #3
+  * TODO: add README for this epic and possibly rename the folder to something more suitable
+* TODO: add folders and README for the other epics
 * [Meetings](Meetings) - contains the notes of our meetings in Markdown format
-* [TLO_Infos](TLO_Infos) - contains resources (papers, links, slides) 
-  around common top-level ontologies (TLOs) used within NFDI which serves as background for providing mappings and 
-  harmonization recommendations
+
+## Philip's Workflow Proposal
+There are three kinds of issues:
+* [epic issues](https://github.com/StroemPhi/section-metadata-wg-onto/issues?q=is%3Aissue+is%3Aopen+label%3A%22charter+epic%22)
+  * taken from our charter and labeled with "charter epic"
+  * comment section should ony be used for "meta" discussions about this epic (e.g. requirements)
+  * actual specific aspects associated with an epic should be discussed in "epic subtaks issues"
+* [epic subtask issues](https://github.com/StroemPhi/section-metadata-wg-onto/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+-label%3A%22charter+epic%22+-label%3A%22organizational%22+)
+  * must be opened via respective issue template
+    * each epic has a subtask issue template
+      * mapping recommendation epic has more > a test > might be overkill or good for this special case
+      * **TODO: MLO and TLO evaluation epics still need to get an issue template and be adjusted to the rest** 
+  * each WG memeber can open a new discussion / propose a new subtask using such an issue
+  * https://github.com/StroemPhi/section-metadata-wg-onto/issues/12 explains how such issues can be prioritized to 
+    be discussed in upcomming calls
+  * discussions around such an issue should be documented within its discussion thread
+* [organizational issues](https://github.com/StroemPhi/section-metadata-wg-onto/issues?q=is%3Aissue+is%3Aopen+label%3Aorganizational)
+  * for organizational "meta" discussions around how to structure our work that has nothing to do with 
+    any of our epics
+  * should always be tagged with the "organizational" label
+  * TODO: think about making an issue template for this
+
+READMEs:
+I had the idea that each epic gets a working folder to store whatever needs to be stored in there and then there 
+should be a README which contains the documentation (agreements) regarding this epic. This way we#d have an easy to 
+read/grasp repo, the READMEs could serve as living drafts for official recommendation/charter publications from the 
+WG, they are used to link to the open and closed issues around the epics in a way that allows a more fine-grained 
+structuring that only with labels.
