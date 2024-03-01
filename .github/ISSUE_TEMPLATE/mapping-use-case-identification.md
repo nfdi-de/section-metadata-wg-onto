@@ -2,7 +2,7 @@
 name: mapping use case identification
 about: 'This issue template should be used to discuss concrete action items regarding
   the identification and prioritization of mapping use cases. '
-title: 'mapping use case: '
+title: 'mapping use case:  [ADD YOUR CONCISE ISSUE TITLE HERE]'
 labels: mapping use case
 assignees: ''
 

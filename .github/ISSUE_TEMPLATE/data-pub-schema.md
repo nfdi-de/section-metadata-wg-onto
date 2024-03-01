@@ -2,7 +2,7 @@
 name: data pub schema
 about: This issue template should be used to propose a specific subtask for the definition
   of a NFDI-wide minimum information standard for data publications (epic#5).
-title: 'data pub schema: '
+title: 'data pub schema: [ADD YOUR CONCISE ISSUE TITLE HERE] '
 labels: datapub schema
 assignees: ''
 
