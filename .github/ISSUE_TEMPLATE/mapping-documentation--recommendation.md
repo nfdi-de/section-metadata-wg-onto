@@ -1,5 +1,5 @@
 ---
-name: mapping documentation
+name: mapping documentation  recommendation
 about: " This issue template should be used to discuss concrete action items regarding
   recommendations of our WG on how to document mappings."
 title: 'mapping documentation: [ADD YOUR CONCISE ISSUE TITLE HERE]'
