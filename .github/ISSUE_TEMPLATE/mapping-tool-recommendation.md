@@ -1,6 +1,7 @@
 ---
 name: mapping tool recommendation
-about: This issue template should be used to discuss a mapping tool or framework..
+about: 'This issue template should be used to discuss a mapping tool or framework
+  (epic #7).'
 title: 'mapping tool: [ADD YOUR CONCISE ISSUE TITLE HERE]'
 labels: mapping recommendation
 assignees: ''
