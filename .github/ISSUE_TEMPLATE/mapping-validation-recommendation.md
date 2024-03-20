@@ -1,7 +1,7 @@
 ---
 name: mapping validation recommendation
 about: 'This issue template should be used to discuss concrete action items regarding
-  recommendations of our WG on how to validate mappings. '
+  recommendations of our WG on how to validate mappings (epic #7). '
 title: 'mapping validation: [ADD YOUR CONCISE ISSUE TITLE HERE]'
 labels: mapping recommendation
 assignees: ''

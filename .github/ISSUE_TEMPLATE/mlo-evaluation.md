@@ -1,7 +1,7 @@
 ---
 name: MLO evaluation
 about: 'This issue template should be used to propose a specific subtask for the evaluation
-  of mid-level (domain-agnostic) ontologies (epic#2). '
+  of mid-level (domain-agnostic) ontologies (epic #2). '
 title: 'MLO evaluation: [ADD YOUR CONCISE ISSUE TITLE HERE]'
 labels: MLO evaluation
 assignees: ''

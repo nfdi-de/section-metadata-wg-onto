@@ -1,7 +1,7 @@
 ---
 name: mapping publishing recommendation
 about: 'This issue template should be used to discuss concrete action items regarding
-  recommendations of our WG on how to publish mappings. '
+  recommendations of our WG on how to publish mappings (epic #7). '
 title: 'mapping publishing: [ADD YOUR CONCISE ISSUE TITLE HERE]'
 labels: mapping recommendation
 assignees: ''

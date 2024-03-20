@@ -1,7 +1,7 @@
 ---
 name: TLO evaluation
 about: 'This issue template should be used to propose a specific subtask for the evaluation
-  of top-level ontologies (epic#3). '
+  of top-level ontologies (epic #3). '
 title: 'TLO evaluation:  [ADD YOUR CONCISE ISSUE TITLE HERE]'
 labels: TLO evaluation
 assignees: ''

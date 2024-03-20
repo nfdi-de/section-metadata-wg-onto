@@ -1,7 +1,7 @@
 ---
 name: mapping creation recommendation
 about: 'This issue template should be used to discuss concrete action items regarding
-  recommendations of our WG on how to create mappings. '
+  recommendations of our WG on how to create mappings (epic #7). '
 title: 'mapping creation: [ADD YOUR CONCISE ISSUE TITLE HERE]'
 labels: mapping recommendation
 assignees: ''

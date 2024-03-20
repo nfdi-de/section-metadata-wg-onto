@@ -1,7 +1,7 @@
 ---
 name: implementation example
 about: 'This issue template should be used to discuss concrete action items regarding
-  example implementations of our WG mapping recommendations. '
+  example implementations of our WG mapping recommendations (epic #8). '
 title: 'implementation example: [ADD YOUR CONCISE ISSUE TITLE HERE] '
 labels: implementation example, mapping recommendation
 assignees: ''

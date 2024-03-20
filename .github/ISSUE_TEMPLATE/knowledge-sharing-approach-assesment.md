@@ -1,7 +1,7 @@
 ---
 name: knowledge sharing approach assesment
-about: This issue template should be used to propose a specific subtask for the assessment
-  of exsisting cross-domain knowledge sharing approaches (#4)
+about: 'This issue template should be used to propose a specific subtask for the assessment
+  of exsisting cross-domain knowledge sharing approaches (epic #4)'
 title: 'knowledge sharing approach:  [ADD YOUR CONCISE ISSUE TITLE HERE]'
 labels: approach assessment
 assignees: ''
