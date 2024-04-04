@@ -7,14 +7,35 @@ This repository is two things. First, it is the cloud storage space where we upl
 members and the rest of the world in a version controlled manner. Second, it is the space in which we can discuss 
 asynchronously and transparently the tasks we need to accomplish via GitHub Issues and Pull Requests.
 
-## Prerequisites
-Members of this working group need to have a GitHub account and some basic knowledge about how to work with Git and 
-GitHub to be able to participate. You need to know what an issue, pull request and a branch is.
+## Deliverables
+* Working Group Charter [published version (Zenodo)](https://zenodo.org/doi/10.5281/zenodo.6726518) & [editor version (GDoc)](https://docs.google.com/document/d/1GUh7K0Sy8tyrKZ4-BEizb-9Qa0tt3uzE)
+
+## Contributing
+The main channel of communication of the working group is the mailing list, for which you can sign up [here](https://lists.nfdi.de/postorius/lists/section-metadata-wg-onto.lists.nfdi.de/), 
+if you are affiliated with an NFDI consortium.
+
+We have bi-monthly meetings according to these schedules:
+* [section-metadata-onto_every_2nd_wednesday_call_series.ics](section-metadata-onto_every_2nd_wednesday_call_series.ics)
+* [section-metadata-onto_every_4th_tuesday_call_series.ics](section-metadata-onto_every_4th_tuesday_call_series.ics)
+
+To contribute via this repository, members of the working group need to have a GitHub account and some basic knowledge 
+about how to work with Git and GitHub to be able to participate. You need to know what an issue, pull request and a branch is.
 To open or comment on issues, a browser suffices as the main interface to interact with this repository. 
 To upload new or edited existing files and to create branches and pull request, we recommend using the 
 [GitHub Desktop](https://desktop.github.com/) app, if you are not familiar with Git already. 
 Please consult the web for one of the many tutorials on how to use Git, GitHub, GitHub Desktop, like the official 
 GitHub documentation on [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues), [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) and [Branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches). 
+
+We expect the WG members to follow the activity of this repository by starring or watching it. Members who want to
+contribute directly must either be made part of the repository team (contact [@StroemPhi](https://github.com/StroemPhi)),
+or fork the repository.
+
+A prototypical interaction of a WG member with this repository would entail:
+* checking [here](https://github.com/nfdi-de/section-metadata-wg-onto/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+-label%3A%22charter+epic%22+-label%3A%22organizational%22+) regularly, to see if any new open epic subtask issues have been created to be voted on,
+* creating epic subtask issues,
+* commenting on issues (participate in discussions),
+* creating an issue branch when working on a specific subtask that requires the creation or editing of files,
+* submitting changes made on an issue branch via a pull request.
 
 ### Issues in this Repository
 The [issues of this repository](https://github.com/nfdi-de/section-metadata-wg-onto/issues/) represent tasks.
@@ -38,6 +59,9 @@ development". The topic label of an epic comes from a controlled list and is bei
 Each epic issue has a description (taken from our charter) that should explain sufficiently the topic it addresses and 
 contain a link to an issue template with which new associated subtasks can be created.
 The comment section of an epic issue should **only** be used for discussions about the required outcomes of an epic.
+
+Additionally, each epic should have a folder in this repository to store any files associated with it, 
+e.g. [mapping](mapping) is the workspace for epic #7 and [TLO_Infos](TLO_Infos) for epic #3.
 
 #### [Epic Subtask Issues](https://github.com/nfdi-de/section-metadata-wg-onto/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+-label%3A%22charter+epic%22+-label%3A%22organizational%22+)
 As the name implies, an epic subtask issue represents a subtask associated with an epic. A subtask could either be a 
@@ -73,38 +97,7 @@ There exists one permanently open, organizational issue that is pinned to the to
 explains how all open epic subtask issues can be prioritized by up-voting. This is intended to to be discussed in 
 upcoming calls.
 
-## Repository Interaction Workflow
-We expect the WG members to follow the activity of this repository by starring or watching it. Members who want to 
-contribute directly must either be made part of the repository team (contact [@StroemPhi](https://github.com/StroemPhi)), 
-or fork the repository.
-
-A prototypical interaction of a WG member with this repository would entail:
-* checking [here](https://github.com/nfdi-de/section-metadata-wg-onto/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+-label%3A%22charter+epic%22+-label%3A%22organizational%22+) regularly, to see if any new open epic subtask issues have been created to be voted on,
-* creating epic subtask issues,
-* commenting on issues (participate in discussions),
-* creating an issue branch when working on a specific subtask that requires the creation or editing of files,
-* submitting changes made on an issue branch via a pull request.
-
 ### Using GitHub Project to manage issues
 TODO: explain how to interact with our [project](https://github.com/orgs/nfdi-de/projects/1).
 
-## Repository Structure
 
-* [mapping](mapping) - is the workspace for charter epic #7
-  * contains a [README.md](mapping%2FREADME.md) to document the completed work
-* [TLO_Infos](TLO_Infos) - is the workspace for charter epic #3
-  * TODO: add README for this epic and possibly rename the folder to something more suitable
-* TODO: add folders and README for the other epics
-* [Meetings](Meetings) - contains the notes of our previous meeting notes in Markdown format
-
-## Important Links
-* Working Group Charter [published version (Zenodo)](https://zenodo.org/doi/10.5281/zenodo.6726518) & [editor version (GDoc)](https://docs.google.com/document/d/1GUh7K0Sy8tyrKZ4-BEizb-9Qa0tt3uzE)
-* Mailing list [Sign-up link](https://lists.nfdi.de/postorius/lists/section-metadata-wg-onto.lists.nfdi.de/)
-  * If you are affiliated with a NFDI consortium and want to be part of the WG, you need to sign up for this mailing list
-    as it is our official communication channel.
-* [our RocketChat channel](https://all-chat.nfdi.de/channel/section-metadata-wg-onto) in the NFDI general workspace
-  * Only for quick chats, use the mailing list for sharing important information to reach all WG members.
-  * The use of RocektChat in NFDI might be abandoned due to licensing issues in the future.
-* We have bi-monthly meetings according to these schedules:
-  * [section-metadata-onto_every_2nd_wednesday_call_series.ics](section-metadata-onto_every_2nd_wednesday_call_series.ics)
-  * [section-metadata-onto_every_4th_tuesday_call_series.ics](section-metadata-onto_every_4th_tuesday_call_series.ics)
