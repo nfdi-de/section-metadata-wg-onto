@@ -10,7 +10,7 @@ assignees: ''
 
 This issue is associated with the charter epic #6.
 
-# What mapping validation aspect(s) does this issue address?
+# What mapping use case aspect(s) does this issue address?
 [please provide further resources whenever possible]
 
 # What further steps are needed to be taken or discussed by/in our WG regarding this issue?
