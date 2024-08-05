@@ -1,6 +1,6 @@
 # About
 This folder is meant to be used to store examples files from each NFDI consortium in either JSON-LD or TTL that are 
-conform to CDIF. The content of these files should be a CDIF conform knowledge graph that contains necessary the 
+conform to CDIF. The content of these files should be a knowledge graph that contains the necessary
 domain-independent metadata of a dataset (e.g. author, date, ...) as well as domain-specific metadata (e.g. used 
 observation method/tools, ...)
 
