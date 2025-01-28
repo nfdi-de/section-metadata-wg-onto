@@ -75,9 +75,7 @@ aspects separately. By linking related epic subtask issues to each other, we sho
 needs to be done and what needs to be discussed.
 
 Each epic subtask issue is based on a template through which it gets automatically associated to its respective epic 
-via hyperlink and topic label. For now, most epics have only one associate epic subtask issue template. The only exception being 
-[epic #7](https://github.com/nfdi-de/section-metadata-wg-onto/issues/7), which has five different templates according to the five main subtasks of this epic. If there arises the 
-need to create more templates also for one of the other epics, please file an organizational issue.
+via hyperlink and topic label. For now, most epics have only one associate epic subtask issue template. 
 
 To file an epic subtask issue you need to:
 * either click on the link provided in the description of an epic, or select the appropriate template when clicking
