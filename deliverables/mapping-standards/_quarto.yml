@@ -1,0 +1,20 @@
+project:
+  type: manuscript
+  output-dir: docs
+
+repo-url: https://github.com/nfdi-de/section-metadata-wg-onto
+
+manuscript:
+  article: index.qmd
+  code-links:
+    - repo
+
+format:
+  html:
+    number-sections: true
+
+  # (other formats)
+  # pdf: default
+
+execute:
+  freeze: true

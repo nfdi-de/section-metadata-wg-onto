@@ -1,0 +1,66 @@
+---
+title: Standards for Mapping Semantic Artifacts in NFDI
+subtitle: NFDI working group Ontology harmonization and mapping
+authors:
+  - name: Jakob Voß
+    affiliation: Verbundzentrale des GBV (VZG)
+    orcid: 0000-0002-7613-4123 
+  - name: Naouel Karam
+    affiliation: ...
+  - name: Mark Doerr
+    affiliation: ...
+  - name: Alexander Wolodkin
+    affiliation: ...
+  - name: Josh Moore
+    affiliation: ...
+bibliography: references.bib
+---
+
+# Ojective
+
+The objective of this docment is described in @charta2022 as following:
+
+> Assessment of standards (i.e. formal, accessible, shared and broadly applicable language for knowledge representation) for the creation of mappings (e.g., SSSOM, OAEI), the formal documentation of mappings and their metadata in collaboration with the Terminology Services WG, as well as their (re-)evaluation and publication. 
+
+This also includes **recommendations for tools and procedures** that use these standards to facilitate the alignment of terminologies and ontologies.
+
+# Background
+
+Different domains and projects use different semantic Artifacts (SA) subsuming all kinds of formal ontologies, terminologies, vocabularies and similar knowledge organization systems in their research data.
+
+Mappings, also known as crosswalks, concordances, alignments... can help for data integration and enrichement by bridging the gap between different data models and vocabularies. 
+
+## Non-Standards but reality
+
+- Spreadsheets
+- Source code of applications that apply transformations
+
+## Standards
+
+In no particular order:
+
+- ontology mapping & alignment (OAEI)
+- SSSOM
+- RML
+- LinkML
+- Plain RDF (subclass, subproperty)
+- JSKOS mappings and concordances
+- SKOS mapping properties
+- ...
+
+## Instructions and recommendations
+
+- Find instructions and have specialist discussions on  from the field of computer science.
+- Refer to existing guidelines
+- Assess and discuss how to use existing standards in NFDI
+
+## Tools
+
+Not main topic of this document but should be mentioned.
+
+- Cocoda
+- "There are many tools and frameworks that can be used to assist with ontology matching and alignment, such as Alignment API, AgreementMaker, LogMap, AML, and OntoComP."^[<https://www.linkedin.com/advice/0/what-best-practices-tools-ontology-matching?lang=en>]
+- ...
+- ...
+
+Many tools have been proposed in context of OAEI but they rarely become more than a short-lived research demo.
