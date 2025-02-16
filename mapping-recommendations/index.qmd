@@ -1,5 +1,5 @@
 ---
-title: Standards for Mapping Semantic Artifacts in NFDI
+title: Recommendations for Mapping Semantic Artifacts in NFDI
 subtitle: NFDI working group Ontology harmonization and mapping
 authors:
   - name: Jakob Voß
@@ -24,14 +24,13 @@ The objective of this docment is described in @charta2022 as following:
 
 This may also include tools, procedures, frameworks and recommendations for the creation, documentation, validation and publishing of mappings.
 
-# Background
+# Background and terminology
 
-Different domains and projects use different semantic Artifacts (SA) subsuming all kinds of formal ontologies, terminologies, vocabularies and similar knowledge organization systems in their research data.
+Different domains and projects use different **semantic artifacts** (SA) subsuming all kinds of formal ontologies, terminologies, vocabularies and similar knowledge organization systems in their research data. The individual elements of a semantic artifact (concepts, classes, items...) are referred to as **entities** in this document.
 
-Mappings, also known as crosswalks, concordances, alignments... can help for data integration and enrichement by bridging the gap between different data models and vocabularies. In this document we use the following words:
+A **mapping** is a managed link between two entities from two semantic artifcats (1-to-1 mapping) or between one entity from one semantic artifact and multiple mappings from another one (1-to-n mapping). The mapping includes additional information such as mapping type, provenance etc.
 
-- a **mapping** is ...
-- a ... is a set of mappings
+A **concordance** (also known as crosswalk or alignment) is set of mappings between two semantic artifacts.Concordances can help for data integration and enrichement by bridging the gap between different data models and vocabularies. 
 
 # Review
 

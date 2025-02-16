@@ -9,6 +9,8 @@ asynchronously and transparently the tasks we need to accomplish via GitHub Issu
 
 ## Deliverables
 * Working Group Charter [published version (Zenodo)](https://zenodo.org/doi/10.5281/zenodo.6726518) & [editor version (GDoc)](https://docs.google.com/document/d/1GUh7K0Sy8tyrKZ4-BEizb-9Qa0tt3uzE)
+* Mapping Recommendations on creation, tools, validating an publishing.
+  *Work in progress in directory [mapping-recommendations](mapping-recommendations)*
 
 ## Contributing
 The main channel of communication of the working group is the mailing list, for which you can sign up [here](https://lists.nfdi.de/postorius/lists/section-metadata-wg-onto.lists.nfdi.de/), 
