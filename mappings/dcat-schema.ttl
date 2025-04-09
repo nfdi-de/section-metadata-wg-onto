@@ -2,7 +2,6 @@
 # imports: http://schema.org/
 # imports: http://www.w3.org/ns/dcat
 # imports: http://www.w3.org/ns/sosa/
-# downloaded from https://www.w3.org/TR/vocab-dcat-3/#dcat-sdo
 
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
