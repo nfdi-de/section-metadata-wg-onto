@@ -15,8 +15,8 @@ The main channel of communication of the working group is the mailing list, for 
 if you are affiliated with an NFDI consortium.
 
 We have bi-monthly meetings according to these schedules:
-* [section-metadata-onto_every_2nd_wednesday_call_series.ics](section-metadata-onto_every_2nd_wednesday_call_series.ics)
-* [section-metadata-onto_every_4th_tuesday_call_series.ics](section-metadata-onto_every_4th_tuesday_call_series.ics)
+* [section-metadata-onto_every_2nd_wednesday_call_series.ics](https://drive.google.com/file/d/1DATV0dwByCMvSVRXV2oC0l5BNoUgT-sm)
+* [section-metadata-onto_every_4th_tuesday_call_series.ics](https://drive.google.com/file/d/1qQZCqaFTKneyYP3h43Bu47y24QI98QW_)
 
 To contribute via this repository, members of the working group need to have a GitHub account and some basic knowledge 
 about how to work with Git and GitHub to be able to participate. You need to know what an issue, pull request and a branch is.
