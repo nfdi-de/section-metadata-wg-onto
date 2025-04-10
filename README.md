@@ -65,7 +65,7 @@ epic/objective.
 
 Additionally, each epic may have a folder in this repository to store any files associated with it.
 
-#### [Epic Sub-Issues](https://github.com/nfdi-de/section-metadata-wg-onto/issues?q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+-label%3A%22charter+epic%22+-label%3A%22organizational%22+)
+#### [Epic Sub-Issues](https://github.com/nfdi-de/section-metadata-wg-onto/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22charter%20objective%22%20)
 As the name implies, a sub-issue represents a subtask associated with an epic ( = one of our objectives). 
 A subtask could either be a concrete action item assigned to one or more WG members, or, it could represent a 
 discussion about a certain aspect of an expected epic outcome that the WG needs to find an agreement on before being 
