@@ -48,7 +48,7 @@ fashion also with people outside our working group.
 
 There are three kinds of issues: 
 
-#### [Epic Issues](https://github.com/nfdi-de/section-metadata-wg-onto/issues?q=is%3Aissue+is%3Aopen+label%3A%22charter+epic%22)
+#### [Epic Issues](https://github.com/nfdi-de/section-metadata-wg-onto/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22charter%20objective%22%20)
 Epic issues represent the objectives we have identified in our WG charter. Hence, we will only create new epics, 
 once we have agreed to amend our WG charter accordingly. These issues are called epics because they need 
 to be broken down into smaller and more concrete sub-issues to be completed, and thus will probably remain open 
@@ -65,7 +65,7 @@ epic/objective.
 
 Additionally, each epic may have a folder in this repository to store any files associated with it.
 
-#### [Epic Sub-Issues](https://github.com/nfdi-de/section-metadata-wg-onto/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22charter%20objective%22%20)
+#### Epic Sub-Issues
 As the name implies, a sub-issue represents a subtask associated with an epic ( = one of our objectives). 
 A subtask could either be a concrete action item assigned to one or more WG members, or, it could represent a 
 discussion about a certain aspect of an expected epic outcome that the WG needs to find an agreement on before being 
