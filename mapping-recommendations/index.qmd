@@ -75,7 +75,7 @@ To get there we will
 
 Not main topic of this document but should be mentioned.
 
-See <https://bartoc.org/software> for a technical report of KOS software, including mapping editors, generators and converters.
+See @Voss2025^[Online at <https://bartoc.org/software>] for a technical report of KOS software, including mapping editors, generators and converters.
 
 Specific mapping tools partly included there:
 
@@ -85,7 +85,7 @@ Specific mapping tools partly included there:
 - Other Reconciliation API servers and clients
 - Alignment API and Alignment Server
 - Amalgame 
-- SSSOM-Java and -py
+- Implementations of SSSOM
 - ...
 
 - "There are many tools and frameworks that can be used to assist with ontology matching and alignment, such as Alignment API, AgreementMaker, LogMap, AML, and OntoComP."^[<https://www.linkedin.com/advice/0/what-best-practices-tools-ontology-matching?lang=en>]
@@ -93,11 +93,14 @@ Specific mapping tools partly included there:
 
 Many tools have been proposed in context of OAEI but they rarely become more than a short-lived research demo.
 
-## Notes
+## Example
 
 ~~~{.ttl}
-# Just an example how to include RDF/Turtle in this document
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix gnd: <https://d-nb.info/gnd/> .
+@prefix iconclass: <https://iconclass.org/> .
 
-<A> skos:exactMatch <B> .
+wikidata:Q11451 skos:exactMatch gnd:4034402-2 .
+wikidata:Q11451 skos:exactMatch iconclass:47I1 .
 ~~~
