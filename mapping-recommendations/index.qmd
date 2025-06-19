@@ -28,7 +28,15 @@ To some degree this also include tools, procedures, frameworks and recommendatio
 
 ## Glossary
 
-- **semantic artifacts** (SA) subsume all kinds of formal ontologies, terminologies, vocabularies, lists of terms, and similar knowledge organization systems (KOS). In the best case they are available in RDF and hosted in a terminology registry.
+- **semantic artifacts** (SA) subsume all kinds of formal ontologies, terminologies, vocabularies, lists of terms, and similar knowledge organization systems (KOS). In the best case they are available in RDF and hosted in a terminology registry. Many ways exist to classify SA by type and boundaries are fuzzy. One classification used in the report is this:
+
+  - An **ontology** is a semantic artifcat expressed in RDF/OWL format.
+
+  - A **schema** is a semantic artifact primarily used as data format. It can better be expressed with a specific schema language such as XML Schema. 
+
+  - A **terminology** is a semantic artifact that can (at least roughly) be expressed in SKOS format. This includes all SA except ontologies and schemas.
+
+  - A **name authority list** ...
 
 - Individual elements of a semantic artifact (concepts, classes, items, terms...) are referred to as **entities**.
 
