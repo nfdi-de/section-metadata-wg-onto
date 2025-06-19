@@ -16,84 +16,33 @@ authors:
 bibliography: references.bib
 ---
 
-# Ojective
+# Introduction
+
+## Ojective
 
 The objective of this docment is described in @charta2022 as following:
 
 > Assessment of standards (i.e. formal, accessible, shared and broadly applicable language for knowledge representation) for the creation of mappings (e.g., SSSOM, OAEI), the formal documentation of mappings and their metadata in collaboration with the Terminology Services WG, as well as their (re-)evaluation and publication. 
 
-This may also include tools, procedures, frameworks and recommendations for the creation, documentation, validation and publishing of mappings.
+To some degree this also include tools, procedures, frameworks and recommendations for the creation, documentation, validation and publishing of mappings.
 
-# Background and terminology
+## Glossary
 
-Different domains and projects use different **semantic artifacts** (SA) subsuming all kinds of formal ontologies, terminologies, vocabularies and similar knowledge organization systems in their research data. The individual elements of a semantic artifact (concepts, classes, items...) are referred to as **entities** in this document.
+- **semantic artifacts** (SA) subsume all kinds of formal ontologies, terminologies, vocabularies, lists of terms, and similar knowledge organization systems (KOS). In the best case they are available in RDF and hosted in a terminology registry.
 
-A **mapping** is a managed link between two entities from two semantic artifcats (1-to-1 mapping) or between one entity from one semantic artifact and multiple mappings from another one (1-to-n mapping). The mapping includes additional information such as mapping type, provenance etc.
+- Individual elements of a semantic artifact (concepts, classes, items, terms...) are referred to as **entities**.
 
-A **concordance** (also known as crosswalk or alignment) is set of mappings between two semantic artifacts.Concordances can help for data integration and enrichement by bridging the gap between different data models and vocabularies. 
+- A **mapping** is a managed link between two entities from two semantic artifcats (1-to-1 mapping) or between one entity from one semantic artifact and multiple mappings from another one (1-to-n mapping). The mapping includes additional information such as mapping type, provenance etc.
 
-# Review
+- **mapping source** is a semantic artifact an entity is mapped from
 
-## Non-Standards but reality
+- **mapping target** is a semantic artifact an entity is mapped to
 
-- Visual graphs (mostly with pen and paper): useful for thinking but not formal
-- Source code of applications that apply transformations: better than a standard without implementation but not scalable
-- Spreadsheets: the plague but unavoidable and handy
+- A **concordance** (also known as crosswalk or alignment) is set of mappings between two semantic artifacts. Concordances can help for data integration and enrichement by bridging the gap between different data models and vocabularies. 
 
-## Standards
+- A **transformation** is an executable function that converts a record with entities from a mapping source into a record with entities from a mapping target.
 
-In no particular order:
-
-- [LinkML-map](https://linkml.io/linkml-map/)
-- [JSKOS mappings](https://gbv.github.io/jskos/#concept-mappings) and [Concordances](https://gbv.github.io/jskos/#concordances)
-- [SKOS mapping properties](https://www.w3.org/TR/skos-reference/#mapping)
-- RDFS and OWL properties
-- Simple Standard for Sharing Ontological Mappings (SSSOM)
-- [EDOAL](https://moex.gitlabpages.inria.fr/alignapi/edoal.html)
-- ontology mapping & alignment (OAEI) - not a format?
-- ...
-
-# Instructions and recommendations
-
-This document may eventually contain recommendations on
-
-- creation of mappings
-- validation of mappings
-- documentation of mappings
-- publication of mappings
-- mapping tools
-- mapping registries
-
-To get there we will
-
-- Find instructions and have specialist discussions on  from the field of computer science.
-- Refer to existing guidelines
-- Assess and discuss how to use existing standards in NFDI
-- ...
-
-## Tools
-
-Not main topic of this document but should be mentioned.
-
-See @Voss2025^[Online at <https://bartoc.org/software>] for a technical report of KOS software, including mapping editors, generators and converters.
-
-Specific mapping tools partly included there:
-
-- Cocoda
-- OpenRefine
-- mix'n'match  
-- Other Reconciliation API servers and clients
-- Alignment API and Alignment Server
-- Amalgame 
-- Implementations of SSSOM
-- ...
-
-- "There are many tools and frameworks that can be used to assist with ontology matching and alignment, such as Alignment API, AgreementMaker, LogMap, AML, and OntoComP."^[<https://www.linkedin.com/advice/0/what-best-practices-tools-ontology-matching?lang=en>]
-- ...
-
-Many tools have been proposed in context of OAEI but they rarely become more than a short-lived research demo.
-
-## Example
+## Examples
 
 ~~~{.ttl}
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -104,3 +53,78 @@ Many tools have been proposed in context of OAEI but they rarely become more tha
 wikidata:Q11451 skos:exactMatch gnd:4034402-2 .
 wikidata:Q11451 skos:exactMatch iconclass:47I1 .
 ~~~
+
+# Review
+
+## Not best practice
+
+- Visual graphs (mostly with pen and paper): useful for thinking but not formal
+- Source code of applications that apply transformations: better than a standard without implementation but not scalable
+- Spreadsheets: the plague but unavoidable and handy
+
+## Standards
+
+In no particular order:
+
+- RDFS and OWL properties
+- [SKOS mapping properties](https://www.w3.org/TR/skos-reference/#mapping)
+- [JSKOS mappings](https://gbv.github.io/jskos/#concept-mappings) and [Concordances](https://gbv.github.io/jskos/#concordances)
+- Simple Standard for Sharing Ontological Mappings (SSSOM)
+- [LinkML-map](https://linkml.io/linkml-map/)
+- [EDOAL](https://moex.gitlabpages.inria.fr/alignapi/edoal.html)
+- ...
+
+# Instructions and recommendations
+
+This document may eventually contain recommendations on
+
+- creation of mappings
+- validation of mappings
+- documentation of mappings
+- publication of mappings
+- mapping registries
+- [mapping tools](#tools)
+
+To get there we will
+
+- Find instructions and have specialist discussions on  from the field of computer science.
+- Refer to existing guidelines
+- Assess and discuss how to use existing standards in NFDI
+- ...
+
+## Where are mappings managed
+
+1. As **part of** a semantic artifact. An example is the [Integrated Authority File (GND)](http://bartoc.org/en/node/430) with embedded links to LCSH, MeSH, AAT, ORCID and other systems.
+2. In **plain files** (Spreadsheet/CSV, JSKOS, SSSOM, RDF/Turtle...), possibly managed in a version control system
+3. With a [mapping editor](#mapping-editors) and/or in a mapping registry
+4. As part of executable **transformations**
+
+## Tools
+
+A comprehensive list of tools for management of semantic artifacts is provided by @Voss2025^[Online at <https://bartoc.org/software>.]. This report includes some mapping editors, generators and converters listed below. Some generic KOS editors also allow to manage mappings from the semantic artifact being managed to other KOS.
+
+### Mapping editors
+
+- Cocoda
+- MSCR
+- Amalgame
+
+More specialized mapping editors for a limited kind of SA include [OpenRefine](https://openrefine.org/) and [mix'n'match](https://mix-n-match.toolforge.org/).
+
+Several more tools and frameworks have been created or proposed in context of the Ontology Mapping & Alignment Initiative (OAEI), for instance [AgreementMaker Ontology Matching System](https://agreementmaker.github.io/)). These tools, however have rarely become more than a short-lived research demo and they mostly aim at automatic creation of mappings instead of their intellectual curation.
+
+### Mapping converters
+
+- jskos-cli
+- sssom-py, sssom-java, sssom-js
+
+## Databases
+
+- knowledge graph database management systems [Semantic MediaWiki] and [Wikibase].
+- [Alignment API and Alignment Server](https://moex.gitlabpages.inria.fr/alignapi/)
+
+## KOS editors
+
+If mappings from a semantic artifact are primarily managed by the editors of this SA, it makes sense to combine management into one tool. This ensures good overview of the mapping source but mapping targets are covered less so.
+
+

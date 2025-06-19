@@ -12,6 +12,8 @@ manuscript:
 resources:
   - "js/"
 
+number-depth: 2
+
 format:
   html:
     number-sections: true
