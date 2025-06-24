@@ -6,6 +6,10 @@ thesauri, within NFDI. However, its wording is also aimed to be intelligible for
 collaborating with these developers.
 
 ## Glossary
+**Editor Note:** We might want to outsource this glossary to a different page/doc, as I imagine this to come in 
+handy also in other docs we'll write, e.g. https://github.com/nfdi-de/section-metadata-wg-onto/pull/28/commits/38410712b3c82a9bbe9b9ad5a5c172b8bcc20504
+
+
 | Term | Meaning | further reading/sources                      |
 |------|---------|----------------------------------------------|
 | terminology       | either an ontology, thesaurus or controlled vocabulary |    | 
