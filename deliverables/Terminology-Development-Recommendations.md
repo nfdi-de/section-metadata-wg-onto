@@ -49,9 +49,9 @@ verbatim and which ones we need to adjust for our NFDI context.
 10. **Commitment To Collaboration** - OBO Foundry ontology development, in common with many other standards-oriented 
     scientific activities, should be carried out in a collaborative fashion.7
 11. **Locus of Authority** - There should be a person who is responsible for communications between the community and the ontology developers, for communicating with the Foundry on all Foundry-related matters, for mediating discussions involving maintenance in the light of scientific advance, and for ensuring that all user feedback is addressed.
-12. N**aming Conventions** - The names (primary labels) for elements (classes, properties, etc.) in an ontology must be intelligible to scientists and amenable to natural language processing. Primary labels should be unique among OBO Library ontologies.
+12. **Naming Conventions** - The names (primary labels) for elements (classes, properties, etc.) in an ontology must be intelligible to scientists and amenable to natural language processing. Primary labels should be unique among OBO Library ontologies.
 13. **Notification of Changes** - Ontologies SHOULD announce major changes to relevant stakeholders and collaborators ahead of release.
-14. Maintenance - The ontology needs to reflect changes in scientific consensus to remain accurate over time.
+14. **Maintenance** - The ontology needs to reflect changes in scientific consensus to remain accurate over time.
 15. **Term Stability** - The definition of a term MUST always denote the same thing(s)–known as “referent(s)”–in reality. If a proposed change to the definition would substantially change its referents, then a new term with new IRI and definition MUST instead be created.
 16. **Responsiveness** - Ontology developers MUST offer channels for community participation and SHOULD be responsive to requests.
 
@@ -68,3 +68,31 @@ terminology.
   * standard TLO in the OBO Foundry along with the Relation Ontology (RO)
 * [BFO 2020](https://github.com/BFO-ontology/BFO-2020) - used in: [NFDIcore Ontology](https://ise-fizkarlsruhe.github.io/nfdicore/)
 ### Mid-Level Ontology Term Reuse
+
+## Terminology Hosting & Indexing
+* addresses Principle 1-6 & 8-11
+* a terminology developed within NFDI 
+  * MUST
+    * be indexed in the TS4NFDI
+    *
+  * SHOULD
+    * adhere to a minimal metadata standard
+      * see MOD
+
+## Tooling
+### Ontology Development Kit (ODK)
+* https://github.com/INCATools/ontology-development-kit
+* tutorials & how-tos in the OBOOK
+  * https://oboacademy.github.io/obook/howto/odk-setup/
+  * https://oboacademy.github.io/obook/howto/odk-update/
+  * https://oboacademy.github.io/obook/howto/odk-create-repo/
+  * https://oboacademy.github.io/obook/howto/odk-migrate-to-odk/
+* NFDI consortia already using ODK: NFDIcore, Matwerk, 4Culture, 4Memory, 4DataScience, 4Chem
+* PROs
+  * 
+* CONs:
+
+### WIDOCO
+### ROBOT
+### PROTÈGÈ
+### WIKIBASE
