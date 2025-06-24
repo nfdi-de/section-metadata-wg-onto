@@ -5,6 +5,15 @@ The present recommendation is mainly addressed to developers of terminologies, s
 thesauri, within NFDI. However, its wording is also aimed to be intelligible for domain experts, who are 
 collaborating with these developers.
 
+## Existing resources
+* https://obofoundry.org/principles/
+* https://oboacademy.github.io/obook/
+* https://cthoyt.com/2020/05/12/building-an-ontology.html
+* http://www.ontologydesignpatterns.org/
+* Seppälä, S., Ruttenberg, A., & Smith, B. (2017). Guidelines for writing definitions in ontologies. Ciência Da Informação, 46(1). retrieved via https://philpapers.org/archive/SEPGFW.pdf
+* Chris Mungall. (2019) OntoTip: Write simple, concise, clear, operational textual definitions. https://douroucouli.wordpress.com/2019/07/08/ontotip-write-simple-concise-clear-operational-textual-definitions/
+* Arp, R., Smith, B., & Spear, A. D. (2015). Building Ontologies with Basic Formal Ontology. The MIT Press. ISBN:9780262527811
+
 ## Glossary
 **Editor Note:** We might want to outsource this glossary to a different page/doc, as I imagine this to come in 
 handy also in other docs we'll write, e.g. https://github.com/nfdi-de/section-metadata-wg-onto/pull/28/commits/38410712b3c82a9bbe9b9ad5a5c172b8bcc20504
