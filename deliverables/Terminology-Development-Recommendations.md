@@ -56,5 +56,15 @@ verbatim and which ones we need to adjust for our NFDI context.
 16. **Responsiveness** - Ontology developers MUST offer channels for community participation and SHOULD be responsive to requests.
 
 ## Term Reuse
+A general best practise in terminology development is to not reinvent the wheel and rather reuse already existing 
+terminologies whenever possible. There already exists a multitude for different purposes, e.g. simple controlled 
+vocabularies (often in from of SKOS Thesauri) to elaborate OWL Ontologies. Hence, one should use terminology look-up 
+services and registries to research and evaluate such existing terminologies before and while developing a new 
+terminology.
 ### Top-Level Ontology Reuse
+* needed as a common foundation when developing OWL ontologies
+#### Currently used TLOs in NFDI:
+* [BFO v2.0 classes only version](https://terminology.tib.eu/ts/ontologies/bfo) - used in: NFDI4Chem, ...
+  * standard TLO in the OBO Foundry along with the Relation Ontology (RO)
+* [BFO 2020](https://github.com/BFO-ontology/BFO-2020) - used in: [NFDIcore Ontology](https://ise-fizkarlsruhe.github.io/nfdicore/)
 ### Mid-Level Ontology Term Reuse
