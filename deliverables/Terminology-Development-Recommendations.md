@@ -67,7 +67,12 @@ terminology.
 * [BFO v2.0 classes only version](https://terminology.tib.eu/ts/ontologies/bfo) - used in: NFDI4Chem, ...
   * standard TLO in the OBO Foundry along with the Relation Ontology (RO)
 * [BFO 2020](https://github.com/BFO-ontology/BFO-2020) - used in: [NFDIcore Ontology](https://ise-fizkarlsruhe.github.io/nfdicore/)
+* [CIDOC CRM 7.1.3](https://cidoc-crm.org/Version/version-7.1.3) - used in NFDI4Objects
+
 ### Mid-Level Ontology Term Reuse
+
+### Other terminologies 
+* [LIDO](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/about-lido/what-is-lido/) - used in NFDI4Objects and NFDI4Culture
 
 ## Terminology Hosting & Indexing
 * addresses Principle 1-6 & 8-11
