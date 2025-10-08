@@ -2,13 +2,16 @@
 
 This repository is meant to organize the work of the
 [NFDI Section (Meta)Data](https://www.nfdi.de/section-metadata/) Working Group
-Ontology harmonization and Mapping.
+Ontology Harmonization and Mapping.
 
-This repository is two things. First, it is the cloud storage space where we
-upload and share files with our WG members and the rest of the world in a
-version controlled manner. Second, it is the space in which we can discuss
-asynchronously and transparently the tasks we need to accomplish via GitHub
-Issues and Pull Requests.
+This repository is two things:
+
+1. the cloud storage space where we upload and share files with our WG
+   members and the rest of the world in a version controlled manner.
+2. the space in which we can discuss asynchronously and transparently the
+   tasks we need to accomplish via GitHub
+   [issues](https://github.com/nfdi-de/section-metadata-wg-onto/issues) and
+   [pull requests](https://github.com/nfdi-de/section-metadata-wg-onto/pulls).
 
 ## Deliverables
 
