@@ -13,4 +13,4 @@ implement these in harmonized manner throughout NFDI.
 
 It is still open on how to best structure and provide the content within this
 folder. With regard to the structure, we will start out with subfolders for each
-framework (e.g. [CDIF_Examples](../Data_Examples/CDIF_Examples))
+framework (e.g. [CDIF_Examples](/CDIF_Examples))
