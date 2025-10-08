@@ -1,3 +1,9 @@
+---
+layout: page
+title: Recommendations
+permalink: /recommendations
+---
+
 # Recommendations
 
 1. [Objective A - Collaborating Internationally](A_International_Collaboration/README.md)
