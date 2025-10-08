@@ -8,11 +8,11 @@ GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/30
 - [NFDI4Chem](https://search.nfdi4chem.de/sparql)
 - [NFDI-MatWerk](https://nfdi.fiz-karlsruhe.de/matwerk/shmarql/) (NFDICore
   ontology is used)
-- [NFDI4DataSCience](https://nfdi.fiz-karlsruhe.de/4ds/sparql) (NFDICore
+- [NFDI4DataScience](https://nfdi.fiz-karlsruhe.de/4ds/sparql) (NFDICore
   ontology is used) here also a
   [SHMARQL endpoint](https://nfdi.fiz-karlsruhe.de/4ds/shmarql) is available
 - [NFDI4Memory](https://nfdi.fiz-karlsruhe.de/4memory/shmarql/) provided using
-  **SHMARQL** (NFDICore ontology is used)
+  SHMARQL (NFDICore ontology is used)
 - [NFDI4Bioimage](https://kg.nfdi4bioimage.de/#/) NFDICore ontology is used
 - [GESIS KG](https://data.gesis.org/gesiskg/sparql) NFDICore ontology is used
 - to be completed ...
