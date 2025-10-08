@@ -6,10 +6,10 @@ Ontology Harmonization and Mapping.
 
 This repository is two things:
 
-1. the cloud storage space where we upload and share files with our WG
-   members and the rest of the world in a version controlled manner.
-2. the space in which we can discuss asynchronously and transparently the
-   tasks we need to accomplish via GitHub
+1. the cloud storage space where we upload and share files with our WG members
+   and the rest of the world in a version controlled manner.
+2. the space in which we can discuss asynchronously and transparently the tasks
+   we need to accomplish via GitHub
    [issues](https://github.com/nfdi-de/section-metadata-wg-onto/issues) and
    [pull requests](https://github.com/nfdi-de/section-metadata-wg-onto/pulls).
 
