@@ -107,3 +107,9 @@ is intended to be discussed in upcoming calls.
 
 TODO: explain how to interact with our
 [project](https://github.com/orgs/nfdi-de/projects/1).
+
+## Getting Started with Git and GitHub
+
+- https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started
+- https://github.com/carpentries
+- https://librarycarpentry.github.io/lc-git/
