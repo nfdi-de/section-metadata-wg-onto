@@ -19,9 +19,9 @@ GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/30
 
 ## Use Case [1]: Briding NFDI4Culture / NFDI4Chem Knowledge Graphs
 
-See
- the [blog post](https://cthoyt.com/2025/10/07/bridging-culture-and-chemistry.html) by
-@cthoyt that has been inspired by an invited
+See the
+[blog post](https://cthoyt.com/2025/10/07/bridging-culture-and-chemistry.html)
+by @cthoyt that has been inspired by an invited
 [talk](https://zenodo.org/records/17127336) by Torsten Schrade (NFDI4Culture) at
 the NFDI4Chem consortium's 6th meeting in Mainz.
 
