@@ -1,14 +1,4 @@
-## Contributing
-
-The main channel of communication of the working group is the mailing list, for
-which you can sign up
-[here](https://lists.nfdi.de/postorius/lists/section-metadata-wg-onto.lists.nfdi.de/),
-if you are affiliated with an NFDI consortium.
-
-We have bi-monthly meetings according to these schedules:
-
-- [section-metadata-onto_every_2nd_wednesday_call_series.ics](https://drive.google.com/file/d/1DATV0dwByCMvSVRXV2oC0l5BNoUgT-sm)
-- [section-metadata-onto_every_4th_tuesday_call_series.ics](https://drive.google.com/file/d/1qQZCqaFTKneyYP3h43Bu47y24QI98QW_)
+# Contributing
 
 To contribute via this repository, members of the working group need to have a
 GitHub account and some basic knowledge about how to work with Git and GitHub to
@@ -41,7 +31,7 @@ A prototypical interaction of a WG member with this repository would entail:
   creation or editing of files,
 - submitting changes made on an issue branch via a pull request.
 
-### Issues in this Repository
+## Issues in this Repository
 
 The
 [issues of this repository](https://github.com/nfdi-de/section-metadata-wg-onto/issues/)
@@ -56,7 +46,7 @@ us to work in an open source fashion also with people outside our working group.
 
 There are three kinds of issues:
 
-#### [Epic Issues](https://github.com/nfdi-de/section-metadata-wg-onto/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22charter%20objective%22%20)
+### [Epic Issues](https://github.com/nfdi-de/section-metadata-wg-onto/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22charter%20objective%22%20)
 
 Epic issues represent the objectives we have identified in our WG charter.
 Hence, we will only create new epics, once we have agreed to amend our WG
@@ -78,7 +68,7 @@ required outcomes of an epic/objective.
 Additionally, each epic may have a folder in this repository to store any files
 associated with it.
 
-#### Epic Sub-Issues
+### Epic Sub-Issues
 
 As the name implies, a sub-issue represents a subtask associated with an epic (
 = one of our objectives). A subtask could either be a concrete action item
@@ -96,7 +86,7 @@ what needs to be done and what needs to be discussed.
 To open a new sub-issue or link an existing gone with an epic please use the
 `create sub-issue` button within the description of an epic issue.
 
-#### [Organizational Issues](https://github.com/nfdi-de/section-metadata-wg-onto/issues?q=is%3Aissue+is%3Aopen+label%3Aorganizational)
+### [Organizational Issues](https://github.com/nfdi-de/section-metadata-wg-onto/issues?q=is%3Aissue+is%3Aopen+label%3Aorganizational)
 
 Organizational issues are those that are concerned **only** with "meta"
 discussions about how to structure our work. Hence, they should not be
@@ -111,9 +101,9 @@ There exists one permanently open, organizational issue that is pinned to the
 top of the issue list.
 [This issue](https://github.com/nfdi-de/section-metadata-wg-onto/issues/12)
 explains how all open epic subtask issues can be prioritized by up-voting. This
-is intended to to be discussed in upcoming calls.
+is intended to be discussed in upcoming calls.
 
-### Using GitHub Project to manage issues
+## Using GitHub Project to manage issues
 
 TODO: explain how to interact with our
 [project](https://github.com/orgs/nfdi-de/projects/1).

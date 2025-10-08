@@ -8,7 +8,21 @@ members and the rest of the world in a version controlled manner. Second, it is 
 asynchronously and transparently the tasks we need to accomplish via GitHub Issues and Pull Requests.
 
 ## Deliverables
+
 * Working Group Charter [published version (Zenodo)](https://zenodo.org/doi/10.5281/zenodo.6726518) & [editor version (GDoc)](https://docs.google.com/document/d/1GUh7K0Sy8tyrKZ4-BEizb-9Qa0tt3uzE)
+
+## Joining
+
+The main channel of communication of the working group is the mailing list, for
+which you can sign up
+[here](https://lists.nfdi.de/postorius/lists/section-metadata-wg-onto.lists.nfdi.de/),
+if you are affiliated with an NFDI consortium.
+
+We have bi-monthly meetings according to these schedules:
+
+- [section-metadata-onto_every_2nd_wednesday_call_series.ics](https://drive.google.com/file/d/1DATV0dwByCMvSVRXV2oC0l5BNoUgT-sm)
+- [section-metadata-onto_every_4th_tuesday_call_series.ics](https://drive.google.com/file/d/1qQZCqaFTKneyYP3h43Bu47y24QI98QW_)
+
 
 ## Contributing
 
