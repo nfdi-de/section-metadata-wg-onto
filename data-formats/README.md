@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Data Examples
-permalink: /data-examples
+title: Data Formats
+permalink: /data-formats
 ---
 
 This folder is meant to be used for examples of datasets from each consortium
