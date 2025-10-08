@@ -151,8 +151,7 @@ existing terminologies before and while developing a new terminology.
 - NFDI consortia already using ODK: NFDIcore, Matwerk, 4Culture, 4Memory,
   4DataScience, 4Chem
 - PROs
-  -
-- CONs:
+- CONs
 
 ### WIDOCO
 
