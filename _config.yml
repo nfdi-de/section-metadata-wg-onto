@@ -1,0 +1,6 @@
+title: NFDI Section (Meta)Data
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate

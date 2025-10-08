@@ -1,3 +1,9 @@
+---
+layout: page
+title: Mappings
+permalink: /mappings
+---
+
 This folder serves to collect existing mapping/alignment files in any possible
 format for the purpose of getting an overview of what kind of
 mappings/alignments we already have/could reuse.
@@ -10,9 +16,7 @@ overview.
 As such, this folder serves as a interim low level mapping registry, until a
 better one can be recommended by our WG.
 
----
-
-# List of known mappings and alignments
+## List of known mappings and alignments
 
 - [dcat-schema.ttl](dcat-schema.ttl)
   - This is the official alignment of Schema.Org to DCAT as provided in the
