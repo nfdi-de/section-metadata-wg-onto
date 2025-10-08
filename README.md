@@ -1,8 +1,3 @@
----
-layout: home
-permalink: /
----
-
 # section-metadata-wg-onto
 
 This repository is meant to organize the work of the
