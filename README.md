@@ -34,4 +34,4 @@ We have bi-monthly meetings according to these schedules:
 ## Contributing
 
 To get started contributing an issue or changes to the documents in this
-repository, see [CONTRIBUTING.md](CONTRIBUTING.md).
+repository, see [CONTRIBUTING.md](.github/CONTRIBUTING.md).
