@@ -1,0 +1,34 @@
+project:
+  type: manuscript
+  output-dir: docs
+
+repo-url: https://github.com/nfdi-de/section-metadata-wg-onto
+
+manuscript:
+  article: index.qmd
+  code-links:
+    - repo
+
+resources:
+  - "js/"
+
+number-depth: 2
+
+format:
+  html:
+    number-sections: true
+    include-before-body:
+      text: |
+        <script src="./js/codemirror.js"></script>
+        <script src="./js/sparql.js"></script>
+        <script src="./js/turtle.js"></script>
+        <script src="./js/runmode.js"></script>
+        <script src="./js/highlight.js"></script>
+    css:
+      - codemirror.css
+
+  # (other formats)
+  # pdf: default
+
+execute:
+  freeze: true
