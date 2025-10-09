@@ -20,7 +20,8 @@ GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/30
 - NFDI4Objects to be added
 - [GESIS KG](https://data.gesis.org/gesiskg/sparql) NFDICore ontology is used
 - [ORKG](https://orkg.org/triplestore)
-- [Chemotion KG](https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/shmarql/) provided using shmarql (NFDICore ontology is used)
+- [Chemotion KG](https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/shmarql/)
+  provided using shmarql (NFDICore ontology is used)
 - to be completed ...
 
 ## Use Case [1]: Bridging NFDI4Culture / NFDI4Chem Knowledge Graphs
