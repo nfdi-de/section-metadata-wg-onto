@@ -1,3 +1,6 @@
 .idea/*
 /.jekyll-cache
 /_site
+/recommendations/B_Mapping_Standards/docs
+**/.quarto
+references.bib.blg

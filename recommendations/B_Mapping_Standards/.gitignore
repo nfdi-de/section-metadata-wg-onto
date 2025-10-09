@@ -1,3 +1,2 @@
 /.quarto/
-docs/
-*.html
+**/*.quarto_ipynb
