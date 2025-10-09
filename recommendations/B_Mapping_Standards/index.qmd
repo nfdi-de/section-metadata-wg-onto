@@ -13,7 +13,6 @@ authors:
     affiliation: Senckenberg Gesellschaft für Naturforschung 
   - name: Josh Moore
     affiliation: GerBI-GMB
-bibliography: references.bib
 ---
 
 # Introduction

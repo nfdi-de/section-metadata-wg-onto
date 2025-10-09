@@ -10,7 +10,9 @@ manuscript:
     - repo
 
 resources:
-  - "js/"
+  - js/
+
+bibliography: ../../references.bib
 
 number-depth: 2
 
