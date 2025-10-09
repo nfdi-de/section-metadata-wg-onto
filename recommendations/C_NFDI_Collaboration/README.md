@@ -17,8 +17,12 @@ GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/30
 - [NFDI4Earth](https://sparql.knowledgehub.nfdi4earth.de/)
 - NFDI4Energy, see https://openenergyplatform.org/
 - [MaRDI](https://query.portal.mardi4nfdi.de/)
+- [NFDI4Microbiota](https://nfdi4microbiota.de/services/sparql_query/)
 - NFDI4Objects to be added
-- [GESIS KG](https://data.gesis.org/gesiskg/sparql) NFDICore ontology is used
+- NFDI4Cat to be added
+- FAIRMAT to be added
+- NFDI4Ing to be added
+- [GESIS KG](https://data.gesis.org/gesiskg/sparql) (NFDICore ontology is used)
 - [ORKG](https://orkg.org/triplestore)
 - [Chemotion KG](https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/shmarql/)
   provided using shmarql (NFDICore ontology is used)
