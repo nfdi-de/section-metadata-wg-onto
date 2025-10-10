@@ -14,10 +14,21 @@ GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/30
 - [NFDI4Memory](https://nfdi.fiz-karlsruhe.de/4memory/shmarql/) provided using
   SHMARQL (NFDICore ontology is used)
 - [NFDI4Bioimage](https://kg.nfdi4bioimage.de/#/) NFDICore ontology is used
-- [GESIS KG](https://data.gesis.org/gesiskg/sparql) NFDICore ontology is used
+- [NFDI4Earth](https://sparql.knowledgehub.nfdi4earth.de/)
+- NFDI4Energy, see https://openenergyplatform.org/
+- [MaRDI](https://query.portal.mardi4nfdi.de/)
+- [NFDI4Microbiota](https://nfdi4microbiota.de/services/sparql_query/)
+- NFDI4Objects to be added
+- NFDI4Cat to be added
+- FAIRMAT to be added
+- NFDI4Ing to be added
+- [GESIS KG](https://data.gesis.org/gesiskg/sparql) (NFDICore ontology is used)
+- [ORKG](https://orkg.org/triplestore)
+- [Chemotion KG](https://ditrare.ise.fiz-karlsruhe.de/chemotion-kg/shmarql/)
+  provided using shmarql (NFDICore ontology is used)
 - to be completed ...
 
-## Use Case [1]: Briding NFDI4Culture / NFDI4Chem Knowledge Graphs
+## Use Case [1]: Bridging NFDI4Culture / NFDI4Chem Knowledge Graphs
 
 See the
 [blog post](https://cthoyt.com/2025/10/07/bridging-culture-and-chemistry.html)
