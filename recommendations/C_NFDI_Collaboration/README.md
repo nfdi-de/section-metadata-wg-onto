@@ -2,6 +2,11 @@
 
 GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/30
 
+## Information about NFDICore ontology
+- Github: [NFDICore ontology](https://github.com/ISE-FIZKarlsruhe/nfdicore)
+- Documentation: https://ise-fizkarlsruhe.github.io/nfdicore/
+- Discussions related to NFDICore should be done here: https://github.com/ISE-FIZKarlsruhe/nfdicore/discussions
+
 ## Available SPARQL endpoints
 
 - [NFDI4Culture](https://nfdi4culture.de/sparql) (NFDICore ontology is used)
