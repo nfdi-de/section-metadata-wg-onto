@@ -25,7 +25,7 @@ GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/30
 - NFDI4Energy, see https://openenergyplatform.org/
 - [MaRDI](https://query.portal.mardi4nfdi.de/)
 - [NFDI4Microbiota](https://nfdi4microbiota.de/services/sparql_query/)
-- NFDI4Objects to be added
+- [NFDI4Objects](https://graph.nfdi4objects.net/sparql)
 - NFDI4Cat to be added
 - FAIRMAT to be added
 - NFDI4Ing to be added (https://ingest.nfdi4ing.de/api/v1/sparql)
