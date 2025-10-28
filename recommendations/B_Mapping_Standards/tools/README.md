@@ -1,8 +1,8 @@
 # Mapping Tools
 
 The goal of this folder is to highlight mapping tools, i.e., concrete
-implementations of reusable workflows that can be used to predict, review,
-curate, or reason over semantic mappings.
+implementations of reusable tools that can be used to predict, review, curate,
+or reason over semantic mappings.
 
 The goal of this folder isn't to highlight mapping formats like SSSOM, JSKOS,
 etc. nor software that simply implements object models and I/O for the formats.
@@ -14,8 +14,8 @@ etc. nor software that simply implements object models and I/O for the formats.
 
 ## Contributing
 
-You should make a new markdown file in this folder named by the tool/workflow.
-Make the name lowercase with dashes instead of spaces.
+You should make a new markdown file in this folder named by the tool. Make the
+name lowercase with dashes instead of spaces.
 
 Please include the following:
 
@@ -24,12 +24,12 @@ Please include the following:
 3. A link to its source code, freely available container, or freely available
    executable
 4. Links to documentation and training materials
-5. Links to publications about or using the workflow
+5. Links to publications about or using the tool
 
-Importantly, each of these should explicitly say how is the tool useful in the
-main objective work for making sure the terminologies used throughout NFDI can
-be linked, harmonized, mapped. How does this promote interoperability (in the
-context of harmonizing our used terminologies) within NFDI.
+Importantly, the markdown file for each tool should explicit say how the tool
+supports linking, harmonizing, and mapping terminologies used throughout the
+NFDI, and how this promotes interoperability (in the context of harmonizing our
+used terminologies) within NFDI.
 
 ## Recommendations if You're Developing a Mapping Tool
 
