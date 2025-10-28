@@ -24,6 +24,14 @@ Please include the following:
 3. A link to its source code, freely available container, or freely available
    executable
 4. Links to documentation and training materials
+   - When documentation does not exist, the Section Metadata WG Onto should try
+     and prepare them
+   - Documentation that shows concrete examples, especially cross-disciplinary
+     ones, like
+     https://cthoyt.com/2025/10/07/bridging-culture-and-chemistry.html, are
+     helpful
+   - Presenting a live demo for the Section Metadata WG Onto that gets recorded
+     and uploaded to YouTube is also desirable
 5. Links to publications about or using the tool
 
 Importantly, the markdown file for each tool should explicit say how the tool
