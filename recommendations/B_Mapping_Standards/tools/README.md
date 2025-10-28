@@ -11,3 +11,9 @@ etc. nor software that simply implements object models and I/O for the formats.
 |-------------------------------------------------------------|----------------------------------------------------------------|
 | [SSSOM Curator](sssom-curator.md)                           | Lexical prediction of semantic mappings and curation interface |
 | [Semantic Mapping Reasoner and Assembler (SeMRA)](semra.md) | Reasoning-based prediction of semantic mappings                |
+## Recommendations if You're Developing a Mapping Tool
+
+GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/64
+
+1. Try and avoid being project specific or domain specific, i.e., don't add NFDI in the name or "bio"- in the name, to
+   avoid alienating people from other communities or domains
