@@ -1,6 +1,7 @@
 ## SSSOM Curator
 
-SSSOM Curator (https://github.com/cthoyt/sssom-curator) is an open source  project that has a few parts:
+SSSOM Curator (https://github.com/cthoyt/sssom-curator) is an open source
+project that has a few parts:
 
 1. A simple Python-based workflow for generating lexical mappings between
    ontologies, controlled vocabularies, and any other resource that mints
@@ -9,8 +10,9 @@ SSSOM Curator (https://github.com/cthoyt/sssom-curator) is an open source  proje
 3. A workflow for publishing all generated + curated mappings in SSSOM, with
    detailed provenance information
 
-It was originally called [Biomappings](https://github.com/biopragmatics/biomappings),
-but was generalized and made domain-agnostic.
+It was originally called
+[Biomappings](https://github.com/biopragmatics/biomappings), but was generalized
+and made domain-agnostic.
 
 ### Artifacts
 
