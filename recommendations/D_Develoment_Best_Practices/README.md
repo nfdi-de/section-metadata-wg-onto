@@ -126,9 +126,6 @@ existing terminologies before and while developing a new terminology.
 
 ### Other terminologies
 
-- [LIDO](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/about-lido/what-is-lido/) -
-  used in NFDI4Objects and NFDI4Culture
-
 ## Terminology Hosting & Indexing
 
 - addresses Principle 1-6 & 8-11
