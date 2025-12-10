@@ -33,9 +33,9 @@ https://github.com/nfdi-de/section-metadata-wg-onto/pull/28/commits/38410712b3c8
 
 | Term                     | Meaning                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | further reading/sources                      |
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| terminology              | either an ontology, thesaurus or controlled vocabulary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |                                              |
-| TLO / Top-Level Ontology | In information science, an upper ontology (also known as a top-level ontology, upper model, or foundation ontology) is an ontology that consists of very general terms (such as "object", "property", "relation") that are common across all domains. An important function of an upper ontology is to support broad semantic interoperability among a large number of domain-specific ontologies by providing a common starting point for the formulation of definitions. Terms in the domain ontology are ranked under the terms in the upper ontology, e.g., the upper ontology classes are superclasses or supersets of all the classes in the domain ontologies. | https://en.wikipedia.org/wiki/Upper_ontology |
-| MLO / mid-level ontology |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                              |
+| terminology              | either an ontology, thesaurus, or controlled vocabulary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |                                              |
+| top-level ontology (TLO) | In information science, an upper ontology (also known as a top-level ontology, upper model, or foundation ontology) is an ontology that consists of very general terms (such as "object", "property", "relation") that are common across all domains. An important function of an upper ontology is to support broad semantic interoperability among a large number of domain-specific ontologies by providing a common starting point for the formulation of definitions. Terms in the domain ontology are ranked under the terms in the upper ontology, e.g., the upper ontology classes are superclasses or supersets of all the classes in the domain ontologies. | https://en.wikipedia.org/wiki/Upper_ontology |
+| mid-level ontology (MLO) |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                              |
 | domain-level ontology    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                              |
 | thesaurus                | thesaurus (pl.: thesauri or thesauruses), sometimes called a synonym dictionary or dictionary of synonyms, is a reference work which arranges words by their meanings (or in simpler terms, a book where one can find different words with similar meanings to other words), sometimes as a hierarchy of broader and narrower terms, sometimes simply as lists of synonyms and antonyms.                                                                                                                                                                                                                                                                              | https://en.wikipedia.org/wiki/Thesaurus      |
 
@@ -108,11 +108,11 @@ exists a multitude for different purposes, e.g. simple controlled vocabularies
 use terminology look-up services and registries to research and evaluate such
 existing terminologies before and while developing a new terminology.
 
-### Top-Level Ontology Reuse
+### Top-Level Ontology (TLO) Reuse
 
 - needed as a common foundation when developing OWL ontologies
 
-#### Currently used TLOs in NFDI:
+#### Currently used Top-Level Ontologies (TLOs) in NFDI:
 
 - [BFO v2.0 classes only version](https://terminology.tib.eu/ts/ontologies/bfo) -
   used in: NFDI4Chem, ...
@@ -122,23 +122,23 @@ existing terminologies before and while developing a new terminology.
 - [CIDOC CRM 7.1.3](https://cidoc-crm.org/Version/version-7.1.3) - used in
   NFDI4Objects
 
-### Mid-Level Ontology Term Reuse
+### Mid-Level Ontology (MLO) Term Reuse
 
 ### Other terminologies
 
 - [LIDO](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/about-lido/what-is-lido/) -
   used in NFDI4Objects and NFDI4Culture
 
-## Terminology Hosting & Indexing
+## Terminology Hosting and Indexing
 
 - addresses Principle 1-6 & 8-11
 - a terminology developed within NFDI
   - MUST
+    - be indexed in Semantic Farm
     - be indexed in the TS4NFDI
-    -
   - SHOULD
     - adhere to a minimal metadata standard
-      - see MOD
+      - see Metadata for Ontology Description (MOD)
 
 ## Tooling
 
@@ -162,3 +162,11 @@ existing terminologies before and while developing a new terminology.
 ### PROTÈGÈ
 
 ### WIKIBASE
+
+## Quality Assurance
+
+- [OntoClean](https://doi.org/10.1007/978-3-540-24750-0_8)
+- [PoolParty](https://help.poolparty.biz/en/user-guide-for-knowledge-engineers/advanced-features/quality-management-in-poolparty.html)
+  (Consistency Checker for SKOS)
+- [qSKOS](https://github.com/cmader/qSKOS)
+- [SKOSify](https://github.com/NatLibFi/Skosify)
