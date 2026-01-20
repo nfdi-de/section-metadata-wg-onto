@@ -35,6 +35,7 @@ GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/30
   provided using shmarql (NFDICore ontology is used)
 - [Platform MaterialDigital - PMD KG](https://pmdkg.ise.fiz-karlsruhe.de/sparql)
 - [KGI4NFDI Knowledge Graph Registry](https://kgi.services.base4nfdi.de/kg_registry/)
+- [DALIA](https://search.dalia.education/sparql) (NFDI learning materials)
 - to be completed ...
 
 ## Available Knowledge Graphs
