@@ -6,7 +6,7 @@ Working groups:
 
 - [RDA FAIR Mappings Working Group](working-groups/rda-fair-mappings.md)
 
-Formats:
+Formats, Specifications, Frameworks:
 
 - [Cross-Domain Interoperability Framework (CDIF)](CDIF.md)
 - [Data Catalog Vocabulary (DCAT) Application Profiles](DCATs.md)
