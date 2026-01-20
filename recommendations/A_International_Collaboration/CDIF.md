@@ -1,12 +1,12 @@
 # Cross-Domain Interoperability Framework (CDIF)
 
-This document gives some background information on the CDIF Framework, that
-bases on existing standards (Schema.org, DCAT, ODRL, DDI-CDI, SKOS/XKOS, SSSOM,
-etc.) and technology to support interoperability, in both human- and
-machine-actionable fashion.
+This document gives some background information on the Cross-Domain
+Interoperability Framework (CDIF), based on existing standards (Schema.org,
+DCAT, ODRL, DDI-CDI, SKOS/XKOS, SSSOM, etc.) and technology to support
+interoperability in both human- and machine-actionable fashion.
 
 Its approach is not to create mappings from every existing domain to another,
-but to create a lingua franca that we can all agree on and communicate with.
+but to create a _lingua franca_ that we can all agree on and communicate with.
 
 Therefore, CDIF is a set of implementation recommendations, based on profiles of
 common, domain-neutral metadata standards which are aligned to work together to
@@ -26,15 +26,11 @@ The framework is based on a set of five core profiles that address the most
 important functions for cross-domain FAIR implementation.
 
 - Discovery (patterns for metadata content, serialization and publication)
-
 - Data access (documentation of access conditions and permitted use)
-
 - Controlled vocabularies (practices for the publication of controlled
-  vocabularies and semantic artefacts)
-
+  vocabularies and semantic artifacts)
 - Data integration (documentation of the structural and semantic aspects of data
   to make it integration-ready)
-
 - Universals (description of _universal_ elements – time, geography, and units
   of measurement)
 
@@ -43,9 +39,9 @@ functions being addressed in any specific setting according to implementer
 priorities.
 
 The CDIF Framework is relevant to our working group, especially with regard to
-practices for publishing controlled vocabularies and semantic artefacts. These a
+practices for publishing controlled vocabularies and semantic artifacts. These a
 critical component in scenarios involving (but not limited to) data integration
-and harmonisation.
+and harmonization.
 
 ### CDIF SKOS profile
 
@@ -54,12 +50,12 @@ representing concept vocabularies. SKOS is a RDF vocabulary that includes
 predicates to assign an identifier to a concept, provide a definition, and
 assign preferred, language-localized labels (strings) for human use to identify
 the concept. A vocabulary service exposing the SKOS content on the web is
-necesary to make the identifiers resolvable.
+necessary to make the identifiers resolvable.
 
-CDIF recommends following the guidance provided by
-[Cox et al. (2021) ‘Ten Simple Rules for making a Vocabulary FAIR’](https://doi.org/10.1371/journal.pcbi.1009041).
-The CDIF recommendation to use SKOS aligns with Rule 6 (Cox et al., 2021)
-regarding machine-readable formats for CVs.
+CDIF recommends the guidance in
+[Ten Simple Rules for making a Vocabulary FAIR](https://doi.org/10.1371/journal.pcbi.1009041)
+by Cox _et al._ (2021). The CDIF recommendation to use SKOS aligns with Rule 6
+from Cox _et al._ (2021) regarding machine-readable formats for CVs.
 
 To the
 [CDIF SKOS profile](https://cross-domain-interoperability-framework.github.io/cdifbook/controlled_vocabularies/cdifskosprofile.html).
