@@ -1,10 +1,11 @@
-# Alignment of multilingual vocabularies in the Social Sciences and Humanities WG
+# RDA Alignment of Multilingual Vocabularies in the Social Sciences and Humanities WG
 
-This Working Group intends to address challenges concerning the interoperability
-multilingual nature of SSH controlled vocabularies.
+This working group intends to address challenges concerning the interoperability
+multilingual nature of controlled vocabularies in the social sciences and
+humanities (SSH).
 
 Controlled vocabularies are a major discovery tool in the digital environment
-and this is true also for the Social Sciences and Humanities (SSH). However,
+and this is true also for the social sciences and humanities (SSH). However,
 while such vocabularies would seem one of the most appropriate tools to ensure a
 high visibility of the SSH research outputs, the availability, usage, and
 interoperability of controlled vocabularies remains very heterogeneous. They
@@ -13,7 +14,7 @@ scope, but in methodology, accessibility, and level of standardization. From
 this first set of observations derives the necessity to at least harmonize their
 discoverability level within the SSH and beyond.
 
-The Working Group plans to address these issues by providing collectively
+The working group plans to address these issues by providing collectively
 approved recommendations for creating, extending, updating, and aligning
 multilingual vocabularies in the SSH. The objective of this RDA WG, currently
 co-chaired by OPERAS RI, the coordinator of TRIPLE, is to focus on a part of the
