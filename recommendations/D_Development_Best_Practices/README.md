@@ -140,8 +140,8 @@ existing terminologies before and while developing a new terminology.
     - adhere to a minimal metadata standard
       - see Metadata for Ontology Description (MOD)
 
-See [Semantic Farm and BARTOC](semantic-farm-and-bartoc.md) for
-discussion of recommendations for indexing
+See [Semantic Farm and BARTOC](semantic-farm-and-bartoc.md) for discussion of
+recommendations for indexing
 
 ## Tooling
 
