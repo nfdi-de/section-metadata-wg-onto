@@ -37,6 +37,7 @@ means:
 
 ## Training Material
 
+- [New Prefix Guidelines](https://github.com/biopragmatics/bioregistry/blob/main/docs/CONTRIBUTING.md)
 - [New Prefix Tutorial](https://www.youtube.com/watch?v=e-I6rcV2_BE&t=3s&pp=ygULYmlvcmVnaXN0cnnSBwkJogoBhyohjO8%3D)
 - https://www.youtube.com/watch?v=V-4dBPxz37s&pp=ygULYmlvcmVnaXN0cnk%3D
 
