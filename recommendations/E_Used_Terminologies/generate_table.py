@@ -39,14 +39,16 @@ def main() -> None:
                     f"[{org.name}](https://semantic.farm/collection/{collection.identifier})",
                     len(collection.resources),
                     authors[0].name if authors else None,
-                    f"[suggest]({suggest_link})",
+                    f"[Add prefix to collection]({suggest_link})",
                 )
             )
 
     if len(rows) != 26:  # as of feb 2026
         raise ValueError(f"missing some NFDI consortia, only found {len(rows)}")
 
-    table = tabulate(rows, tablefmt="github", headers=["Consortium", "#", "Contact"])
+    table = tabulate(
+        rows, tablefmt="github", headers=["Consortium", "#", "Contact", "Suggest"]
+    )
     click.echo(table)
     click.echo("this table has been copied to your clipboard")
     pyperclip.copy(table)
