@@ -8,6 +8,8 @@
 # ]
 # ///
 
+"""Generate the NFDI consortium collections table."""
+
 import bioregistry
 import click
 import pyperclip

@@ -40,6 +40,13 @@ and
 [creating an account on ORCiD](https://support.orcid.org/hc/en-us/articles/360006897454-How-do-I-register-for-an-ORCID-ID),
 which are both free and can be done in a few minutes.
 
+## Benefits
+
+1. TS4NFDI will import collections from Semantic Farm, reducing the need for
+   them to implement duplicate collection curations
+2. NFDI Section Metadata will create a dashboard for the NFDI directorate for
+   reporting purposes
+
 ## Results
 
 | Consortium                                                    | #   | Contact              | Suggest                                                                                                                                                                           |
