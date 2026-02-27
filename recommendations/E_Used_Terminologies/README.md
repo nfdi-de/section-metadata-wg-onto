@@ -44,7 +44,12 @@ which are both free and can be done in a few minutes.
 
 1. TS4NFDI will import collections from Semantic Farm, reducing the need for
    them to implement duplicate collection curations
-2. NFDI Section Metadata will create a dashboard for the NFDI directorate for
+2. Semantic Farm can be accessed programmatically, and implicitly sets the
+   standards for which metadata need to be collected about each ontology,
+   thereby reducing the burden of NFDI Section Metadata to create more
+   recommendations, and supporting NFDI consortia and their members in capturing
+   important information
+3. NFDI Section Metadata will create a dashboard for the NFDI directorate for
    reporting purposes
 
 ## Results
