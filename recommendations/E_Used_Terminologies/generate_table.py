@@ -4,12 +4,14 @@
 #     "bioregistry>=0.13.20",
 #     "click>=8.3.1",
 #     "tabulate>=0.9.0",
+#     "pyperclip",
 # ]
 # ///
 
 import bioregistry
-from tabulate import tabulate
 import click
+import pyperclip
+from tabulate import tabulate
 
 NFDI_ROR = "05qj6w324"
 
@@ -36,7 +38,13 @@ def main() -> None:
                 authors[0].name if authors else None,
             ))
 
-    click.echo(tabulate(rows, tablefmt="github", headers=["Consortium", "#", "Contact"]))
+    if len(rows) != 26:  # as of feb 2026
+        raise ValueError(f"missing some NFDI consortia, only found {len(rows)}")
+
+    table = tabulate(rows, tablefmt="github", headers=["Consortium", "#", "Contact"])
+    click.echo(table)
+    click.echo("this table has been copied to your clipboard")
+    pyperclip.copy(table)
 
 
 if __name__ == '__main__':
