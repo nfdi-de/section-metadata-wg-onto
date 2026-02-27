@@ -24,19 +24,24 @@ def main() -> None:
             organization.ror == NFDI_ROR
             for organization in collection.organizations or []
         ):
-            org = next(
-                org for org in collection.organizations if org.ror != NFDI_ROR
-            )
+            org = next(org for org in collection.organizations if org.ror != NFDI_ROR)
             authors = [
                 author
                 for author in collection.authors
                 if author.name != "Charles Tapley Hoyt"
             ]
-            rows.append((
-                f"[{org.name}](https://semantic.farm/collection/{collection.identifier})",
-                len(collection.resources),
-                authors[0].name if authors else None,
-            ))
+
+            name_plus = org.name.replace(" ", "+")
+            suggest_link = f"https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection={collection.identifier}&title=Add+prefix+X+to+{name_plus}"
+
+            rows.append(
+                (
+                    f"[{org.name}](https://semantic.farm/collection/{collection.identifier})",
+                    len(collection.resources),
+                    authors[0].name if authors else None,
+                    f"[suggest]({suggest_link})",
+                )
+            )
 
     if len(rows) != 26:  # as of feb 2026
         raise ValueError(f"missing some NFDI consortia, only found {len(rows)}")
@@ -47,5 +52,5 @@ def main() -> None:
     pyperclip.copy(table)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
