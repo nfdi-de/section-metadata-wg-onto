@@ -23,11 +23,9 @@ NFDI Section Metadata initially collected lists of ontologies for most NFDI
 consortia in this
 [Google Sheet](https://docs.google.com/spreadsheets/d/1UAfDKo2gKiaFldEeitMUcO8Gl1Fjyb_r_bp1V4JW0Es/edit?gid=3857951#gid=3857951).
 We have begun to port some of them into the Semantic Farm, which typically
-entails curating new records about the ontologies contained therein.
-
-NFDI Section Metadata is currently in the process of porting the Google Sheet to
-Semantic Farm. This has been done successfully for a handful of NFDI consortia,
-and we have created stub collections for the rest.
+entails curating new records about the ontologies contained therein. This has
+been done successfully for a handful of NFDI consortia, and we have created stub
+collections for the rest.
 
 ## Maintenance Plan
 
@@ -39,7 +37,8 @@ The collections can be updated by clicking "Add prefix to collection" in the
 table below to be brought to an issue template on GitHub. This requires
 [creating an account on GitHub](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
 and
-[creating an account on ORCiD](https://support.orcid.org/hc/en-us/articles/360006897454-How-do-I-register-for-an-ORCID-ID).
+[creating an account on ORCiD](https://support.orcid.org/hc/en-us/articles/360006897454-How-do-I-register-for-an-ORCID-ID),
+which are both free and can be done in a few minutes.
 
 ## Results
 
