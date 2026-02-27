@@ -50,7 +50,7 @@ def main() -> None:
         rows, tablefmt="github", headers=["Consortium", "#", "Contact", "Suggest"]
     )
     click.echo(table)
-    click.echo("this table has been copied to your clipboard")
+    click.echo("\nthis table has been copied to your clipboard")
     pyperclip.copy(table)
 
 

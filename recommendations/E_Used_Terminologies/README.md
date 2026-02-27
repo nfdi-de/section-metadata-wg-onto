@@ -2,22 +2,46 @@
 
 GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/32
 
-NFDI uses the Semantic Farm to maintain lists of ontologies used by each
-section.
+The [Semantic Farm](https://semantic.farm) is a registry of ontologies,
+terminologies, databases, and other resources that assign (persistent)
+identifiers.
 
-TODO:
+NFDI Section Metadata recommends that each NFDI consortium maintains a
+collection in the Semantic Farm containing the ontologies that their members
+produce and use.
 
-- write recommendation / requirement
-- link to training materials on how to edit these
-- [Create an Account on GitHub](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
-- add screencast on creating a new issue on GitHub
-- add screencast on editing JSON directly
-- add text tutorial on creating a new issue on GitHub
-- add text tutoriol on editing JSON directly
+For example, NFDI4Chem published a peer-reviewed research article
+[Ontologies4Chem: the landscape of ontologies in chemistry](https://doi.org/10.1515/pac-2021-2007)
+along with an accompanying collection
+[0000014](https://semantic.farm/collection/0000014) on the Semantic Farm. While
+the article is a static artifact from 2022, the collection has been updated
+several times in the interim to reflect the evolving landscape in the chemistry.
 
-## Resources
+## Initialization
 
-The lists can be found here:
+NFDI Section Metadata initially collected lists of ontologies for most NFDI
+consortia in this
+[Google Sheet](https://docs.google.com/spreadsheets/d/1UAfDKo2gKiaFldEeitMUcO8Gl1Fjyb_r_bp1V4JW0Es/edit?gid=3857951#gid=3857951).
+We have begun to port some of them into the Semantic Farm, which typically
+entails curating new records about the ontologies contained therein.
+
+NFDI Section Metadata is currently in the process of porting the Google Sheet to
+Semantic Farm. This has been done successfully for a handful of NFDI consortia,
+and we have created stub collections for the rest.
+
+## Maintenance Plan
+
+After initial collections have been constructed, Section Metadata would like
+consortia to assign one or more responsible contact persons who can be
+periodically contacted for updates.
+
+The collections can be updated by clicking "Add prefix to collection" in the
+table below to be brought to an issue template on GitHub. This requires
+[creating an account on GitHub](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
+and
+[creating an account on ORCiD](https://support.orcid.org/hc/en-us/articles/360006897454-How-do-I-register-for-an-ORCID-ID).
+
+## Results
 
 | Consortium                                                    | #   | Contact              | Suggest                                                                                                                                                                           |
 | ------------------------------------------------------------- | --- | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
