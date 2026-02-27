@@ -40,6 +40,9 @@ and
 [creating an account on ORCiD](https://support.orcid.org/hc/en-us/articles/360006897454-How-do-I-register-for-an-ORCID-ID),
 which are both free and can be done in a few minutes.
 
+The Semantic Farm will implement automated ingestion of collections from BARTOC.
+See [this issue](https://github.com/biopragmatics/bioregistry/issues/1817).
+
 ## Benefits
 
 1. TS4NFDI will import collections from Semantic Farm, reducing the need for
