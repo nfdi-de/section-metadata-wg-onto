@@ -4,15 +4,17 @@ The Semantic Farm is an open source, domain-agnostic, community curated semantic
 space registry, meta-registry, and compact identifier resolver. Here's what that
 means:
 
-1. **Registry** A collection of prefixes and metadata for ontologies, controlled
-   vocabularies, and other semantic spaces. Some other well-known registries are
+1. **Registry** A collection of prefixes and metadata for ontologies,
+   terminologies, and other resources that assign ( persistent) identifiers.
+   Some other well-known registries are
    [Identifiers.org](https://identifiers.org) (originally for the life
    sciences), and the [BARTOC](https://bartoc.org) (originally for the
    humanities).
 2. **Metaregistry** A collection of metadata about registries and mappings
    between their constituent prefixes.
-3. **Resolver** A tool for mapping compact URIs (CURIEs) of the form
-   `prefix:identifier` to HTML and structured content providers
+3. **Resolver** A tool for mapping
+   [compact URIs (CURIEs)](https://www.w3.org/TR/2010/NOTE-curie-20101216/) of
+   the form `prefix:identifier` to HTML and structured content providers
 4. **Open Source** Anyone can
    [suggest improvements](https://github.com/biopragmatics/bioregistry/issues/new/choose)
    or make pull requests to update the underlying database, which is stored in
@@ -39,9 +41,7 @@ means:
 
 - [New Prefix Guidelines](https://github.com/biopragmatics/bioregistry/blob/main/docs/CONTRIBUTING.md)
 - [New Prefix Tutorial](https://www.youtube.com/watch?v=e-I6rcV2_BE&t=3s&pp=ygULYmlvcmVnaXN0cnnSBwkJogoBhyohjO8%3D)
-- https://www.youtube.com/watch?v=V-4dBPxz37s&pp=ygULYmlvcmVnaXN0cnk%3D
 
 ## Publications
 
-- Unifying the identification of biomedical entities with the Bioregistry
-  (https://doi.org/10.1038/s41597-0)
+- [Unifying the identification of biomedical entities with the Bioregistry](https://doi.org/10.1038/s41597-0)

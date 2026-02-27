@@ -1,5 +1,9 @@
 # BARTOC
 
+The
+[Basic Register of Thesauri, Ontologies, & Classifications (BARTOC)](https://bartoc.org)
+is a database of Knowledge Organization Systems and KOS related registries.
+
 ## Artifacts
 
 - Source Code (https://github.com/gbv/bartoc.org)
