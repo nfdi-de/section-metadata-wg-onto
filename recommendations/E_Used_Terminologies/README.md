@@ -40,19 +40,20 @@ and
 [creating an account on ORCiD](https://support.orcid.org/hc/en-us/articles/360006897454-How-do-I-register-for-an-ORCID-ID),
 which are both free and can be done in a few minutes.
 
-The Semantic Farm will implement automated ingestion of collections from BARTOC.
-See [this issue](https://github.com/biopragmatics/bioregistry/issues/1817).
+The Semantic Farm aims to implement automated ingestion of collections from
+BARTOC. See
+[this issue](https://github.com/biopragmatics/bioregistry/issues/1817).
 
-## Benefits
+## Opportunities
 
-1. TS4NFDI will import collections from Semantic Farm, reducing the need for
+1. TS4NFDI could import collections from Semantic Farm, reducing the need for
    them to implement duplicate collection curations
-2. Semantic Farm can be accessed programmatically, and implicitly sets the
-   standards for which metadata need to be collected about each ontology,
-   thereby reducing the burden of NFDI Section Metadata to create more
-   recommendations, and supporting NFDI consortia and their members in capturing
-   important information
-3. NFDI Section Metadata will create a dashboard for the NFDI directorate for
+2. Semantic Farm can be accessed programmatically and implicitly sets the
+   standards for which metadata need to be collected about each ontology. This
+   could reduce the burden on NFDI Section Metadata to create more
+   recommendations, and ultimately support the NFDI consortia and their members
+   in capturing important information
+3. NFDI Section Metadata could create a dashboard for the NFDI directorate for
    reporting purposes
 
 ## Results
