@@ -15,7 +15,7 @@ For example, NFDI4Chem published a peer-reviewed research article
 along with an accompanying collection
 [0000014](https://semantic.farm/collection/0000014) on the Semantic Farm. While
 the article is a static artifact from 2022, the collection has been updated
-several times in the interim to reflect the evolving landscape in the chemistry.
+several times in the interim to reflect the evolving landscape in chemistry.
 
 ## Initialization
 
