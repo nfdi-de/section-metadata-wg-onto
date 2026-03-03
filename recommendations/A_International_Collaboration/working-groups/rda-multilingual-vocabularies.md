@@ -17,9 +17,14 @@ discoverability level within the SSH and beyond.
 The working group plans to address these issues by providing collectively
 approved recommendations for creating, extending, updating, and aligning
 multilingual vocabularies in the SSH. The objective of this RDA WG, currently
-co-chaired by OPERAS RI, the coordinator of TRIPLE, is to focus on a part of the
-SSHOC vocabulary roadmap and to collect from a broader community both insights
-and feedback about a methodology for the alignment of controlled vocabularies in
+co-chaired by
+[OPERAS RI (open scholarly communication in the European Research Area for Social sciences and humanities research infrastructure)](https://operas-eu.org/category/operas-ri/),
+the coordinator of
+[TRIPLE (Transforming Research through Innovative Practices for Linked interdisciplinary Exploration)](https://operas-eu.org/triple/)],
+is to focus on a part of the
+[SSHOC (Social Sciences & Humanities Open Cloud)](https://sshopencloud.eu/)
+vocabulary roadmap and to collect from a broader community both insights and
+feedback about a methodology for the alignment of controlled vocabularies in
 many languages.
 
 | Type                     | Title                                                                                                   | Date             | Link                                                                                                                                                                                                    |
