@@ -44,107 +44,104 @@ https://github.com/nfdi-de/section-metadata-wg-onto/pull/28/commits/38410712b3c8
 0. **No isolation** – The terminology must be developed in such a way that it
    will integrate itself nicely within the larger landscape of other
    terminologies already used in the field or in related fields.
-   - In particular, if a field has already established guidelines or
-     principles for the development or maintenance of terminologies, a new
-     terminology developed within the context of NFDI would be expected to
-     follow them.
+   - In particular, if a field has already established guidelines or principles
+     for the development or maintenance of terminologies, a new terminology
+     developed within the context of NFDI would be expected to follow them.
    - One field that does already have established principles for terminology
      development is the biological and biomedical field, where most projects
-     follow the [OBO Foundry Principles](https://obofoundry.org/principles/).
-     In fact the following guidelines below are, for the most part, directly
+     follow the [OBO Foundry Principles](https://obofoundry.org/principles/). In
+     fact the following guidelines below are, for the most part, directly
      inspired from the OBO Foundry Principles.
-   - In the absence of established guidelines in a given field, a good place
-     to start would be to look at existing ontologies in the field. The NFDI
-     collections at the Semantic Farm (TODO: link) can be used to explore
-     those.
-1. **Open** - The terminology must be openly available to be used by all
-   without any constraint other than (a) its origin must be acknowledged and
-   (b) it is not to be altered and subsequently redistributed in altered form
-   under the original name or with the same identifiers.
+   - In the absence of established guidelines in a given field, a good place to
+     start would be to look at existing ontologies in the field. The NFDI
+     collections at the Semantic Farm (TODO: link) can be used to explore those.
+1. **Open** - The terminology must be openly available to be used by all without
+   any constraint other than (a) its origin must be acknowledged and (b) it is
+   not to be altered and subsequently redistributed in altered form under the
+   original name or with the same identifiers.
    - OBO Foundry principle #1
 2. **Common Format** - The terminology must be available in a common formal
    language in an accepted concrete syntax.
    - OBO Foundry principle #2
 3. **URI/Identifier Space** - Each terminology must have a unique IRI that
    identifies it. All entities defined within the terminology (not including
-   entities imported from other terminologies) must have a unique IRI within
-   a single namespace, which is ideally derived from the terminology’s own
-   IRI. The terminology IRI must resolve to a machine-readable version of the
+   entities imported from other terminologies) must have a unique IRI within a
+   single namespace, which is ideally derived from the terminology’s own IRI.
+   The terminology IRI must resolve to a machine-readable version of the
    terminology (in a format suitable according to Principle 2).
-   - Derived from OBO Foundry principle #3, without the additional
-     OBO-specific requirement that all IRIs must be under the
+   - Derived from OBO Foundry principle #3, without the additional OBO-specific
+     requirement that all IRIs must be under the
      `http://purl.obolibrary.org/obo/` namespace.
-   - It is furthermore recommended that IRIs be minted according to a
-     consistent policy, which should be documented. The
-     [McMurry et al. (2017)](https://doi.org/10.1371/journal.pbio.2001414)
-     paper is a good starting point to devise such a consistent policy.
+   - It is furthermore recommended that IRIs be minted according to a consistent
+     policy, which should be documented. The
+     [McMurry et al. (2017)](https://doi.org/10.1371/journal.pbio.2001414) paper
+     is a good starting point to devise such a consistent policy.
 4. **Versioning** - The terminology provider has documented procedures for
    versioning the terminology, and different versions of the terminology are
    marked, stored, and officially released.
    - OBO Foundry principle #4
-5. **Scope** - The scope of a terminology is the extent of the domain or
-   subject matter it intends to cover. The terminology must have a clearly
-   specified scope and content that adheres to that scope.
+5. **Scope** - The scope of a terminology is the extent of the domain or subject
+   matter it intends to cover. The terminology must have a clearly specified
+   scope and content that adheres to that scope.
    - OBO Foundry principle #5
 6. **Textual Definitions** - The terminology has textual definitions for the
    majority of its classes and for top level terms in particular.
    - OBO Foundry principle #6. Of note, the implementation guidelines of the
      foundry stipulate that the definitions must be provided as
-     [IAO:0000115](http://purl.obolibrary.org/obo/IAO_0000115) annotations;
-     that particular requirement may be ignored for ontologies that are not
-     expected to fit within the set of OBO ontologies. However, the point
-     stands that a commonly agreed upon annotation property should be used
-     to provide the definitions – if not IAO:0000115, then maybe
+     [IAO:0000115](http://purl.obolibrary.org/obo/IAO_0000115) annotations; that
+     particular requirement may be ignored for ontologies that are not expected
+     to fit within the set of OBO ontologies. However, the point stands that a
+     commonly agreed upon annotation property should be used to provide the
+     definitions – if not IAO:0000115, then maybe
      [skos:definition](http://www.w3.org/2004/02/skos/core#definition).
    - It is furthermore recommended that definitions be annotated with source
      informations.
-7. **Consistent use of relations and annotations** – The terminology should
-   use relations (object properties) ideally coming from a single unified
-   source, that is commonly used by other terminologies of the field. Likewise
-   for annotation properties.
+7. **Consistent use of relations and annotations** – The terminology should use
+   relations (object properties) ideally coming from a single unified source,
+   that is commonly used by other terminologies of the field. Likewise for
+   annotation properties.
    - This is derived from OBO Foundry Principle #7, which mandates the use of
      relation from OBO’s Relation Ontology (RO), but RO might not be suitable
      for all terminologies outside of OBO.
-8. **Documentation** - The owners of the terminology should strive to provide
-   as much documentation as possible.
+8. **Documentation** - The owners of the terminology should strive to provide as
+   much documentation as possible.
    - OBO Foundry principle #8
-10. **Commitment To Collaboration** - Terminology development, in common with
-    many other standards-oriented scientific activities, should be carried out
-    in a collaborative fashion.
-    - OBO Foundry principle #10
-11. **Locus of Authority** - There should be a person or group of persons who
-    is responsible for communications between the community and the ontology
-    developers, for mediating discussions involving maintenance of the
-    ontology in the light of scientific advance, and for ensuring that all
-    user feedback is addressed.
+9. **Commitment To Collaboration** - Terminology development, in common with
+   many other standards-oriented scientific activities, should be carried out in
+   a collaborative fashion.
+   - OBO Foundry principle #10
+10. **Locus of Authority** - There should be a person or group of persons who is
+    responsible for communications between the community and the ontology
+    developers, for mediating discussions involving maintenance of the ontology
+    in the light of scientific advance, and for ensuring that all user feedback
+    is addressed.
     - Derived from OBO Foundry principle #11, without requiring that there
-      should always be _one person_ (instead of a _group_) acting as the
-      locus of authority, and without the OBO-specific requirement that this
-      person should be in charge of all communications with the foundry.
-12. **Naming Conventions** - The names (primary labels) for elements (classes,
+      should always be _one person_ (instead of a _group_) acting as the locus
+      of authority, and without the OBO-specific requirement that this person
+      should be in charge of all communications with the foundry.
+11. **Naming Conventions** - The names (primary labels) for elements (classes,
     properties, etc.) in a terminology must be intelligible to scientists and
     amenable to natural language processing. Primary labels should be unique
     within the terminology.
     - Derived from OBO Foundry principle #12, without the OBO-specific
-      requirement that primary labels should be unique among all OBO
-      ontologies.
+      requirement that primary labels should be unique among all OBO ontologies.
     - As for definitions, a commonly agreed upon annotation property should be
       consistently used to provide the labels. Common properties for that
       purpose are [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label) and
       [skos:prefLabel](http://www.w3.org/2004/02/skos/core#prefLabel).
-13. **Notification of Changes** - Terminologies should announce major changes
-    to relevant stakeholders and collaborators ahead of release.
+12. **Notification of Changes** - Terminologies should announce major changes to
+    relevant stakeholders and collaborators ahead of release.
     - OBO Foundry principle #13
-16. **Maintenance** - The terminology needs to reflect changes in scientific
+13. **Maintenance** - The terminology needs to reflect changes in scientific
     consensus to remain accurate over time.
     - OBO Foundry principle #16
-19. **Term Stability** - The definition of a term must always denote the same
+14. **Term Stability** - The definition of a term must always denote the same
     thing(s)–known as “referent(s)”–in reality. If a proposed change to the
     definition would substantially change its referents, then a new term with
     new IRI and definition must instead be created.
     - OBO Foundry principle #19
-20. **Responsiveness** - Terminology developers must offer channels for
-    community  participation and SHOULD be responsive to requests.
+15. **Responsiveness** - Terminology developers must offer channels for
+    community participation and SHOULD be responsive to requests.
     - OBO Foundry principle #20
 
 ## Term Reuse
