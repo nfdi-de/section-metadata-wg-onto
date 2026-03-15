@@ -13,6 +13,8 @@ authors:
     affiliation: Senckenberg Gesellschaft für Naturforschung
   - name: Josh Moore
     affiliation: GerBI-GMB
+  - name: Charles Tapley Hoyt
+    affiliation: RWTH Aachen University
 ---
 
 # Introduction
@@ -120,12 +122,13 @@ To get there, we will:
 3. With a [mapping editor](#mapping-editors) and/or in a mapping registry
 4. As part of executable **transformations**
 
-## Tools
+# Tools
 
-A comprehensive list of tools for management of semantic artifacts is provided by
-@Voss2025^[Online at <https://bartoc.org/software>.]. This report includes some mapping editors, generators and
-converters listed below. Some generic KOS editors also allow to manage mappings from the semantic artifact being managed
-to other KOS.
+A comprehensive list of tools for management of semantic artifacts is provided
+by @Voss2025^[Online at <https://bartoc.org/software>.]. The list is not limited
+to mapping tools but it excludes programming libraries such as SeMRA.
+
+## Types of tools
 
 ### Mapping editors
 
@@ -146,14 +149,23 @@ mappings instead of their intellectual curation.
 - jskos-cli
 - sssom-py, sssom-java, sssom-js
 
-## Databases
+### Databases
 
 - knowledge graph database management systems [Semantic MediaWiki] and [Wikibase].
 - [Alignment API and Alignment Server](https://moex.gitlabpages.inria.fr/alignapi/)
+- coli-conc mapping registry / jskos-server
 
-## KOS editors
+### KOS editors
 
+Some generic KOS editors also allow to manage mappings from the semantic artifact being managed to other KOS. 
 If mappings from a semantic artifact are primarily managed by the editors of this SA, it makes sense to combine
-management into one tool. This ensures good overview of the mapping source but mapping targets are covered less so.
+management into one tool. This ensures good overview of the mapping source, but mapping targets are covered less so.
 
+## Selected Tools
+
+*incomplete*
+
+{{< include sssom-curator.md >}}
+{{< include semra.md >}}
+{{< include cocoda.md >}}
 
