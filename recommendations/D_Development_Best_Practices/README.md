@@ -54,7 +54,7 @@ https://github.com/nfdi-de/section-metadata-wg-onto/pull/28/commits/38410712b3c8
      inspired from the OBO Foundry Principles.
    - In the absence of established guidelines in a given field, a good place to
      start would be to look at existing ontologies in the field. The NFDI
-     collections at the Semantic Farm (TODO: link) can be used to explore those.
+     collections in the [Semantic Farm](https://semantic.farm/collection/?ror=05qj6w324) can be used to explore those.
 1. **Open** - The terminology must be openly available to be used by all without
    any constraint other than (a) its origin must be acknowledged and (b) it is
    not to be altered and subsequently redistributed in altered form under the
