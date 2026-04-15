@@ -28,8 +28,8 @@ def main() -> None:
         ):
             org = next(org for org in collection.organizations if org.ror != NFDI_ROR)
             authors = [
-                author
-                for author in collection.authors
+                author.name
+                for author in collection.maintainers or []
                 if author.name != "Charles Tapley Hoyt"
             ]
 
@@ -39,8 +39,10 @@ def main() -> None:
             rows.append(
                 (
                     f"[{org.name}](https://semantic.farm/collection/{collection.identifier})",
-                    len(collection.resources),
-                    authors[0].name if authors else None,
+                    str(len(collection.resources))
+                    if len(collection.resources) > 2
+                    else "",
+                    ", ".join(authors) if authors else None,
                     f"[Add prefix to collection]({suggest_link})",
                 )
             )
