@@ -7,6 +7,7 @@
 #  semapv: https://w3id.org/semapv/vocab/
 #  skos: http://www.w3.org/2004/02/skos/core#
 #  wikidata: http://www.wikidata.org/entity/
+#license: https://creativecommons.org/publicdomain/zero/1.0/
 #mapping_date: '2026-05-11'
 #mapping_set_id: https://github.com/nfdi-de/section-metadata-wg-onto/raw/refs/heads/main/sssom/data/predictions.sssom.tsv
 #mapping_tool: sssom-curator
