@@ -1,0 +1,9 @@
+#curie_map:
+#  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+#  mesh: http://id.nlm.nih.gov/mesh/
+#  orcid: https://orcid.org/
+#  semapv: https://w3id.org/semapv/vocab/
+#  skos: http://www.w3.org/2004/02/skos/core#
+#mapping_set_id: https://github.com/nfdi-de/section-metadata-wg-onto/raw/refs/heads/main/sssom/data/unsure.sssom.tsv
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	reviewer_id	review_date	reviewer_agreement
+CHEBI:61700	(+)-valencene	skos:exactMatch	mesh:C506706	valencene	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-08	0.0

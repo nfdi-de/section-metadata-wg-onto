@@ -1,0 +1,25 @@
+{
+  "predictions_path": "data/predictions.sssom.tsv",
+  "positives_path": "data/positive.sssom.tsv",
+  "negatives_path": "data/negative.sssom.tsv",
+  "unsure_path": "data/unsure.sssom.tsv",
+  "mapping_set": {
+    "id": "https://w3id.org/sssom/mappings/sssom/sssom.tsv",
+    "confidence": null,
+    "description": null,
+    "source": null,
+    "title": "NFDI Section Metadata WG Onto Mappings",
+    "version": "1",
+    "see_also": null,
+    "comment": null,
+    "license": "https://spdx.org/licenses/CC0-1.0",
+    "creators": null
+  },
+  "purl_base": "https://github.com/nfdi-de/section-metadata-wg-onto/raw/refs/heads/main/sssom/data/",
+  "basename": null,
+  "ndex_uuid": null,
+  "web_title": null,
+  "web_disabled_message": null,
+  "web_footer": null,
+  "merge_standardize_bioregistry": null
+}

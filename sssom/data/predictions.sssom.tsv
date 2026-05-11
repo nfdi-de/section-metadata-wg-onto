@@ -1,0 +1,12 @@
+#curie_map:
+#  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+#  mesh: http://id.nlm.nih.gov/mesh/
+#  semapv: https://w3id.org/semapv/vocab/
+#  skos: http://www.w3.org/2004/02/skos/core#
+#  wikidata: http://www.wikidata.org/entity/
+#mapping_set_id: https://github.com/nfdi-de/section-metadata-wg-onto/raw/refs/heads/main/sssom/data/predictions.sssom.tsv
+#mapping_tool: sssom-curator
+#mapping_tool_id: wikidata:Q138902949
+#mapping_tool_version: 0.4.2
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	confidence
+CHEBI:101096	ethoxzolamide	skos:exactMatch	mesh:C523270	6-ethoxybenzothiazole-2-sulfonamide	semapv:LexicalMatching	0.77

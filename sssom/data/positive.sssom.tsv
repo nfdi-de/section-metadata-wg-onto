@@ -1,0 +1,10 @@
+#curie_map:
+#  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+#  mesh: http://id.nlm.nih.gov/mesh/
+#  orcid: https://orcid.org/
+#  semapv: https://w3id.org/semapv/vocab/
+#  skos: http://www.w3.org/2004/02/skos/core#
+#mapping_date: '2026-05-08'
+#mapping_set_id: https://github.com/nfdi-de/section-metadata-wg-onto/raw/refs/heads/main/sssom/data/positive.sssom.tsv
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id	confidence
+CHEBI:11986	4-fluoro-L-threonine	skos:exactMatch	mesh:C048271	4-fluorothreonine	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	1.0
