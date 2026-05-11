@@ -1,8 +1,8 @@
 #curie_map:
-#  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+#  chebi: http://purl.obolibrary.org/obo/CHEBI_
 #  chmo: http://purl.obolibrary.org/obo/CHMO_
 #  fix: http://purl.obolibrary.org/obo/FIX_
-#  mesh: http://id.nlm.nih.gov/mesh/
+#  mesh: https://meshb.nlm.nih.gov/record/ui?ui=
 #  panet: http://purl.org/pan-science/PaNET/PaNET
 #  rex: http://purl.obolibrary.org/obo/REX_
 #  semapv: https://w3id.org/semapv/vocab/
@@ -13,43 +13,15 @@
 #mapping_tool_id: wikidata:Q138902949
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool_version	mapping_date	confidence
 CHEBI:101096	ethoxzolamide	skos:exactMatch	mesh:C523270	6-ethoxybenzothiazole-2-sulfonamide	semapv:LexicalMatching	0.4.2		0.77
-chmo:0000004	amperometry	skos:exactMatch	fix:0000783	amperometry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000005	chrono-amperometry	skos:exactMatch	fix:0000785	chronoamperometry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000014	chrono-coulometry	skos:exactMatch	fix:0000786	chronocoulometry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000016	potentiometry	skos:exactMatch	fix:0000775	potentiometry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000017	chrono-potentiometry	skos:exactMatch	fix:0000780	chronopotentiometry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000021	controlled-current potentiometry	skos:exactMatch	fix:0000778	controlled-current potentiometry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000025	cyclic voltammetry	skos:exactMatch	fix:0000099	cyclic voltammetry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000026	fast-scan cyclic voltammetry	skos:exactMatch	fix:0000761	fast-scan cyclic voltammetry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000027	hydrodynamic voltammetry	skos:exactMatch	fix:0000792	hydrodynamic voltammetry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000028	linear-sweep voltammetry	skos:exactMatch	fix:0000791	linear sweep voltammetry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.762
 chmo:0000032	polarography	skos:exactMatch	fix:0000794	polarography	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
 chmo:0000033	alternating current polarography	skos:exactMatch	fix:0000814	alternating current polarography	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
 chmo:0000035	square-wave polarography	skos:exactMatch	fix:0000816	square-wave polarography	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
 chmo:0000036	differential pulse polarography	skos:exactMatch	fix:0000813	differential pulse polarography	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
 chmo:0000037	normal pulse polarography	skos:exactMatch	fix:0000812	normal pulse polarography	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
 chmo:0000039	tast polarography	skos:exactMatch	fix:0000795	Tast polarography	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
-chmo:0000050	infrared microscopy	skos:exactMatch	panet:01178	infrared microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000065	fluorescence recovery after photobleaching	skos:exactMatch	fix:0000867	fluorescence recovery after photobleaching	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000067	microscopy	skos:exactMatch	panet:01069	microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000068	electron microscopy	skos:exactMatch	panet:01145	electron microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000102	optical microscopy	skos:exactMatch	panet:01179	optical microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000112	scanning probe microscopy	skos:exactMatch	fix:0000121	scanning probe microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000112	scanning probe microscopy	skos:exactMatch	panet:01148	scanning probe microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000113	atomic force microscopy	skos:exactMatch	fix:0000114	atomic force microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000113	atomic force microscopy	skos:exactMatch	panet:01318	atomic force microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000115	magnetic force microscopy	skos:exactMatch	fix:0000118	magnetic force microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000120	scanning near-field optical microscopy	skos:exactMatch	fix:0000385	scanning near-field optical microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
 chmo:0000141	diffraction method	skos:exactMatch	fix:0000217	diffraction method	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000152	photoelectron diffraction	skos:exactMatch	panet:01167	photoelectron diffraction	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
 chmo:0000155	X-ray photoelectron diffraction	skos:exactMatch	panet:01284	x-ray photoelectron diffraction	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
 chmo:0000156	X-ray diffraction	skos:exactMatch	panet:01216	x-ray diffraction	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
-chmo:0000164	electron scattering	skos:exactMatch	fix:0000401	electron scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000164	electron scattering	skos:exactMatch	rex:0000355	electron scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000166	light scattering	skos:exactMatch	fix:0000402	light scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000166	light scattering	skos:exactMatch	panet:01185	light scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000166	light scattering	skos:exactMatch	rex:0000349	light scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
-chmo:0000179	small-angle light scattering	skos:exactMatch	fix:0000254	small-angle light scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
 chmo:0000181	neutron scattering	skos:exactMatch	panet:01242	neutron scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
 chmo:0000181	neutron scattering	skos:exactMatch	rex:0000354	neutron scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
 chmo:0000183	elastic neutron scattering	skos:exactMatch	rex:0000359	elastic neutron scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
@@ -181,7 +153,6 @@ chmo:0002019	rate-zonal centrifugation	skos:exactMatch	fix:0000263	rate zonal ce
 chmo:0002028	129Xe Mossbauer spectroscopy	skos:exactMatch	fix:0000750	xenon-129 Mossbauer spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.556
 chmo:0002029	127I Mossbauer spectroscopy	skos:exactMatch	fix:0000737	iodine-127 Mossbauer spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.556
 chmo:0002030	57Fe Mossbauer spectroscopy	skos:exactMatch	fix:0000732	iron-57 Mossbauer spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.556
-chmo:0002031	119Sn Mossbauer spectroscopy	skos:exactMatch	fix:0000733	tin-119 Mossbauer spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.556
 chmo:0002032	121Sb Mossbauer spectroscopy	skos:exactMatch	fix:0000734	antimony-121 Mossbauer spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.556
 chmo:0002035	129I Mossbauer spectroscopy	skos:exactMatch	fix:0000754	iodine-129 Mossbauer spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.556
 chmo:0002036	197Au Mossbauer spectroscopy	skos:exactMatch	fix:0000738	gold-197 Mossbauer spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.556

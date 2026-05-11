@@ -1,10 +1,42 @@
 #curie_map:
-#  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
-#  mesh: http://id.nlm.nih.gov/mesh/
+#  chebi: http://purl.obolibrary.org/obo/CHEBI_
+#  chmo: http://purl.obolibrary.org/obo/CHMO_
+#  fix: http://purl.obolibrary.org/obo/FIX_
+#  mesh: https://meshb.nlm.nih.gov/record/ui?ui=
 #  orcid: https://orcid.org/
+#  panet: http://purl.org/pan-science/PaNET/PaNET
+#  rex: http://purl.obolibrary.org/obo/REX_
 #  semapv: https://w3id.org/semapv/vocab/
 #  skos: http://www.w3.org/2004/02/skos/core#
-#mapping_date: '2026-05-08'
 #mapping_set_id: https://github.com/nfdi-de/section-metadata-wg-onto/raw/refs/heads/main/sssom/data/positive.sssom.tsv
-subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id	confidence
-CHEBI:11986	4-fluoro-L-threonine	skos:exactMatch	mesh:C048271	4-fluorothreonine	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	1.0
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id	mapping_date	confidence
+chebi:11986	4-fluoro-L-threonine	skos:exactMatch	mesh:C048271	4-fluorothreonine	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-08	1.0
+chmo:0000004	amperometry	skos:exactMatch	fix:0000783	amperometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000005	chrono-amperometry	skos:exactMatch	fix:0000785	chronoamperometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000014	chrono-coulometry	skos:exactMatch	fix:0000786	chronocoulometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000016	potentiometry	skos:exactMatch	fix:0000775	potentiometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000017	chrono-potentiometry	skos:exactMatch	fix:0000780	chronopotentiometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000021	controlled-current potentiometry	skos:exactMatch	fix:0000778	controlled-current potentiometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000025	cyclic voltammetry	skos:exactMatch	fix:0000099	cyclic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000026	fast-scan cyclic voltammetry	skos:exactMatch	fix:0000761	fast-scan cyclic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000027	hydrodynamic voltammetry	skos:exactMatch	fix:0000792	hydrodynamic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000028	linear-sweep voltammetry	skos:exactMatch	fix:0000791	linear sweep voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000050	infrared microscopy	skos:exactMatch	panet:01178	infrared microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000065	fluorescence recovery after photobleaching	skos:exactMatch	fix:0000867	fluorescence recovery after photobleaching	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000067	microscopy	skos:exactMatch	panet:01069	microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000068	electron microscopy	skos:exactMatch	panet:01145	electron microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000102	optical microscopy	skos:exactMatch	panet:01179	optical microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000112	scanning probe microscopy	skos:exactMatch	fix:0000121	scanning probe microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000112	scanning probe microscopy	skos:exactMatch	panet:01148	scanning probe microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000113	atomic force microscopy	skos:exactMatch	fix:0000114	atomic force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000113	atomic force microscopy	skos:exactMatch	panet:01318	atomic force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000115	magnetic force microscopy	skos:exactMatch	fix:0000118	magnetic force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000120	scanning near-field optical microscopy	skos:exactMatch	fix:0000385	scanning near-field optical microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000152	photoelectron diffraction	skos:exactMatch	panet:01167	photoelectron diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000164	electron scattering	skos:exactMatch	fix:0000401	electron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000164	electron scattering	skos:exactMatch	rex:0000355	electron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000166	light scattering	skos:exactMatch	fix:0000402	light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000166	light scattering	skos:exactMatch	panet:01185	light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000166	light scattering	skos:exactMatch	rex:0000349	light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000179	small-angle light scattering	skos:exactMatch	fix:0000254	small-angle light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0002031	119Sn Mossbauer spectroscopy	skos:exactMatch	fix:0000733	tin-119 Mossbauer spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
