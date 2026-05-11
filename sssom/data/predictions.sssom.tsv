@@ -1,12 +1,59 @@
 #curie_map:
 #  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+#  chmo: http://purl.obolibrary.org/obo/CHMO_
 #  mesh: http://id.nlm.nih.gov/mesh/
+#  panet: http://purl.org/pan-science/PaNET/PaNET
 #  semapv: https://w3id.org/semapv/vocab/
 #  skos: http://www.w3.org/2004/02/skos/core#
 #  wikidata: http://www.wikidata.org/entity/
 #mapping_set_id: https://github.com/nfdi-de/section-metadata-wg-onto/raw/refs/heads/main/sssom/data/predictions.sssom.tsv
 #mapping_tool: sssom-curator
 #mapping_tool_id: wikidata:Q138902949
-#mapping_tool_version: 0.4.2
-subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	confidence
-CHEBI:101096	ethoxzolamide	skos:exactMatch	mesh:C523270	6-ethoxybenzothiazole-2-sulfonamide	semapv:LexicalMatching	0.77
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool_version	mapping_date	confidence
+CHEBI:101096	ethoxzolamide	skos:exactMatch	mesh:C523270	6-ethoxybenzothiazole-2-sulfonamide	semapv:LexicalMatching	0.4.2		0.77
+chmo:0000050	infrared microscopy	skos:exactMatch	panet:01178	infrared microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000067	microscopy	skos:exactMatch	panet:01069	microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000068	electron microscopy	skos:exactMatch	panet:01145	electron microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000102	optical microscopy	skos:exactMatch	panet:01179	optical microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000112	scanning probe microscopy	skos:exactMatch	panet:01148	scanning probe microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000113	atomic force microscopy	skos:exactMatch	panet:01318	atomic force microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000152	photoelectron diffraction	skos:exactMatch	panet:01167	photoelectron diffraction	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000155	X-ray photoelectron diffraction	skos:exactMatch	panet:01284	x-ray photoelectron diffraction	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0000156	X-ray diffraction	skos:exactMatch	panet:01216	x-ray diffraction	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0000166	light scattering	skos:exactMatch	panet:01185	light scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000181	neutron scattering	skos:exactMatch	panet:01242	neutron scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000184	small-angle neutron scattering	skos:exactMatch	panet:01189	small angle neutron scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.762
+chmo:0000185	grazing incidence small-angle neutron scattering	skos:exactMatch	panet:01276	grazing incidence small angle neutron scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.762
+chmo:0000186	ultra small angle neutron scattering	skos:exactMatch	panet:01240	ultra small angle neutron scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000200	X-ray scattering	skos:exactMatch	panet:01184	x-ray scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0000201	inelastic X-ray scattering	skos:exactMatch	panet:01182	inelastic x-ray scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0000202	resonant inelastic X-ray scattering	skos:exactMatch	panet:01183	resonant inelastic x-ray scattering	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0000209	reflectometry	skos:exactMatch	panet:01121	reflectometry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000210	neutron reflectometry	skos:exactMatch	panet:01239	neutron reflectometry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000223	ellipsometry	skos:exactMatch	panet:01255	ellipsometry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000228	spectroscopy	skos:exactMatch	panet:01125	spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000297	X-ray spectroscopy	skos:exactMatch	panet:01156	x-ray spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0000298	X-ray absorption spectroscopy	skos:exactMatch	panet:01196	x-ray absorption spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0000307	X-ray emission spectroscopy	skos:exactMatch	panet:01200	x-ray emission spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0000331	electron spectroscopy	skos:exactMatch	panet:01201	electron spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000387	photoelectron spectroscopy	skos:exactMatch	panet:01202	photoelectron spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000404	X-ray photoelectron spectroscopy	skos:exactMatch	panet:01204	x-ray photoelectron spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0000470	mass spectrometry	skos:exactMatch	panet:01268	mass spectrometry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000636	Fourier transform infrared spectroscopy	skos:exactMatch	panet:01320	fourier transform infrared spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0000656	Raman spectroscopy	skos:exactMatch	panet:01195	raman spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0000698	neutron diffraction	skos:exactMatch	panet:01217	neutron diffraction	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000699	neutron powder diffraction	skos:exactMatch	panet:01100	neutron powder diffraction	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000775	dichroism spectroscopy	skos:exactMatch	panet:01091	dichroism spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0000779	polarimetry	skos:exactMatch	panet:01256	polarimetry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0001086	photoemission electron microscopy	skos:exactMatch	panet:01146	photoemission electron microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0001087	X-ray photoemission electron microscopy	skos:exactMatch	panet:01294	x-ray photoemission electron microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0001388	lithography	skos:exactMatch	panet:01223	lithography	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0001388	lithography	skos:exactMatch	panet:2020077	lithography	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0001392	nanoimprint lithography	skos:exactMatch	panet:01231	nanoimprint lithography	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0001392	nanoimprint lithography	skos:exactMatch	panet:2020079	nanoimprint lithography	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0001442	X-ray lithography	skos:exactMatch	panet:01224	x-ray lithography	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0002099	holography	skos:exactMatch	panet:01105	holography	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0002312	X-ray microscopy	skos:exactMatch	panet:01180	x-ray microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0002314	scanning transmission X-ray microscopy	skos:exactMatch	panet:01219	scanning transmission x-ray microscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
+chmo:0002433	interferometry	skos:exactMatch	panet:2012008	interferometry	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.778
+chmo:0002617	X-ray photon correlation spectroscopy	skos:exactMatch	panet:01205	x-ray photon correlation spectroscopy	semapv:LexicalMatching	0.4.3-dev	2026-05-11	0.772
