@@ -2,8 +2,8 @@
 
 ## Workflows
 
-Predict new mappings, e.g., between Medical Subject Headings (MeSH)
-and the Medical Actions Ontology (MaxO) with:
+Predict new mappings, e.g., between Medical Subject Headings (MeSH) and the
+Medical Actions Ontology (MaxO) with:
 
 ```console
 $ uv run main.py predict lexical mesh maxo
@@ -24,8 +24,8 @@ $ mkdir output/
 $ uv run main.py summarize --output-directory output/
 ```
 
-Merge the positive, negative, and predicted mappings together
-and output several SSSOM flavors (TSV, OWL, JSON) in a given directory with:
+Merge the positive, negative, and predicted mappings together and output several
+SSSOM flavors (TSV, OWL, JSON) in a given directory with:
 
 ```console
 $ mkdir sssom/
@@ -53,4 +53,5 @@ Semantic mappings curated in this directory are licensed under the
 
 ## Colophon
 
-This repository was generated using [SSSOM-Curator](https://github.com/cthoyt/sssom-curator).
+This repository was generated using
+[SSSOM-Curator](https://github.com/cthoyt/sssom-curator).
