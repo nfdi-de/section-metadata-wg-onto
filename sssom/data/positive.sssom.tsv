@@ -280,7 +280,13 @@ chmo:0002015	differential centrifugation	skos:exactMatch	fix:0000264	differentia
 chmo:0002016	ultracentrifugation	skos:exactMatch	fix:0000260	ultracentrifugation	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002018	isopycnic centrifugation	skos:exactMatch	fix:0000265	isopycnic centrifugation	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002019	rate-zonal centrifugation	skos:exactMatch	fix:0000263	rate zonal centrifugation	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002028	129Xe Mossbauer spectroscopy	skos:exactMatch	fix:0000750	xenon-129 Mossbauer spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002029	127I Mossbauer spectroscopy	skos:exactMatch	fix:0000737	iodine-127 Mossbauer spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002030	57Fe Mossbauer spectroscopy	skos:exactMatch	fix:0000732	iron-57 Mossbauer spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002031	119Sn Mossbauer spectroscopy	skos:exactMatch	fix:0000733	tin-119 Mossbauer spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0002032	121Sb Mossbauer spectroscopy	skos:exactMatch	fix:0000734	antimony-121 Mossbauer spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002035	129I Mossbauer spectroscopy	skos:exactMatch	fix:0000754	iodine-129 Mossbauer spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002036	197Au Mossbauer spectroscopy	skos:exactMatch	fix:0000738	gold-197 Mossbauer spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002141	high-pressure fluorescence correlation spectroscopy	skos:exactMatch	fix:0000760	high-pressure fluorescence correlation spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002142	continuous-scan cyclic voltammetry	skos:exactMatch	fix:0000762	continuous scan cyclic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002143	conductometric titration	skos:exactMatch	fix:0000771	conductometric titration	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
@@ -297,6 +303,8 @@ chmo:0002303	gradient-elution chromatography	skos:exactMatch	fix:0000621	gradien
 chmo:0002304	isocratic-elution chromatography	skos:exactMatch	fix:0000624	isocratic elution chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002305	step-wise elution chromatography	skos:exactMatch	fix:0000622	stepwise elution chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002316	pulsed-field gel electrophoresis	skos:exactMatch	fix:0000629	pulsed field gel electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002317	liquid–liquid chromatography	skos:exactMatch	fix:0000633	liquid-liquid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002318	liquid–solid chromatography	skos:exactMatch	fix:0000634	liquid-solid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002371	potentiometric titration	skos:exactMatch	fix:0000066	potentiometric titration	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002384	dielectrometric titration	skos:exactMatch	fix:0000772	dielectrometric titration	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002401	normal-phase chromatography	skos:exactMatch	fix:0000619	normal-phase chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
@@ -324,4 +332,5 @@ chmo:0002725	single isomorphous replacement	skos:exactMatch	fix:0000246	single i
 chmo:0002726	multiple isomorphous replacement	skos:exactMatch	fix:0000216	multiple isomorphous replacement	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002817	optical activity	skos:exactMatch	fix:0000274	optical activity	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002886	two-dimensional gas chromatography	skos:exactMatch	fix:0001155	two-dimensional gas chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002889	imμnoaffinity chromatography	skos:exactMatch	fix:0000870	immunoaffinity chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002923	high-performance anion-exchange chromatography	skos:exactMatch	fix:0000800	high-performance anion-exchange chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13

@@ -214,12 +214,6 @@ chmo:0001963	time-correlated single photon counting	skos:exactMatch	goldbook:T06
 chmo:0001990	co-assembly	skos:exactMatch	goldbook:13801	co-assembly	semapv:LexicalMatching	0.778
 chmo:0002001	multi-dimensional chromatography	skos:exactMatch	goldbook:09959	multi-dimensional chromatography	semapv:LexicalMatching	0.778
 chmo:0002021	triple quadrupole mass spectrometer	skos:exactMatch	goldbook:12604	triple quadrupole mass spectrometer	semapv:LexicalMatching	0.778
-chmo:0002028	129Xe Mossbauer spectroscopy	skos:exactMatch	fix:0000750	xenon-129 Mossbauer spectroscopy	semapv:LexicalMatching	0.556
-chmo:0002029	127I Mossbauer spectroscopy	skos:exactMatch	fix:0000737	iodine-127 Mossbauer spectroscopy	semapv:LexicalMatching	0.556
-chmo:0002030	57Fe Mossbauer spectroscopy	skos:exactMatch	fix:0000732	iron-57 Mossbauer spectroscopy	semapv:LexicalMatching	0.556
-chmo:0002032	121Sb Mossbauer spectroscopy	skos:exactMatch	fix:0000734	antimony-121 Mossbauer spectroscopy	semapv:LexicalMatching	0.556
-chmo:0002035	129I Mossbauer spectroscopy	skos:exactMatch	fix:0000754	iodine-129 Mossbauer spectroscopy	semapv:LexicalMatching	0.556
-chmo:0002036	197Au Mossbauer spectroscopy	skos:exactMatch	fix:0000738	gold-197 Mossbauer spectroscopy	semapv:LexicalMatching	0.556
 chmo:0002078	scanning calorimetry	skos:exactMatch	goldbook:12305	scanning calorimetry	semapv:LexicalMatching	0.778
 chmo:0002092	volumetry	skos:exactMatch	goldbook:09055	volumetric titration	semapv:LexicalMatching	0.556
 chmo:0002099	holography	skos:exactMatch	panet:01105	holography	semapv:LexicalMatching	0.778
@@ -243,8 +237,6 @@ chmo:0002302	reversed-phase chromatography	skos:exactMatch	goldbook:R05376	rever
 chmo:0002311	X-ray fluorescence microscopy	skos:exactMatch	goldbook:08772	X-ray fluorescence microscopy	semapv:LexicalMatching	0.778
 chmo:0002312	X-ray microscopy	skos:exactMatch	panet:01180	x-ray microscopy	semapv:LexicalMatching	0.772
 chmo:0002314	scanning transmission X-ray microscopy	skos:exactMatch	panet:01219	scanning transmission x-ray microscopy	semapv:LexicalMatching	0.772
-chmo:0002317	liquid–liquid chromatography	skos:exactMatch	fix:0000633	liquid-liquid chromatography	semapv:LexicalMatching	0.778
-chmo:0002318	liquid–solid chromatography	skos:exactMatch	fix:0000634	liquid-solid chromatography	semapv:LexicalMatching	0.778
 chmo:0002340	lock-in amplifier	skos:exactMatch	goldbook:08267	lock-in amplifier	semapv:LexicalMatching	0.778
 chmo:0002343	relaxometry	skos:exactMatch	goldbook:08383	nuclear magnetic resonance relaxometry	semapv:LexicalMatching	0.556
 chmo:0002344	electrode	skos:exactMatch	goldbook:09060	electrode	semapv:LexicalMatching	0.778
@@ -317,7 +309,6 @@ chmo:0002877	gradient elution	skos:exactMatch	goldbook:G02670	gradient elution	s
 chmo:0002878	isocratic elution	skos:exactMatch	goldbook:09896	isocratic elution	semapv:LexicalMatching	0.778
 chmo:0002879	certified reference material	skos:exactMatch	goldbook:15546	certified reference material	semapv:LexicalMatching	0.778
 chmo:0002881	passive sampling	skos:exactMatch	goldbook:10183	passive sampling	semapv:LexicalMatching	0.778
-chmo:0002889	imμnoaffinity chromatography	skos:exactMatch	fix:0000870	immunoaffinity chromatography	semapv:LexicalMatching	0.762
 chmo:0002907	temperature-programmed oxidation	skos:exactMatch	goldbook:12311	temperature-programmed oxidation	semapv:LexicalMatching	0.778
 chmo:0002908	temperature-programmed reduction	skos:exactMatch	goldbook:12312	temperature-programmed reduction	semapv:LexicalMatching	0.778
 chmo:0002911	magic angle spinning	skos:exactMatch	goldbook:08377	magic angle spinning	semapv:LexicalMatching	0.778
