@@ -11,3 +11,4 @@
 subject_id	subject_label	predicate_id	predicate_modifier	object_id	object_label	mapping_justification	author_id	mapping_date	confidence
 chebi:10057	9H-xanthene	skos:exactMatch	Not	mesh:C002563	xanthan gum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-08	1.0
 chmo:0000339	Auger electron spectroscopy	skos:exactMatch	Not	goldbook:09172	Auger spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11	
+chmo:0000986	stationary phase	skos:exactMatch	Not	goldbook:S05948	stationary phase	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13	

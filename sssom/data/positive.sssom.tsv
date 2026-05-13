@@ -244,6 +244,8 @@ chmo:0000979	reflectron	skos:exactMatch	goldbook:11544	reflectron	semapv:ManualM
 chmo:0000981	time-of-flight mass spectrometer	skos:exactMatch	goldbook:T06382	time-of-flight mass spectrometer	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0000982	mass spectrometer	skos:exactMatch	goldbook:M03732	mass spectrometer	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0000982	mass spectrometer	skos:exactMatch	goldbook:M03733	mass spectrometer	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000986	stationary phase	skos:exactMatch	goldbook:S05949	stationary phase	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000987	capillary column	skos:exactMatch	goldbook:C00793	capillary column	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0000995	mobile phase	skos:exactMatch	goldbook:M03952	mobile phase	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001000	chromatography	skos:exactMatch	goldbook:C01075	chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001001	column chromatography	skos:exactMatch	goldbook:C01182	column chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
@@ -251,22 +253,60 @@ chmo:0001002	gas chromatography	skos:exactMatch	goldbook:G02578	gas chromatograp
 chmo:0001003	supercritical-fluid chromatography	skos:exactMatch	fix:0000609	supercritical-fluid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001003	supercritical-fluid chromatography	skos:exactMatch	goldbook:S06139	supercritical fluid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001004	liquid chromatography	skos:exactMatch	fix:0000608	liquid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001004	liquid chromatography	skos:exactMatch	goldbook:L03578	liquid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001005	planar chromatography	skos:exactMatch	goldbook:P04682	planar chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001006	affinity chromatography	skos:exactMatch	fix:0000615	affinity chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001006	affinity chromatography	skos:exactMatch	goldbook:A00177	affinity chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001007	thin-layer chromatography	skos:exactMatch	goldbook:T06346	thin-layer chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001010	exclusion chromatography	skos:exactMatch	fix:0000614	exclusion chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001010	exclusion chromatography	skos:exactMatch	goldbook:E02261	exclusion chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001012	ion-exclusion chromatography	skos:exactMatch	fix:0000627	ion-exclusion chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001012	ion-exclusion chromatography	skos:exactMatch	goldbook:09892	ion-exclusion chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001013	size-exclusion chromatography	skos:exactMatch	fix:0000626	size-exclusion chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001013	size-exclusion chromatography	skos:exactMatch	goldbook:S05705	size-exclusion chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001014	ion-exchange chromatography	skos:exactMatch	fix:0000613	ion-exchange chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001014	ion-exchange chromatography	skos:exactMatch	goldbook:I03168	ion-exchange chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001015	gas-solid chromatography	skos:exactMatch	fix:0000632	gas-solid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001015	gas-solid chromatography	skos:exactMatch	goldbook:G02591	gas-solid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001016	gas-liquid chromatography	skos:exactMatch	goldbook:G02586	gas-liquid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001018	two-dimensional chromatography	skos:exactMatch	goldbook:T06540	two-dimensional chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001019	electrophoresis	skos:exactMatch	goldbook:E02022	electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001019	electrophoresis	skos:exactMatch	rex:0000338	electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001021	gel electrophoresis	skos:exactMatch	fix:0000628	gel electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001021	gel electrophoresis	skos:exactMatch	goldbook:09747	gel electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001023	polyacrylamide gel electrophoresis	skos:exactMatch	fix:0000883	polyacrylamide gel electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001024	capillary electrophoresis	skos:exactMatch	fix:0000836	capillary electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001024	capillary electrophoresis	skos:exactMatch	goldbook:09913	capillary electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001026	isoelectric focusing	skos:exactMatch	fix:0000625	isoelectric focusing	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001026	isoelectric focusing	skos:exactMatch	goldbook:09749	isoelectric focusing	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001028	difference gel electrophoresis	skos:exactMatch	goldbook:09739	difference gel electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001031	capillary sieving electrophoresis	skos:exactMatch	goldbook:09917	capillary sieving electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001032	capillary gel electrophoresis	skos:exactMatch	fix:0000837	capillary gel electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001032	capillary gel electrophoresis	skos:exactMatch	goldbook:09914	capillary gel electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001033	capillary isoelectric focusing	skos:exactMatch	goldbook:09915	capillary isoelectric focusing	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001034	capillary isotachophoresis	skos:exactMatch	goldbook:09916	capillary isotachophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001035	electrokinetic chromatography	skos:exactMatch	goldbook:09919	electrokinetic chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001036	micellar electrokinetic chromatography	skos:exactMatch	goldbook:09927	micellar electrokinetic chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001037	microemulsion electrokinetic chromatography	skos:exactMatch	goldbook:09928	microemulsion electrokinetic chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001038	capillary electrochromatography	skos:exactMatch	goldbook:09912	capillary electrochromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001039	capillary affinity electrophoresis	skos:exactMatch	goldbook:09911	capillary affinity electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001053	magnetic sector	skos:exactMatch	goldbook:12473	magnetic sector	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001086	photoemission electron microscopy	skos:exactMatch	panet:01146	photoemission electron microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001087	X-ray photoemission electron microscopy	skos:exactMatch	panet:01294	x-ray photoemission electron microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001106	two-dimensional polyacrylamide gel electrophoresis	skos:exactMatch	fix:0000886	two-dimensional polyacrylamide gel electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001128	adsorption chromatography	skos:exactMatch	fix:0000611	adsorption chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001209	anion-exchange chromatography	skos:exactMatch	fix:0000798	anion-exchange chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001210	cation-exchange chromatography	skos:exactMatch	fix:0000799	cation-exchange chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001239	inversion recovery	skos:exactMatch	fix:0000211	inversion recovery	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001442	X-ray lithography	skos:exactMatch	panet:01224	x-ray lithography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001502	pyrolysis	skos:exactMatch	rex:0000404	pyrolysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001520	thermolysis	skos:exactMatch	rex:0000086	thermolysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001574	evaporation	skos:exactMatch	rex:0000178	evaporation	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001613	extrusion	skos:exactMatch	rex:0000100	extrusion	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001688	precipitation	skos:exactMatch	rex:0000182	precipitation	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001696	postprecipitation	skos:exactMatch	rex:0000378	postprecipitation	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001698	radiolysis	skos:exactMatch	rex:0000285	radiolysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001699	autoradiolysis	skos:exactMatch	rex:0000286	autoradiolysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001835	two-dimensional liquid chromatography	skos:exactMatch	fix:0001153	two-dimensional liquid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001897	lateral force microscopy	skos:exactMatch	fix:0000115	lateral force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0001917	time-resolved fluorescence spectroscopy	skos:exactMatch	fix:0000109	time-resolved fluorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
@@ -287,10 +327,12 @@ chmo:0002031	119Sn Mossbauer spectroscopy	skos:exactMatch	fix:0000733	tin-119 Mo
 chmo:0002032	121Sb Mossbauer spectroscopy	skos:exactMatch	fix:0000734	antimony-121 Mossbauer spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002035	129I Mossbauer spectroscopy	skos:exactMatch	fix:0000754	iodine-129 Mossbauer spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002036	197Au Mossbauer spectroscopy	skos:exactMatch	fix:0000738	gold-197 Mossbauer spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002099	holography	skos:exactMatch	panet:01105	holography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002141	high-pressure fluorescence correlation spectroscopy	skos:exactMatch	fix:0000760	high-pressure fluorescence correlation spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002142	continuous-scan cyclic voltammetry	skos:exactMatch	fix:0000762	continuous scan cyclic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002143	conductometric titration	skos:exactMatch	fix:0000771	conductometric titration	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002144	high-frequency conductometric titration	skos:exactMatch	fix:0000774	high frequency conductometric titration	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002196	activation	skos:exactMatch	rex:0000221	activation	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002255	immobilized metal affinity chromatography	skos:exactMatch	fix:0000856	immobilized metal affinity chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002289	fast Fourier transform infrared spectroscopy	skos:exactMatch	fix:0000647	fast Fourier transform infrared spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002290	infrared transmission spectroscopy	skos:exactMatch	fix:0000660	infrared transmission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
@@ -302,6 +344,8 @@ chmo:0002302	reversed-phase chromatography	skos:exactMatch	fix:0000620	reversed-
 chmo:0002303	gradient-elution chromatography	skos:exactMatch	fix:0000621	gradient elution chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002304	isocratic-elution chromatography	skos:exactMatch	fix:0000624	isocratic elution chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002305	step-wise elution chromatography	skos:exactMatch	fix:0000622	stepwise elution chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002312	X-ray microscopy	skos:exactMatch	panet:01180	x-ray microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002314	scanning transmission X-ray microscopy	skos:exactMatch	panet:01219	scanning transmission x-ray microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002316	pulsed-field gel electrophoresis	skos:exactMatch	fix:0000629	pulsed field gel electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002317	liquid–liquid chromatography	skos:exactMatch	fix:0000633	liquid-liquid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002318	liquid–solid chromatography	skos:exactMatch	fix:0000634	liquid-solid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
@@ -313,6 +357,7 @@ chmo:0002403	partition chromatography	skos:exactMatch	fix:0000612	partition chro
 chmo:0002414	scattering spectroscopy	skos:exactMatch	fix:0000057	scattering spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002415	luminescence spectroscopy	skos:exactMatch	fix:0000027	luminescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002416	phosphorescence spectroscopy	skos:exactMatch	fix:0000029	phosphorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002433	interferometry	skos:exactMatch	panet:2012008	interferometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002451	liquid chromatography at the critical condition	skos:exactMatch	fix:0001161	liquid chromatography at the critical condition	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002509	flash photolysis	skos:exactMatch	fix:0000370	flash photolysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002510	laser flash photolysis	skos:exactMatch	fix:0000371	laser flash photolysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
@@ -322,6 +367,7 @@ chmo:0002515	laser Raman spectroscopy	skos:exactMatch	fix:0000375	laser Raman sp
 chmo:0002537	coulometric titration	skos:exactMatch	fix:0000781	coulometric titration	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002555	triple-resonance spectroscopy	skos:exactMatch	fix:0000153	triple resonance spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002562	nuclear Overhauser effect difference spectroscopy	skos:exactMatch	fix:0000203	nuclear Overhauser effect difference spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002617	X-ray photon correlation spectroscopy	skos:exactMatch	panet:01205	x-ray photon correlation spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002710	two-dimensional infrared spectroscopy	skos:exactMatch	fix:0001069	two-dimensional infrared spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002713	magnetic resonance force microscopy	skos:exactMatch	fix:0000125	magnetic resonance force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
 chmo:0002714	steady-state fluorescence spectroscopy	skos:exactMatch	fix:0000108	steady state fluorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
