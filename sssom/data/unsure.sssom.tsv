@@ -1,9 +1,15 @@
 #curie_map:
-#  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
-#  mesh: http://id.nlm.nih.gov/mesh/
+#  chebi: http://purl.obolibrary.org/obo/CHEBI_
+#  chmo: http://purl.obolibrary.org/obo/CHMO_
+#  goldbook: https://goldbook.iupac.org/terms/view/
+#  mesh: https://meshb.nlm.nih.gov/record/ui?ui=
 #  orcid: https://orcid.org/
 #  semapv: https://w3id.org/semapv/vocab/
 #  skos: http://www.w3.org/2004/02/skos/core#
+#  wikidata: http://www.wikidata.org/entity/
+#license: https://creativecommons.org/publicdomain/zero/1.0/
 #mapping_set_id: https://github.com/nfdi-de/section-metadata-wg-onto/raw/refs/heads/main/sssom/data/unsure.sssom.tsv
-subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	reviewer_id	review_date	reviewer_agreement
-CHEBI:61700	(+)-valencene	skos:exactMatch	mesh:C506706	valencene	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-08	0.0
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	reviewer_id	mapping_tool	mapping_tool_id	mapping_tool_version	mapping_date	review_date	confidence	reviewer_agreement
+chebi:61700	(+)-valencene	skos:exactMatch	mesh:C506706	valencene	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370					2026-05-08		0.0
+chmo:0000028	linear-sweep voltammetry	skos:exactMatch	goldbook:09141	linear-scan voltammetry	semapv:LexicalMatching	orcid:0000-0003-4423-4370	sssom-curator	wikidata:Q138902949	0.4.3-dev	2026-05-11	2026-05-11	0.556	0.0
+chmo:0000039	tast polarography	skos:exactMatch	goldbook:09145	sampled DC polarography	semapv:LexicalMatching	orcid:0000-0003-4423-4370	sssom-curator	wikidata:Q138902949	0.4.3-dev	2026-05-11	2026-05-11	0.549	0.0
