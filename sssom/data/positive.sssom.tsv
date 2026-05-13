@@ -8,222 +8,320 @@
 #  semapv: https://w3id.org/semapv/vocab/
 #  skos: http://www.w3.org/2004/02/skos/core#
 #license: https://creativecommons.org/publicdomain/zero/1.0/
-#mapping_date: '2026-05-11'
 #mapping_set_id: https://github.com/nfdi-de/section-metadata-wg-onto/raw/refs/heads/main/sssom/data/positive.sssom.tsv
-subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id
-chmo:0000004	amperometry	skos:exactMatch	fix:0000783	amperometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000004	amperometry	skos:exactMatch	goldbook:09128	amperometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000005	chrono-amperometry	skos:exactMatch	fix:0000785	chronoamperometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000005	chrono-amperometry	skos:exactMatch	goldbook:09129	chronoamperometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000010	conductometry	skos:exactMatch	goldbook:09166	conductometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000012	coulometry	skos:exactMatch	goldbook:09159	coulometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000014	chrono-coulometry	skos:exactMatch	fix:0000786	chronocoulometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000014	chrono-coulometry	skos:exactMatch	goldbook:09156	chronocoulometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000016	potentiometry	skos:exactMatch	fix:0000775	potentiometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000016	potentiometry	skos:exactMatch	goldbook:09127	potentiometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000017	chrono-potentiometry	skos:exactMatch	fix:0000780	chronopotentiometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000017	chrono-potentiometry	skos:exactMatch	goldbook:09126	chronopotentiometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000021	controlled-current potentiometry	skos:exactMatch	fix:0000778	controlled-current potentiometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000024	voltammetry	skos:exactMatch	goldbook:09148	voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000025	cyclic voltammetry	skos:exactMatch	fix:0000099	cyclic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000025	cyclic voltammetry	skos:exactMatch	goldbook:09134	cyclic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000026	fast-scan cyclic voltammetry	skos:exactMatch	fix:0000761	fast-scan cyclic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000027	hydrodynamic voltammetry	skos:exactMatch	fix:0000792	hydrodynamic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000027	hydrodynamic voltammetry	skos:exactMatch	goldbook:09138	hydrodynamic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000028	linear-sweep voltammetry	skos:exactMatch	fix:0000791	linear sweep voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000030	differential pulse voltammetry	skos:exactMatch	goldbook:09136	differential pulse voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000031	normal pulse voltammetry	skos:exactMatch	goldbook:09142	normal pulse voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000032	polarography	skos:exactMatch	fix:0000794	polarography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000032	polarography	skos:exactMatch	goldbook:P04716	polarography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000033	alternating current polarography	skos:exactMatch	fix:0000814	alternating current polarography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000035	square-wave polarography	skos:exactMatch	fix:0000816	square-wave polarography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000036	differential pulse polarography	skos:exactMatch	fix:0000813	differential pulse polarography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000037	normal pulse polarography	skos:exactMatch	fix:0000812	normal pulse polarography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000039	tast polarography	skos:exactMatch	fix:0000795	Tast polarography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000040	square-wave voltammetry	skos:exactMatch	goldbook:09147	square-wave voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000041	stripping voltammetry	skos:exactMatch	goldbook:09155	stripping voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000042	anodic stripping voltammetry	skos:exactMatch	goldbook:09152	anodic stripping voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000046	adsorptive stripping voltammetry	skos:exactMatch	goldbook:09151	adsorptive stripping voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000047	cathodic stripping voltammetry	skos:exactMatch	goldbook:09153	cathodic stripping voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000050	infrared microscopy	skos:exactMatch	panet:01178	infrared microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000053	imaging mass spectrometry	skos:exactMatch	goldbook:12431	imaging mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000061	flow cytometry	skos:exactMatch	goldbook:13152	flow cytometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000064	fluorescence resonance energy transfer	skos:exactMatch	goldbook:FT07378	fluorescence resonance energy transfer	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000065	fluorescence recovery after photobleaching	skos:exactMatch	fix:0000867	fluorescence recovery after photobleaching	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000067	microscopy	skos:exactMatch	panet:01069	microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000068	electron microscopy	skos:exactMatch	panet:01145	electron microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000073	scanning electron microscopy	skos:exactMatch	goldbook:S05484	scanning electron microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000080	transmission electron microscopy	skos:exactMatch	goldbook:T06481	transmission electron microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000086	scanning transmission electron microscopy	skos:exactMatch	goldbook:S05486	scanning transmission electron microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000097	ion microscopy	skos:exactMatch	goldbook:I03221	ion microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000102	optical microscopy	skos:exactMatch	panet:01179	optical microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000112	scanning probe microscopy	skos:exactMatch	fix:0000121	scanning probe microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000112	scanning probe microscopy	skos:exactMatch	panet:01148	scanning probe microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000113	atomic force microscopy	skos:exactMatch	fix:0000114	atomic force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000113	atomic force microscopy	skos:exactMatch	goldbook:09452	atomic force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000113	atomic force microscopy	skos:exactMatch	panet:01318	atomic force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000115	magnetic force microscopy	skos:exactMatch	fix:0000118	magnetic force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000120	scanning near-field optical microscopy	skos:exactMatch	fix:0000385	scanning near-field optical microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000120	scanning near-field optical microscopy	skos:exactMatch	goldbook:09202	scanning near-field optical microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000141	diffraction method	skos:exactMatch	fix:0000217	diffraction method	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000145	transmission high energy electron diffraction	skos:exactMatch	goldbook:T06483	transmission high energy electron diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000146	reflection high energy electron diffraction	skos:exactMatch	goldbook:R05238	reflection high energy electron diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000147	low energy electron diffraction	skos:exactMatch	goldbook:L03631	low energy electron diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000152	photoelectron diffraction	skos:exactMatch	panet:01167	photoelectron diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000155	X-ray photoelectron diffraction	skos:exactMatch	panet:01284	x-ray photoelectron diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000156	X-ray diffraction	skos:exactMatch	panet:01216	x-ray diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000164	electron scattering	skos:exactMatch	fix:0000401	electron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000164	electron scattering	skos:exactMatch	rex:0000355	electron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000166	light scattering	skos:exactMatch	fix:0000402	light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000166	light scattering	skos:exactMatch	goldbook:L03525	light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000166	light scattering	skos:exactMatch	panet:01185	light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000166	light scattering	skos:exactMatch	rex:0000349	light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000167	dynamic light scattering	skos:exactMatch	goldbook:12275	dynamic light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000179	small-angle light scattering	skos:exactMatch	fix:0000254	small-angle light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000180	static light scattering	skos:exactMatch	goldbook:12274	static light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000181	neutron scattering	skos:exactMatch	panet:01242	neutron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000181	neutron scattering	skos:exactMatch	rex:0000354	neutron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000183	elastic neutron scattering	skos:exactMatch	rex:0000359	elastic neutron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000184	small-angle neutron scattering	skos:exactMatch	panet:01189	small angle neutron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000185	grazing incidence small-angle neutron scattering	skos:exactMatch	panet:01276	grazing incidence small angle neutron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000186	ultra small angle neutron scattering	skos:exactMatch	panet:01240	ultra small angle neutron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000192	inelastic neutron scattering	skos:exactMatch	rex:0000360	inelastic neutron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000200	X-ray scattering	skos:exactMatch	fix:0000073	X-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000200	X-ray scattering	skos:exactMatch	panet:01184	x-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000200	X-ray scattering	skos:exactMatch	rex:0000361	X-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000201	inelastic X-ray scattering	skos:exactMatch	panet:01182	inelastic x-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000201	inelastic X-ray scattering	skos:exactMatch	rex:0000363	inelastic X-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000202	resonant inelastic X-ray scattering	skos:exactMatch	goldbook:08541	resonant inelastic X-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000202	resonant inelastic X-ray scattering	skos:exactMatch	panet:01183	resonant inelastic x-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000204	small-angle X-ray scattering	skos:exactMatch	fix:0000223	small-angle X-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000204	small-angle X-ray scattering	skos:exactMatch	goldbook:09203	small-angle X-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000207	wide-angle X-ray scattering	skos:exactMatch	fix:0001128	wide-angle X-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000209	reflectometry	skos:exactMatch	panet:01121	reflectometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000210	neutron reflectometry	skos:exactMatch	panet:01239	neutron reflectometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000219	X-ray reflectometry	skos:exactMatch	goldbook:09214	X-ray reflectometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000223	ellipsometry	skos:exactMatch	goldbook:09197	ellipsometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000223	ellipsometry	skos:exactMatch	panet:01255	ellipsometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000228	spectroscopy	skos:exactMatch	fix:0000003	spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000228	spectroscopy	skos:exactMatch	goldbook:S05848	spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000228	spectroscopy	skos:exactMatch	panet:01125	spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000233	atomic spectroscopy	skos:exactMatch	goldbook:08216	atomic spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000234	atomic absorption spectroscopy	skos:exactMatch	goldbook:08451	atomic absorption spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000239	graphite furnace atomic absorption spectrometry	skos:exactMatch	fix:0000951	graphite furnace atomic absorption spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000251	atomic emission spectroscopy	skos:exactMatch	goldbook:08452	atomic emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000255	flame atomic emission spectroscopy	skos:exactMatch	fix:0000928	flame atomic emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000258	laser-induced breakdown spectroscopy	skos:exactMatch	goldbook:08500	laser induced breakdown spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000279	atomic fluorescence spectroscopy	skos:exactMatch	goldbook:08454	atomic fluorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000282	flame atomic fluorescence spectroscopy	skos:exactMatch	fix:0000930	flame atomic fluorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000287	fluorescence spectroscopy	skos:exactMatch	fix:0000028	fluorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000288	fluorescence correlation spectroscopy	skos:exactMatch	fix:0000352	fluorescence correlation spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000297	X-ray spectroscopy	skos:exactMatch	fix:0000019	X-ray spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000297	X-ray spectroscopy	skos:exactMatch	goldbook:X06718	X-ray spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000297	X-ray spectroscopy	skos:exactMatch	panet:01156	x-ray spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000298	X-ray absorption spectroscopy	skos:exactMatch	fix:0000107	X-ray absorption spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000298	X-ray absorption spectroscopy	skos:exactMatch	panet:01196	x-ray absorption spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000299	X-ray absorption fine structure spectroscopy	skos:exactMatch	goldbook:09212	X-ray absorption fine structure spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000300	extended X-ray absorption fine structure spectroscopy	skos:exactMatch	goldbook:09198	extended X-ray absorption fine structure spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000303	surface extended X-ray absorption fine structure spectroscopy	skos:exactMatch	goldbook:09206	surface extended X-ray absorption fine structure spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000307	X-ray emission spectroscopy	skos:exactMatch	fix:0000100	X-ray emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000307	X-ray emission spectroscopy	skos:exactMatch	panet:01200	x-ray emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000311	particle-induced X-ray emission spectroscopy	skos:exactMatch	fix:0000101	particle-induced X-ray emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000313	electron probe X-ray microanalysis	skos:exactMatch	goldbook:E02007	electron probe X-ray microanalysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000320	total reflection X-ray fluorescence spectroscopy	skos:exactMatch	goldbook:09211	total reflection X-ray fluorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000323	circular dichroism spectroscopy	skos:exactMatch	fix:0000043	circular dichroism spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000325	magnetic circular dichroism spectroscopy	skos:exactMatch	fix:0000044	magnetic circular dichroism spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000327	vibrational circular dichroism spectroscopy	skos:exactMatch	fix:0000231	vibrational circular dichroism spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000331	electron spectroscopy	skos:exactMatch	fix:0000064	electron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000331	electron spectroscopy	skos:exactMatch	panet:01201	electron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000339	Auger electron spectroscopy	skos:exactMatch	goldbook:A00522	Auger electron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000356	Auger-photoelectron coincidence spectroscopy	skos:exactMatch	goldbook:09173	Auger photoelectron coincidence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000366	electron energy loss spectroscopy	skos:exactMatch	fix:0000663	electron energy loss spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000366	electron energy loss spectroscopy	skos:exactMatch	goldbook:08593	electron energy loss spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000373	transmission electron energy loss spectroscopy	skos:exactMatch	goldbook:T06480	transmission electron energy loss spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000387	photoelectron spectroscopy	skos:exactMatch	goldbook:P04609	photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000387	photoelectron spectroscopy	skos:exactMatch	panet:01202	photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000394	synchrotron radiation photoelectron spectroscopy	skos:exactMatch	fix:0000676	synchrotron radiation photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000396	constant-final-state spectroscopy	skos:exactMatch	fix:0000681	constant final state spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000397	constant-initial-state spectroscopy	skos:exactMatch	fix:0000680	constant initial state spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000399	partial-yield spectroscopy	skos:exactMatch	fix:0000679	partial yield spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000400	resonance-enhanced photoelectron spectroscopy	skos:exactMatch	fix:0000685	resonance enhanced photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000401	ultraviolet photoelectron spectroscopy	skos:exactMatch	fix:0000042	ultraviolet photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000402	angle-resolved ultraviolet photoelectron spectroscopy	skos:exactMatch	fix:0000683	angle resolved ultraviolet photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000404	X-ray photoelectron spectroscopy	skos:exactMatch	goldbook:X06716	X-ray photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000404	X-ray photoelectron spectroscopy	skos:exactMatch	panet:01204	x-ray photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000427	direct recoil spectroscopy	skos:exactMatch	goldbook:09175	direct recoil spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000461	laser micro emission spectroscopy	skos:exactMatch	goldbook:L03473	laser micro emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000470	mass spectrometry	skos:exactMatch	fix:0000047	mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000470	mass spectrometry	skos:exactMatch	goldbook:M03746	mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000470	mass spectrometry	skos:exactMatch	panet:01268	mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000492	field desorption mass spectrometry	skos:exactMatch	fix:0000087	field desorption mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000497	gas chromatography-mass spectrometry	skos:exactMatch	goldbook:12421	gas chromatography-mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000500	ion trap mass spectrometry	skos:exactMatch	fix:0000917	ion trap mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000504	quadrupole mass spectrometry	skos:exactMatch	fix:0000094	quadrupole mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000506	isotope ratio mass spectrometry	skos:exactMatch	goldbook:12453	isotope ratio mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000510	isotope dilution mass spectrometry	skos:exactMatch	goldbook:12451	isotope dilution mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000516	laser microprobe mass spectrometry	skos:exactMatch	goldbook:12464	laser microprobe mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000524	liquid chromatography-mass spectrometry	skos:exactMatch	goldbook:12466	liquid chromatography-mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000552	liquid chromatography-inductively coupled plasma mass spectrometry	skos:exactMatch	fix:0000865	liquid chromatography-inductively coupled plasma mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000560	secondary ion mass spectrometry	skos:exactMatch	fix:0000122	secondary ion mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000563	fast-atom bombardment mass spectrometry	skos:exactMatch	goldbook:F02328	fast-atom bombardment mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000565	time-of-flight secondary ion mass spectrometry	skos:exactMatch	fix:0000959	time-of-flight secondary ion mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000570	proton transfer reaction mass spectrometry	skos:exactMatch	fix:0000918	proton transfer reaction mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000575	tandem mass spectrometry	skos:exactMatch	fix:0000084	tandem mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000580	time-of-flight mass spectrometry	skos:exactMatch	fix:0000082	time-of-flight mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000591	nuclear magnetic resonance spectroscopy	skos:exactMatch	goldbook:08218	nuclear magnetic resonance spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000598	two-dimensional nuclear magnetic resonance spectroscopy	skos:exactMatch	goldbook:08439	two-dimensional nuclear magnetic resonance spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000599	correlation spectroscopy	skos:exactMatch	goldbook:08323	correlation spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000605	total correlation spectroscopy	skos:exactMatch	goldbook:08435	total correlation spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000614	solid-state nuclear magnetic resonance spectroscopy	skos:exactMatch	goldbook:08415	solid-state nuclear magnetic resonance spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000616	combined rotation and multiple pulse spectroscopy	skos:exactMatch	goldbook:08321	combined rotation and multiple pulse spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000619	photoacoustic spectroscopy	skos:exactMatch	goldbook:P04576	photoacoustic spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000622	photothermal spectroscopy	skos:exactMatch	goldbook:08659	photothermal spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000628	vibrational spectroscopy	skos:exactMatch	fix:0000010	vibrational spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000628	vibrational spectroscopy	skos:exactMatch	goldbook:08708	vibrational spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000629	inelastic electron tunnelling spectroscopy	skos:exactMatch	goldbook:08616	inelastic electron tunnelling spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000632	far-infrared spectroscopy	skos:exactMatch	fix:0000643	far-infrared spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000635	mid-infrared spectroscopy	skos:exactMatch	fix:0000642	mid-infrared spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000636	Fourier transform infrared spectroscopy	skos:exactMatch	panet:01320	fourier transform infrared spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000649	infrared emission spectroscopy	skos:exactMatch	fix:0000651	infrared emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000656	Raman spectroscopy	skos:exactMatch	fix:0000058	Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000656	Raman spectroscopy	skos:exactMatch	goldbook:08669	Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000656	Raman spectroscopy	skos:exactMatch	panet:01195	raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000661	coherent anti-Stokes Raman spectroscopy	skos:exactMatch	fix:0000075	coherent anti-Stokes Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000661	coherent anti-Stokes Raman spectroscopy	skos:exactMatch	goldbook:08579	coherent anti-Stokes Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000670	surface-enhanced resonance Raman spectroscopy	skos:exactMatch	goldbook:08690	surface-enhanced resonance Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000674	spatially-offset Raman spectroscopy	skos:exactMatch	goldbook:08679	spatially offset Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000677	surface-enhanced Raman spectroscopy	skos:exactMatch	fix:0000076	surface enhanced Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000677	surface-enhanced Raman spectroscopy	skos:exactMatch	goldbook:08689	surface-enhanced Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000678	tip-enhanced Raman spectroscopy	skos:exactMatch	goldbook:08699	tip-enhanced Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000678	tip-enhanced Raman spectroscopy	skos:exactMatch	goldbook:09210	tip enhanced raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000681	thermal analysis	skos:exactMatch	goldbook:T06295	thermal analysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000682	calorimetry	skos:exactMatch	goldbook:C00786	calorimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000683	isothermal titration calorimetry	skos:exactMatch	fix:0000388	isothermal titration calorimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000684	differential scanning calorimetry	skos:exactMatch	fix:0000387	differential scanning calorimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000684	differential scanning calorimetry	skos:exactMatch	goldbook:D01708	differential scanning calorimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000686	power-compensation differential scanning calorimetry	skos:exactMatch	goldbook:12292	power compensation differential scanning calorimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000687	differential thermal analysis	skos:exactMatch	goldbook:D01709	differential thermal analysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000688	thermoacoustimetry	skos:exactMatch	goldbook:T06309	thermoacoustimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000689	thermodilatometry	skos:exactMatch	goldbook:T06314	thermodilatometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000690	thermogravimetry	skos:exactMatch	goldbook:T06324	thermogravimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000691	thermomagnetometry	skos:exactMatch	goldbook:T06327	thermomagnetometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000692	thermoptometry	skos:exactMatch	goldbook:T06336	thermoptometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000693	thermoluminescence	skos:exactMatch	goldbook:T06325	thermoluminescence	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000693	thermoluminescence	skos:exactMatch	rex:0000299	thermoluminescence	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000697	thermosonimetry	skos:exactMatch	goldbook:T06337	thermosonimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000698	neutron diffraction	skos:exactMatch	panet:01217	neutron diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000699	neutron powder diffraction	skos:exactMatch	panet:01100	neutron powder diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000733	diffusion-ordered spectroscopy	skos:exactMatch	fix:0000563	diffusion ordered spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000733	diffusion-ordered spectroscopy	skos:exactMatch	goldbook:08329	diffusion ordered spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000761	confocal fluorescence correlation spectroscopy	skos:exactMatch	fix:0000379	confocal fluorescence correlation spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000775	dichroism spectroscopy	skos:exactMatch	panet:01091	dichroism spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000779	polarimetry	skos:exactMatch	panet:01256	polarimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000782	neutron activation analysis	skos:exactMatch	goldbook:08739	neutron activation analysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000785	optical rotatory dispersion	skos:exactMatch	goldbook:08654	optical rotatory dispersion	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000800	spectrum	skos:exactMatch	goldbook:08291	spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000801	absorption spectrum	skos:exactMatch	goldbook:A00043	absorption spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000806	mass spectrum	skos:exactMatch	goldbook:M03749	mass spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000810	electron energy-loss spectrum	skos:exactMatch	goldbook:09326	electron energy loss spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000813	emission spectrum	skos:exactMatch	goldbook:E02060	emission spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0000814	corrected emission spectrum	skos:exactMatch	goldbook:C01343	corrected emission spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
-chmo:0002031	119Sn Mossbauer spectroscopy	skos:exactMatch	fix:0000733	tin-119 Mossbauer spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id	mapping_date
+chmo:0000004	amperometry	skos:exactMatch	fix:0000783	amperometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000004	amperometry	skos:exactMatch	goldbook:09128	amperometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000005	chrono-amperometry	skos:exactMatch	fix:0000785	chronoamperometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000005	chrono-amperometry	skos:exactMatch	goldbook:09129	chronoamperometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000010	conductometry	skos:exactMatch	goldbook:09166	conductometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000012	coulometry	skos:exactMatch	goldbook:09159	coulometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000014	chrono-coulometry	skos:exactMatch	fix:0000786	chronocoulometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000014	chrono-coulometry	skos:exactMatch	goldbook:09156	chronocoulometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000016	potentiometry	skos:exactMatch	fix:0000775	potentiometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000016	potentiometry	skos:exactMatch	goldbook:09127	potentiometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000017	chrono-potentiometry	skos:exactMatch	fix:0000780	chronopotentiometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000017	chrono-potentiometry	skos:exactMatch	goldbook:09126	chronopotentiometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000021	controlled-current potentiometry	skos:exactMatch	fix:0000778	controlled-current potentiometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000024	voltammetry	skos:exactMatch	goldbook:09148	voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000025	cyclic voltammetry	skos:exactMatch	fix:0000099	cyclic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000025	cyclic voltammetry	skos:exactMatch	goldbook:09134	cyclic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000026	fast-scan cyclic voltammetry	skos:exactMatch	fix:0000761	fast-scan cyclic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000027	hydrodynamic voltammetry	skos:exactMatch	fix:0000792	hydrodynamic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000027	hydrodynamic voltammetry	skos:exactMatch	goldbook:09138	hydrodynamic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000028	linear-sweep voltammetry	skos:exactMatch	fix:0000791	linear sweep voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000030	differential pulse voltammetry	skos:exactMatch	goldbook:09136	differential pulse voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000031	normal pulse voltammetry	skos:exactMatch	goldbook:09142	normal pulse voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000032	polarography	skos:exactMatch	fix:0000794	polarography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000032	polarography	skos:exactMatch	goldbook:P04716	polarography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000033	alternating current polarography	skos:exactMatch	fix:0000814	alternating current polarography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000035	square-wave polarography	skos:exactMatch	fix:0000816	square-wave polarography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000036	differential pulse polarography	skos:exactMatch	fix:0000813	differential pulse polarography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000037	normal pulse polarography	skos:exactMatch	fix:0000812	normal pulse polarography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000039	tast polarography	skos:exactMatch	fix:0000795	Tast polarography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000040	square-wave voltammetry	skos:exactMatch	goldbook:09147	square-wave voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000041	stripping voltammetry	skos:exactMatch	goldbook:09155	stripping voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000042	anodic stripping voltammetry	skos:exactMatch	goldbook:09152	anodic stripping voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000046	adsorptive stripping voltammetry	skos:exactMatch	goldbook:09151	adsorptive stripping voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000047	cathodic stripping voltammetry	skos:exactMatch	goldbook:09153	cathodic stripping voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000050	infrared microscopy	skos:exactMatch	panet:01178	infrared microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000053	imaging mass spectrometry	skos:exactMatch	goldbook:12431	imaging mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000061	flow cytometry	skos:exactMatch	goldbook:13152	flow cytometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000064	fluorescence resonance energy transfer	skos:exactMatch	goldbook:FT07378	fluorescence resonance energy transfer	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000065	fluorescence recovery after photobleaching	skos:exactMatch	fix:0000867	fluorescence recovery after photobleaching	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000067	microscopy	skos:exactMatch	panet:01069	microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000068	electron microscopy	skos:exactMatch	panet:01145	electron microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000073	scanning electron microscopy	skos:exactMatch	goldbook:S05484	scanning electron microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000080	transmission electron microscopy	skos:exactMatch	goldbook:T06481	transmission electron microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000086	scanning transmission electron microscopy	skos:exactMatch	goldbook:S05486	scanning transmission electron microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000097	ion microscopy	skos:exactMatch	goldbook:I03221	ion microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000102	optical microscopy	skos:exactMatch	panet:01179	optical microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000112	scanning probe microscopy	skos:exactMatch	fix:0000121	scanning probe microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000112	scanning probe microscopy	skos:exactMatch	panet:01148	scanning probe microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000113	atomic force microscopy	skos:exactMatch	fix:0000114	atomic force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000113	atomic force microscopy	skos:exactMatch	goldbook:09452	atomic force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000113	atomic force microscopy	skos:exactMatch	panet:01318	atomic force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000115	magnetic force microscopy	skos:exactMatch	fix:0000118	magnetic force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000120	scanning near-field optical microscopy	skos:exactMatch	fix:0000385	scanning near-field optical microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000120	scanning near-field optical microscopy	skos:exactMatch	goldbook:09202	scanning near-field optical microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000141	diffraction method	skos:exactMatch	fix:0000217	diffraction method	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000145	transmission high energy electron diffraction	skos:exactMatch	goldbook:T06483	transmission high energy electron diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000146	reflection high energy electron diffraction	skos:exactMatch	goldbook:R05238	reflection high energy electron diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000147	low energy electron diffraction	skos:exactMatch	goldbook:L03631	low energy electron diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000152	photoelectron diffraction	skos:exactMatch	panet:01167	photoelectron diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000155	X-ray photoelectron diffraction	skos:exactMatch	panet:01284	x-ray photoelectron diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000156	X-ray diffraction	skos:exactMatch	panet:01216	x-ray diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000164	electron scattering	skos:exactMatch	fix:0000401	electron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000164	electron scattering	skos:exactMatch	rex:0000355	electron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000166	light scattering	skos:exactMatch	fix:0000402	light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000166	light scattering	skos:exactMatch	goldbook:L03525	light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000166	light scattering	skos:exactMatch	panet:01185	light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000166	light scattering	skos:exactMatch	rex:0000349	light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000167	dynamic light scattering	skos:exactMatch	goldbook:12275	dynamic light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000179	small-angle light scattering	skos:exactMatch	fix:0000254	small-angle light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000180	static light scattering	skos:exactMatch	goldbook:12274	static light scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000181	neutron scattering	skos:exactMatch	panet:01242	neutron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000181	neutron scattering	skos:exactMatch	rex:0000354	neutron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000183	elastic neutron scattering	skos:exactMatch	rex:0000359	elastic neutron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000184	small-angle neutron scattering	skos:exactMatch	panet:01189	small angle neutron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000185	grazing incidence small-angle neutron scattering	skos:exactMatch	panet:01276	grazing incidence small angle neutron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000186	ultra small angle neutron scattering	skos:exactMatch	panet:01240	ultra small angle neutron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000192	inelastic neutron scattering	skos:exactMatch	rex:0000360	inelastic neutron scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000200	X-ray scattering	skos:exactMatch	fix:0000073	X-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000200	X-ray scattering	skos:exactMatch	panet:01184	x-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000200	X-ray scattering	skos:exactMatch	rex:0000361	X-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000201	inelastic X-ray scattering	skos:exactMatch	panet:01182	inelastic x-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000201	inelastic X-ray scattering	skos:exactMatch	rex:0000363	inelastic X-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000202	resonant inelastic X-ray scattering	skos:exactMatch	goldbook:08541	resonant inelastic X-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000202	resonant inelastic X-ray scattering	skos:exactMatch	panet:01183	resonant inelastic x-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000204	small-angle X-ray scattering	skos:exactMatch	fix:0000223	small-angle X-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000204	small-angle X-ray scattering	skos:exactMatch	goldbook:09203	small-angle X-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000207	wide-angle X-ray scattering	skos:exactMatch	fix:0001128	wide-angle X-ray scattering	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000209	reflectometry	skos:exactMatch	panet:01121	reflectometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000210	neutron reflectometry	skos:exactMatch	panet:01239	neutron reflectometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000219	X-ray reflectometry	skos:exactMatch	goldbook:09214	X-ray reflectometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000223	ellipsometry	skos:exactMatch	goldbook:09197	ellipsometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000223	ellipsometry	skos:exactMatch	panet:01255	ellipsometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000228	spectroscopy	skos:exactMatch	fix:0000003	spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000228	spectroscopy	skos:exactMatch	goldbook:S05848	spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000228	spectroscopy	skos:exactMatch	panet:01125	spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000233	atomic spectroscopy	skos:exactMatch	goldbook:08216	atomic spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000234	atomic absorption spectroscopy	skos:exactMatch	goldbook:08451	atomic absorption spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000239	graphite furnace atomic absorption spectrometry	skos:exactMatch	fix:0000951	graphite furnace atomic absorption spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000251	atomic emission spectroscopy	skos:exactMatch	goldbook:08452	atomic emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000255	flame atomic emission spectroscopy	skos:exactMatch	fix:0000928	flame atomic emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000258	laser-induced breakdown spectroscopy	skos:exactMatch	goldbook:08500	laser induced breakdown spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000279	atomic fluorescence spectroscopy	skos:exactMatch	goldbook:08454	atomic fluorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000282	flame atomic fluorescence spectroscopy	skos:exactMatch	fix:0000930	flame atomic fluorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000287	fluorescence spectroscopy	skos:exactMatch	fix:0000028	fluorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000288	fluorescence correlation spectroscopy	skos:exactMatch	fix:0000352	fluorescence correlation spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000297	X-ray spectroscopy	skos:exactMatch	fix:0000019	X-ray spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000297	X-ray spectroscopy	skos:exactMatch	goldbook:X06718	X-ray spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000297	X-ray spectroscopy	skos:exactMatch	panet:01156	x-ray spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000298	X-ray absorption spectroscopy	skos:exactMatch	fix:0000107	X-ray absorption spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000298	X-ray absorption spectroscopy	skos:exactMatch	panet:01196	x-ray absorption spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000299	X-ray absorption fine structure spectroscopy	skos:exactMatch	goldbook:09212	X-ray absorption fine structure spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000300	extended X-ray absorption fine structure spectroscopy	skos:exactMatch	goldbook:09198	extended X-ray absorption fine structure spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000303	surface extended X-ray absorption fine structure spectroscopy	skos:exactMatch	goldbook:09206	surface extended X-ray absorption fine structure spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000307	X-ray emission spectroscopy	skos:exactMatch	fix:0000100	X-ray emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000307	X-ray emission spectroscopy	skos:exactMatch	panet:01200	x-ray emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000311	particle-induced X-ray emission spectroscopy	skos:exactMatch	fix:0000101	particle-induced X-ray emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000313	electron probe X-ray microanalysis	skos:exactMatch	goldbook:E02007	electron probe X-ray microanalysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000320	total reflection X-ray fluorescence spectroscopy	skos:exactMatch	goldbook:09211	total reflection X-ray fluorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000323	circular dichroism spectroscopy	skos:exactMatch	fix:0000043	circular dichroism spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000325	magnetic circular dichroism spectroscopy	skos:exactMatch	fix:0000044	magnetic circular dichroism spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000327	vibrational circular dichroism spectroscopy	skos:exactMatch	fix:0000231	vibrational circular dichroism spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000331	electron spectroscopy	skos:exactMatch	fix:0000064	electron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000331	electron spectroscopy	skos:exactMatch	panet:01201	electron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000339	Auger electron spectroscopy	skos:exactMatch	goldbook:A00522	Auger electron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000356	Auger-photoelectron coincidence spectroscopy	skos:exactMatch	goldbook:09173	Auger photoelectron coincidence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000366	electron energy loss spectroscopy	skos:exactMatch	fix:0000663	electron energy loss spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000366	electron energy loss spectroscopy	skos:exactMatch	goldbook:08593	electron energy loss spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000373	transmission electron energy loss spectroscopy	skos:exactMatch	goldbook:T06480	transmission electron energy loss spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000387	photoelectron spectroscopy	skos:exactMatch	goldbook:P04609	photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000387	photoelectron spectroscopy	skos:exactMatch	panet:01202	photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000394	synchrotron radiation photoelectron spectroscopy	skos:exactMatch	fix:0000676	synchrotron radiation photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000396	constant-final-state spectroscopy	skos:exactMatch	fix:0000681	constant final state spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000397	constant-initial-state spectroscopy	skos:exactMatch	fix:0000680	constant initial state spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000399	partial-yield spectroscopy	skos:exactMatch	fix:0000679	partial yield spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000400	resonance-enhanced photoelectron spectroscopy	skos:exactMatch	fix:0000685	resonance enhanced photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000401	ultraviolet photoelectron spectroscopy	skos:exactMatch	fix:0000042	ultraviolet photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000402	angle-resolved ultraviolet photoelectron spectroscopy	skos:exactMatch	fix:0000683	angle resolved ultraviolet photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000404	X-ray photoelectron spectroscopy	skos:exactMatch	goldbook:X06716	X-ray photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000404	X-ray photoelectron spectroscopy	skos:exactMatch	panet:01204	x-ray photoelectron spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000427	direct recoil spectroscopy	skos:exactMatch	goldbook:09175	direct recoil spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000461	laser micro emission spectroscopy	skos:exactMatch	goldbook:L03473	laser micro emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000470	mass spectrometry	skos:exactMatch	fix:0000047	mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000470	mass spectrometry	skos:exactMatch	goldbook:M03746	mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000470	mass spectrometry	skos:exactMatch	panet:01268	mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000492	field desorption mass spectrometry	skos:exactMatch	fix:0000087	field desorption mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000497	gas chromatography-mass spectrometry	skos:exactMatch	goldbook:12421	gas chromatography-mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000500	ion trap mass spectrometry	skos:exactMatch	fix:0000917	ion trap mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000504	quadrupole mass spectrometry	skos:exactMatch	fix:0000094	quadrupole mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000506	isotope ratio mass spectrometry	skos:exactMatch	goldbook:12453	isotope ratio mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000510	isotope dilution mass spectrometry	skos:exactMatch	goldbook:12451	isotope dilution mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000516	laser microprobe mass spectrometry	skos:exactMatch	goldbook:12464	laser microprobe mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000524	liquid chromatography-mass spectrometry	skos:exactMatch	goldbook:12466	liquid chromatography-mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000552	liquid chromatography-inductively coupled plasma mass spectrometry	skos:exactMatch	fix:0000865	liquid chromatography-inductively coupled plasma mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000560	secondary ion mass spectrometry	skos:exactMatch	fix:0000122	secondary ion mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000563	fast-atom bombardment mass spectrometry	skos:exactMatch	goldbook:F02328	fast-atom bombardment mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000565	time-of-flight secondary ion mass spectrometry	skos:exactMatch	fix:0000959	time-of-flight secondary ion mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000570	proton transfer reaction mass spectrometry	skos:exactMatch	fix:0000918	proton transfer reaction mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000575	tandem mass spectrometry	skos:exactMatch	fix:0000084	tandem mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000580	time-of-flight mass spectrometry	skos:exactMatch	fix:0000082	time-of-flight mass spectrometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000591	nuclear magnetic resonance spectroscopy	skos:exactMatch	goldbook:08218	nuclear magnetic resonance spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000598	two-dimensional nuclear magnetic resonance spectroscopy	skos:exactMatch	goldbook:08439	two-dimensional nuclear magnetic resonance spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000599	correlation spectroscopy	skos:exactMatch	goldbook:08323	correlation spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000605	total correlation spectroscopy	skos:exactMatch	goldbook:08435	total correlation spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000614	solid-state nuclear magnetic resonance spectroscopy	skos:exactMatch	goldbook:08415	solid-state nuclear magnetic resonance spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000616	combined rotation and multiple pulse spectroscopy	skos:exactMatch	goldbook:08321	combined rotation and multiple pulse spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000619	photoacoustic spectroscopy	skos:exactMatch	goldbook:P04576	photoacoustic spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000622	photothermal spectroscopy	skos:exactMatch	goldbook:08659	photothermal spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000628	vibrational spectroscopy	skos:exactMatch	fix:0000010	vibrational spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000628	vibrational spectroscopy	skos:exactMatch	goldbook:08708	vibrational spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000629	inelastic electron tunnelling spectroscopy	skos:exactMatch	goldbook:08616	inelastic electron tunnelling spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000632	far-infrared spectroscopy	skos:exactMatch	fix:0000643	far-infrared spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000635	mid-infrared spectroscopy	skos:exactMatch	fix:0000642	mid-infrared spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000636	Fourier transform infrared spectroscopy	skos:exactMatch	panet:01320	fourier transform infrared spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000649	infrared emission spectroscopy	skos:exactMatch	fix:0000651	infrared emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000656	Raman spectroscopy	skos:exactMatch	fix:0000058	Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000656	Raman spectroscopy	skos:exactMatch	goldbook:08669	Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000656	Raman spectroscopy	skos:exactMatch	panet:01195	raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000661	coherent anti-Stokes Raman spectroscopy	skos:exactMatch	fix:0000075	coherent anti-Stokes Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000661	coherent anti-Stokes Raman spectroscopy	skos:exactMatch	goldbook:08579	coherent anti-Stokes Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000670	surface-enhanced resonance Raman spectroscopy	skos:exactMatch	goldbook:08690	surface-enhanced resonance Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000674	spatially-offset Raman spectroscopy	skos:exactMatch	goldbook:08679	spatially offset Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000677	surface-enhanced Raman spectroscopy	skos:exactMatch	fix:0000076	surface enhanced Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000677	surface-enhanced Raman spectroscopy	skos:exactMatch	goldbook:08689	surface-enhanced Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000678	tip-enhanced Raman spectroscopy	skos:exactMatch	goldbook:08699	tip-enhanced Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000678	tip-enhanced Raman spectroscopy	skos:exactMatch	goldbook:09210	tip enhanced raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000681	thermal analysis	skos:exactMatch	goldbook:T06295	thermal analysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000682	calorimetry	skos:exactMatch	goldbook:C00786	calorimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000683	isothermal titration calorimetry	skos:exactMatch	fix:0000388	isothermal titration calorimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000684	differential scanning calorimetry	skos:exactMatch	fix:0000387	differential scanning calorimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000684	differential scanning calorimetry	skos:exactMatch	goldbook:D01708	differential scanning calorimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000686	power-compensation differential scanning calorimetry	skos:exactMatch	goldbook:12292	power compensation differential scanning calorimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000687	differential thermal analysis	skos:exactMatch	goldbook:D01709	differential thermal analysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000688	thermoacoustimetry	skos:exactMatch	goldbook:T06309	thermoacoustimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000689	thermodilatometry	skos:exactMatch	goldbook:T06314	thermodilatometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000690	thermogravimetry	skos:exactMatch	goldbook:T06324	thermogravimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000691	thermomagnetometry	skos:exactMatch	goldbook:T06327	thermomagnetometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000692	thermoptometry	skos:exactMatch	goldbook:T06336	thermoptometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000693	thermoluminescence	skos:exactMatch	goldbook:T06325	thermoluminescence	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000693	thermoluminescence	skos:exactMatch	rex:0000299	thermoluminescence	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000697	thermosonimetry	skos:exactMatch	goldbook:T06337	thermosonimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000698	neutron diffraction	skos:exactMatch	panet:01217	neutron diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000699	neutron powder diffraction	skos:exactMatch	panet:01100	neutron powder diffraction	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000733	diffusion-ordered spectroscopy	skos:exactMatch	fix:0000563	diffusion ordered spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000733	diffusion-ordered spectroscopy	skos:exactMatch	goldbook:08329	diffusion ordered spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000761	confocal fluorescence correlation spectroscopy	skos:exactMatch	fix:0000379	confocal fluorescence correlation spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000775	dichroism spectroscopy	skos:exactMatch	panet:01091	dichroism spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000779	polarimetry	skos:exactMatch	panet:01256	polarimetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000782	neutron activation analysis	skos:exactMatch	goldbook:08739	neutron activation analysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000785	optical rotatory dispersion	skos:exactMatch	goldbook:08654	optical rotatory dispersion	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000800	spectrum	skos:exactMatch	goldbook:08291	spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000801	absorption spectrum	skos:exactMatch	goldbook:A00043	absorption spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000806	mass spectrum	skos:exactMatch	goldbook:M03749	mass spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000810	electron energy-loss spectrum	skos:exactMatch	goldbook:09326	electron energy loss spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000813	emission spectrum	skos:exactMatch	goldbook:E02060	emission spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000814	corrected emission spectrum	skos:exactMatch	goldbook:C01343	corrected emission spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000823	Raman spectrum	skos:exactMatch	goldbook:08670	Raman spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000831	action spectrum	skos:exactMatch	goldbook:A00088	action spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000832	conversion spectrum	skos:exactMatch	goldbook:C01319	conversion spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000833	excitation spectrum	skos:exactMatch	goldbook:E02253	excitation spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000834	excitation-emission spectrum	skos:exactMatch	goldbook:E02249	excitation-emission spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000835	nuclear magnetic resonance spectrum	skos:exactMatch	goldbook:08384	nuclear magnetic resonance spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000922	voltammogram	skos:exactMatch	goldbook:09149	voltammogram	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000939	transmission spectrum	skos:exactMatch	goldbook:08294	transmission spectrum	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000948	charge-coupled device	skos:exactMatch	goldbook:08230	charge coupled device	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000960	ion source	skos:exactMatch	goldbook:I03247	ion source	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000965	Fourier transform ion cyclotron resonance mass spectrometer	skos:exactMatch	goldbook:F02492	Fourier transform ion cyclotron resonance mass spectrometer	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000971	support-coated open-tubular column	skos:exactMatch	goldbook:S06148	support-coated open-tubular column	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000973	wall-coated open-tubular column	skos:exactMatch	goldbook:W06654	wall-coated open-tubular column	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000974	open-tubular column	skos:exactMatch	goldbook:O04297	open-tubular column	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000975	packed column	skos:exactMatch	goldbook:P04393	packed column	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000979	reflectron	skos:exactMatch	goldbook:11544	reflectron	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000981	time-of-flight mass spectrometer	skos:exactMatch	goldbook:T06382	time-of-flight mass spectrometer	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000982	mass spectrometer	skos:exactMatch	goldbook:M03732	mass spectrometer	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000982	mass spectrometer	skos:exactMatch	goldbook:M03733	mass spectrometer	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0000995	mobile phase	skos:exactMatch	goldbook:M03952	mobile phase	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001000	chromatography	skos:exactMatch	goldbook:C01075	chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001001	column chromatography	skos:exactMatch	goldbook:C01182	column chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001002	gas chromatography	skos:exactMatch	goldbook:G02578	gas chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001003	supercritical-fluid chromatography	skos:exactMatch	fix:0000609	supercritical-fluid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001003	supercritical-fluid chromatography	skos:exactMatch	goldbook:S06139	supercritical fluid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001004	liquid chromatography	skos:exactMatch	fix:0000608	liquid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001006	affinity chromatography	skos:exactMatch	fix:0000615	affinity chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001010	exclusion chromatography	skos:exactMatch	fix:0000614	exclusion chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001012	ion-exclusion chromatography	skos:exactMatch	fix:0000627	ion-exclusion chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001013	size-exclusion chromatography	skos:exactMatch	fix:0000626	size-exclusion chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001014	ion-exchange chromatography	skos:exactMatch	fix:0000613	ion-exchange chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001015	gas-solid chromatography	skos:exactMatch	fix:0000632	gas-solid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001021	gel electrophoresis	skos:exactMatch	fix:0000628	gel electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001023	polyacrylamide gel electrophoresis	skos:exactMatch	fix:0000883	polyacrylamide gel electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001024	capillary electrophoresis	skos:exactMatch	fix:0000836	capillary electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001026	isoelectric focusing	skos:exactMatch	fix:0000625	isoelectric focusing	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001032	capillary gel electrophoresis	skos:exactMatch	fix:0000837	capillary gel electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001106	two-dimensional polyacrylamide gel electrophoresis	skos:exactMatch	fix:0000886	two-dimensional polyacrylamide gel electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001128	adsorption chromatography	skos:exactMatch	fix:0000611	adsorption chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001209	anion-exchange chromatography	skos:exactMatch	fix:0000798	anion-exchange chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001210	cation-exchange chromatography	skos:exactMatch	fix:0000799	cation-exchange chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001239	inversion recovery	skos:exactMatch	fix:0000211	inversion recovery	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001835	two-dimensional liquid chromatography	skos:exactMatch	fix:0001153	two-dimensional liquid chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001897	lateral force microscopy	skos:exactMatch	fix:0000115	lateral force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001917	time-resolved fluorescence spectroscopy	skos:exactMatch	fix:0000109	time-resolved fluorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001919	single-molecule fluorescence spectroscopy	skos:exactMatch	fix:0000111	single molecule fluorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001964	enzyme-dependent fluorescence recovery after photobleaching	skos:exactMatch	fix:0000868	enzyme-dependent fluorescence recovery after photobleaching	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0001986	non-resonance Raman spectroscopy	skos:exactMatch	fix:0000026	non-resonance Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002010	analytical centrifugation	skos:exactMatch	fix:0000255	analytical centrifugation	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002012	low-speed centrifugation	skos:exactMatch	fix:0000261	low speed centrifugation	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002014	preparative centrifugation	skos:exactMatch	fix:0000262	preparative centrifugation	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002015	differential centrifugation	skos:exactMatch	fix:0000264	differential centrifugation	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002016	ultracentrifugation	skos:exactMatch	fix:0000260	ultracentrifugation	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002018	isopycnic centrifugation	skos:exactMatch	fix:0000265	isopycnic centrifugation	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002019	rate-zonal centrifugation	skos:exactMatch	fix:0000263	rate zonal centrifugation	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002031	119Sn Mossbauer spectroscopy	skos:exactMatch	fix:0000733	tin-119 Mossbauer spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0002141	high-pressure fluorescence correlation spectroscopy	skos:exactMatch	fix:0000760	high-pressure fluorescence correlation spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002142	continuous-scan cyclic voltammetry	skos:exactMatch	fix:0000762	continuous scan cyclic voltammetry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002143	conductometric titration	skos:exactMatch	fix:0000771	conductometric titration	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002144	high-frequency conductometric titration	skos:exactMatch	fix:0000774	high frequency conductometric titration	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002255	immobilized metal affinity chromatography	skos:exactMatch	fix:0000856	immobilized metal affinity chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002289	fast Fourier transform infrared spectroscopy	skos:exactMatch	fix:0000647	fast Fourier transform infrared spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002290	infrared transmission spectroscopy	skos:exactMatch	fix:0000660	infrared transmission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002292	near-infrared surface plasmon resonance spectroscopy	skos:exactMatch	fix:0000394	near infrared surface plasmon resonance spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002293	magnetophoresis	skos:exactMatch	fix:0000689	magnetophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002297	electron-induced X-ray emission spectroscopy	skos:exactMatch	fix:0000682	electron-induced X-ray emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002298	proton-induced X-ray emission spectroscopy	skos:exactMatch	fix:0000102	proton-induced X-ray emission spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002302	reversed-phase chromatography	skos:exactMatch	fix:0000620	reversed-phase chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002303	gradient-elution chromatography	skos:exactMatch	fix:0000621	gradient elution chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002304	isocratic-elution chromatography	skos:exactMatch	fix:0000624	isocratic elution chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002305	step-wise elution chromatography	skos:exactMatch	fix:0000622	stepwise elution chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002316	pulsed-field gel electrophoresis	skos:exactMatch	fix:0000629	pulsed field gel electrophoresis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002371	potentiometric titration	skos:exactMatch	fix:0000066	potentiometric titration	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002384	dielectrometric titration	skos:exactMatch	fix:0000772	dielectrometric titration	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002401	normal-phase chromatography	skos:exactMatch	fix:0000619	normal-phase chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002402	elution chromatography	skos:exactMatch	fix:0000617	elution chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002403	partition chromatography	skos:exactMatch	fix:0000612	partition chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002414	scattering spectroscopy	skos:exactMatch	fix:0000057	scattering spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002415	luminescence spectroscopy	skos:exactMatch	fix:0000027	luminescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002416	phosphorescence spectroscopy	skos:exactMatch	fix:0000029	phosphorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002451	liquid chromatography at the critical condition	skos:exactMatch	fix:0001161	liquid chromatography at the critical condition	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002509	flash photolysis	skos:exactMatch	fix:0000370	flash photolysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002510	laser flash photolysis	skos:exactMatch	fix:0000371	laser flash photolysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002511	nanosecond laser flash photolysis	skos:exactMatch	fix:0000372	nanosecond laser flash photolysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002514	diffuse reflectance laser flash photolysis	skos:exactMatch	fix:0000373	diffuse reflectance laser flash photolysis	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002515	laser Raman spectroscopy	skos:exactMatch	fix:0000375	laser Raman spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002537	coulometric titration	skos:exactMatch	fix:0000781	coulometric titration	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002555	triple-resonance spectroscopy	skos:exactMatch	fix:0000153	triple resonance spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002562	nuclear Overhauser effect difference spectroscopy	skos:exactMatch	fix:0000203	nuclear Overhauser effect difference spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002710	two-dimensional infrared spectroscopy	skos:exactMatch	fix:0001069	two-dimensional infrared spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002713	magnetic resonance force microscopy	skos:exactMatch	fix:0000125	magnetic resonance force microscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002714	steady-state fluorescence spectroscopy	skos:exactMatch	fix:0000108	steady state fluorescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002722	chemiluminescence spectroscopy	skos:exactMatch	fix:0000238	chemiluminescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002723	thermoluminescence spectroscopy	skos:exactMatch	fix:0000239	thermoluminescence spectroscopy	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002724	isomorphous replacement	skos:exactMatch	fix:0000245	isomorphous replacement	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002725	single isomorphous replacement	skos:exactMatch	fix:0000246	single isomorphous replacement	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002726	multiple isomorphous replacement	skos:exactMatch	fix:0000216	multiple isomorphous replacement	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002817	optical activity	skos:exactMatch	fix:0000274	optical activity	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002886	two-dimensional gas chromatography	skos:exactMatch	fix:0001155	two-dimensional gas chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
+chmo:0002923	high-performance anion-exchange chromatography	skos:exactMatch	fix:0000800	high-performance anion-exchange chromatography	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-13
