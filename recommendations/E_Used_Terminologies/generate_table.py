@@ -1,7 +1,7 @@
 # /// script
 # requires-python = ">=3.14"
 # dependencies = [
-#     "bioregistry>=0.13.20",
+#     "bioregistry>=0.13.52",
 #     "click>=8.3.1",
 #     "tabulate>=0.9.0",
 #     "pyperclip",
