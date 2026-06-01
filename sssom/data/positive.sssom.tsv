@@ -15,6 +15,7 @@ chmo:0000004	amperometry	skos:exactMatch	goldbook:09128	amperometry	semapv:Manua
 chmo:0000005	chrono-amperometry	skos:exactMatch	fix:0000785	chronoamperometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
 chmo:0000005	chrono-amperometry	skos:exactMatch	goldbook:09129	chronoamperometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
 chmo:0000010	conductometry	skos:exactMatch	goldbook:09166	conductometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
+chmo:0000011	high-frequency conductometry	skos:exactMatch	fix:0000773	high frequency conductometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-06-01
 chmo:0000012	coulometry	skos:exactMatch	goldbook:09159	coulometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
 chmo:0000014	chrono-coulometry	skos:exactMatch	fix:0000786	chronocoulometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
 chmo:0000014	chrono-coulometry	skos:exactMatch	goldbook:09156	chronocoulometry	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-05-11
