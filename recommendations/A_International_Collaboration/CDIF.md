@@ -18,49 +18,70 @@ The usage of the standards is e.g.:
 - Understand semantics (SKOS/XKOS, OWL, SSSOM)
 - Determine origination/context (PROV-O, I-ADOPT/O&M)
 
-[Source and more Information](https://cdif.codata.org).
-
 ## CDIF Profiles
 
 The framework is based on a set of five core profiles that address the most
-important functions for cross-domain FAIR implementation.
+important functions for cross-domain FAIR implementation by providing core
+metadata fields useful in all domains and infrastructures.
 
-- Discovery (patterns for metadata content, serialization and publication)
-- Data access (documentation of access conditions and permitted use)
-- Controlled vocabularies (practices for the publication of controlled
-  vocabularies and semantic artifacts)
-- Data integration (documentation of the structural and semantic aspects of data
-  to make it integration-ready)
-- Universals (description of _universal_ elements – time, geography, and units
-  of measurement)
+- Discovery, Cataloguing, and Dissemination (F) : Search, indexing, and
+  packaging.
+- Controlling Data Access (A) : Data confidentiality, access, and permitted
+  use.
+- Data Description, Use, and Integration (F, A, I, R) : Structure and
+  Semantics (including semantic artifacts and mappings).
+- Characterizing Data/Provenance and Process, Quality (I, R)
+- Universals: Time, Geography, and Units of Measure (F, I, R) :
+  Administration and common expression
 
-CDIF profiles are intended to be a toolkit for implementation, with the needed
-functions being addressed in any specific setting according to implementer
-priorities.
+Each of these profiles is supported by specific recommendations, including the
+set of metadata fields in specific standards to use, and the method of
+implementation to be employed for machine-level interoperability.
 
 The CDIF Framework is relevant to our working group, especially with regard to
-practices for publishing controlled vocabularies and semantic artifacts. These a
-critical component in scenarios involving (but not limited to) data integration
-and harmonization.
+practices for [publishing controlled vocabularies and semantic artifacts](https://cross-domain-interoperability-framework.github.io/cdifbook/controlled-vocabularies/vocabintro/).
+These are a critical component in scenarios involving (but not limited to) data
+integration and harmonization.
 
-### CDIF SKOS profile
+It is recognized that transformations to both data and metadata at
+several levels are a critical part of data integration.
+The mappings used to inform transformations are a critical aspect of this,
+being both needed provenance information and also potentially providing a
+[reusable FAIR resource](https://cross-domain-interoperability-framework.github.io/cdifbook/future/fairmappings/) in their own right.
+This issue also falls within the scope of our group’s work, and we will take
+its recommendations into account when formulating our own recommendations
+for the NFDI regarding mappings.
 
-CDIF recommends the use of the Simple Knowledge Organisation System (SKOS) for
-representing concept vocabularies. SKOS is a RDF vocabulary that includes
-predicates to assign an identifier to a concept, provide a definition, and
-assign preferred, language-localized labels (strings) for human use to identify
-the concept. A vocabulary service exposing the SKOS content on the web is
-necessary to make the identifiers resolvable.
+## CDIF Version 1.1
 
-CDIF recommends the guidance in
-[Ten Simple Rules for making a Vocabulary FAIR](https://doi.org/10.1371/journal.pcbi.1009041)
-by Cox _et al._ (2021). The CDIF recommendation to use SKOS aligns with Rule 6
-from Cox _et al._ (2021) regarding machine-readable formats for CVs.
+Version 1.1 of the Cross-Domain Interoperability Framework (CDIF) was released
+on June 2, 2026, and can be found at <https://cdif.codata.org/>.
 
-To the
-[CDIF SKOS profile](https://cross-domain-interoperability-framework.github.io/cdifbook/controlled_vocabularies/cdifskosprofile.html).
+Version 1.1 represents a substantial enhancement of the CDIF recommendations,
+with increased support for FAIR functional requirements, and a new technical
+approach, featuring validation tools and improved documentation.
 
-## Resources
+While a significant step forward, resulting from two years of implementation
+and further development since [the initial CDIF release in May 2024](https://doi.org/10.5281/zenodo.11236871),
+version 1.1 is also forward-looking: the CDIF4EOSC project started on 1 June
+2026 (see below), and will drive the next major round of CDIF developments.
+To support this, improvements to date have been consolidated in version 1.1
+and will provide a baseline for further developments led by the CDIF4EOSC project.
+
+Changes in the scope and coverage of CDIF are:
+
+- Identification of a set of [Core fields](https://cross-domain-interoperability-framework.github.io/cdifbook/metadata/core/), for use in all profiles
+- Addition of support for binary data file such as HDF5, NetCDF, and Parquet
+- Inclusion of the [Manifest profile](https://cross-domain-interoperability-framework.github.io/cdifbook/manifest/manifest/), to enable packaging of resources
+  into FAIR Digital Objects (FDOs) using RO Crate or similar packaging technologies
+- Reorganization of the [Data Description profile](https://cross-domain-interoperability-framework.github.io/cdifbook/data-description/datadescriptionprofile/) to cover
+  the publication of reusable data structure descriptions and variables with DDI-CDI
+- Increased nuance in the description of controlled vocabularies with SKOS:
+  [Codelist](https://cross-domain-interoperability-framework.github.io/cdifbook/controlled-vocabularies/codelistprofile/) and [Concept Scheme](https://cross-domain-interoperability-framework.github.io/cdifbook/controlled-vocabularies/conceptprofile/) profiles express the difference between lists of enumerated values used in data, and broader semantic resources
+
+### Resources
+
+[Source of this information and current updates](https://cdif.codata.org).
 
 [CDIF in GitHub](https://github.com/Cross-Domain-Interoperability-Framework)
 
@@ -82,3 +103,30 @@ Webinar
 
 [CDIF Metadata Crosswalks](https://docs.google.com/spreadsheets/d/1wFuJ4RRlNirnrPfuY_d57I9_pnaNibw4nltNTkruSp0/edit?gid=1784126572#gid=1784126572)
 (Google Doc).
+
+## The CDIF4EOSC project (1 Jun 2026 - 31 May 2029)
+
+The CDIF4EOSC project, coordinated by CODATA,
+started on 1 June 2026 and will extend the CDIF recommendations, adding profiles,
+guidelines, and use case examples to form a comprehensive playbook for FAIR
+integration in the European Open Science Cloud (EOSC) and beyond.
+
+### Internal Points of Contact
+
+[Heike Görzig](https://orcid.org/0000-0001-9121-8643), [Noemi Betancort](https://orcid.org/0000-0002-0156-3556)
+
+### Connected NFDI Consortia
+
+[To be updated]
+
+### External Contacts
+
+[Simon Hodson](https://orcid.org/0000-0003-3179-7270) (Project Coordinator, Executive Director of CODATA)
+
+### Links
+
+Webseite: <https://www.cdif4eosc.eu/>
+
+Project-DOI: <https://doi.org/10.3030/101292473>
+
+E-Mail: <cdif-feedback@codata.org>
