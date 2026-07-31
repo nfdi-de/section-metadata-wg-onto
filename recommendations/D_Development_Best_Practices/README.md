@@ -145,6 +145,23 @@ https://github.com/nfdi-de/section-metadata-wg-onto/pull/28/commits/38410712b3c8
 15. **Responsiveness** - Terminology developers must offer channels for
     community participation and SHOULD be responsive to requests.
     - OBO Foundry principle #20
+16. **Attribution** - The terminology should attribute contributions.
+    - Contributors to the terminology and to individual terms should be
+      identified by a proper semantic identifier, ideally an
+      [ORCID ID](https://orcid.org/).
+    - A consistent set of annotation properties should be used to convey
+      attribution informations. In the absence of field-specific recommendations
+      (which would take precedence over those guidelines as per Principle 0), we
+      recommend either <http://purl.org/dc/terms/creator> for the initial
+      creator of a term and <http://purl.org/dc/terms/contributor> for any
+      subsequent contributor, or only the latter (without making a distinction
+      between creation and subsequent contribution).
+    - Terms should also be annotated with links to the issue tracker ticket(s)
+      or similar online locations where discussions about the term occurred, if
+      relevant. Again, an appropriate property should be selected and
+      consistently used to that effect. Possible candidates include
+      <http://www.w3.org/2000/01/rdf-schema#seeAlso> or (notably for biomedical
+      ontologies) <http://purl.obolibrary.org/obo/IAO_0000233>.
 
 ## Term Reuse
 
