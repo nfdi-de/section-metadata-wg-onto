@@ -1,6 +1,8 @@
 project:
   type: manuscript
   output-dir: docs
+  render:
+    - index.qmd
 
 repo-url: https://github.com/nfdi-de/section-metadata-wg-onto
 
