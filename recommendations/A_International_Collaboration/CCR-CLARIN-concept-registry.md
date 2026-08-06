@@ -1,4 +1,4 @@
-CCR: CLARIN Concept Registry
+# CCR: CLARIN Concept Registry
 
 The CLARIN Concept Registry (CCR) is an OpenSKOS instance, which implements the W3C SKOS recommendation and data model. Currently it is filled with many concepts from for example the EAGLES project, various metadata initiatives and hopefully other sub-disciplines and initiatives. 
 
