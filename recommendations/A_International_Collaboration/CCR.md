@@ -4,7 +4,7 @@
 is a digital infrastructure offering data, tools, and services to support
 research based on language resources.
 
-It hosts the CLARIN Concept Registry (CCR), an instance of 
+It hosts the CLARIN Concept Registry (CCR), an instance of
 [OpenSKOS](https://github.com/OpenSKOS/OpenSKOS) which implements the W3C
 [SKOS (Simple Knowledge Organization System)](https://www.w3.org/TR/skos-reference/)
 recommendation and data model. Currently, it is filled with many concepts from,
