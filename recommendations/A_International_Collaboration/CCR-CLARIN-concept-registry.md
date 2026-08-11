@@ -1,14 +1,16 @@
 # CLARIN Concept Registry
 
-Common Language Resources and Technology Infrastructure (CLARIN) hosts the
-CLARIN Concept Registry (CCR), an
-[OpenSKOS](https://github.com/OpenSKOS/OpenSKOS) instance, which implements the
-W3C
+[Common Language Resources and Technology Infrastructure (CLARIN)](https://www.clarin.eu/)
+is a digital infrastructure offering data, tools, and services to support
+research based on language resources.
+
+It hosts the CLARIN Concept Registry (CCR), an instance of  
+[OpenSKOS](https://github.com/OpenSKOS/OpenSKOS which implements the W3C
 [SKOS (Simple Knowledge Organization System)](https://www.w3.org/TR/skos-reference/)
-recommendation and data model. Currently, it is filled with many concepts from
-for example the
+recommendation and data model. Currently, it is filled with many concepts from,
+for example, the
 [Expert Advisory Group on Language Engineering Standards (EAGLES)](https://ilc.cnr.it/EAGLES96/home.html)
-project, various metadata initiatives and hopefully other sub-disciplines and
+project, various metadata initiatives, and hopefully other sub-disciplines and
 initiatives.
 
 The CCR forms the basis of the semantic interoperability layer of CLARIN,
