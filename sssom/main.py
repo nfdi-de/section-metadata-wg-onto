@@ -9,8 +9,9 @@
 
 """SSSOM Curator for sssom."""
 
-from sssom_curator import Repository
 from pathlib import Path
+
+from sssom_curator import Repository
 
 HERE = Path(__file__).parent.resolve()
 
