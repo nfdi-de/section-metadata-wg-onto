@@ -1,12 +1,16 @@
-# Objective A - Collaborating Internationally
+---
+layout: objective
+title: Objective A - Collaborating Internationally
+permalink: /objectives/A/
+---
 
-GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/29
+[GitHub Epic](https://github.com/nfdi-de/section-metadata-wg-onto/issues/29)
 
-Working groups:
+## Working Groups
 
 - [RDA FAIR Mappings Working Group](working-groups/rda-fair-mappings.md)
 
-Formats, Specifications, Frameworks:
+## Formats, Specifications, and Frameworks
 
 - [Cross-Domain Interoperability Framework (CDIF)](CDIF.md)
 - [Data Catalog Vocabulary (DCAT) Application Profiles](DCATs.md)

@@ -1,6 +1,10 @@
-# Objective D - NFDI’s Best Practices for Terminology Development and Publishing
+---
+layout: page
+title: Objective D - NFDI's Best Practices for Terminology Development and Publishing
+permalink: /objectives/D/
+---
 
-GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/31
+[GitHub Epic](https://github.com/nfdi-de/section-metadata-wg-onto/issues/31)
 
 ## Target audience
 
@@ -68,7 +72,7 @@ https://github.com/nfdi-de/section-metadata-wg-onto/pull/28/commits/38410712b3c8
 3. **URI/Identifier Space** - Each terminology must have a unique IRI that
    identifies it. All entities defined within the terminology (not including
    entities imported from other terminologies) must have a unique IRI within a
-   single namespace, which is ideally derived from the terminology’s own IRI.
+   single namespace, which is ideally derived from the terminology's own IRI.
    The terminology IRI must resolve to a machine-readable version of the
    terminology (in a format suitable according to Principle 2).
    - Derived from OBO Foundry principle #3, without the additional OBO-specific
@@ -103,7 +107,7 @@ https://github.com/nfdi-de/section-metadata-wg-onto/pull/28/commits/38410712b3c8
    that is commonly used by other terminologies of the field. Likewise for
    annotation properties.
    - This is derived from OBO Foundry Principle #7, which mandates the use of
-     relation from OBO’s Relation Ontology (RO), but RO might not be suitable
+     relation from OBO's Relation Ontology (RO), but RO might not be suitable
      for all terminologies outside of OBO.
 8. **Documentation** - The owners of the terminology should strive to provide as
    much documentation as possible.

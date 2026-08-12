@@ -1,6 +1,10 @@
-# Objective C - NFDI-wide Collaboration on Use Cases
+---
+layout: page
+title: Objective C - NFDI-wide Collaboration on Use Cases
+permalink: /objectives/C/
+---
 
-GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/30
+[GitHub Epic](https://github.com/nfdi-de/section-metadata-wg-onto/issues/30)
 
 ## Information about NFDICore ontology
 

@@ -1,6 +1,10 @@
-# Objective E - NFDI’s Used Terminologies
+---
+layout: page
+title: Objective E - NFDI’s Used Terminologies
+permalink: /objectives/E/
+---
 
-GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/32
+[GitHub Epic](https://github.com/nfdi-de/section-metadata-wg-onto/issues/32)
 
 The [Semantic Farm](https://semantic.farm) is a registry of ontologies,
 terminologies, databases, and other resources that assign (persistent)
@@ -59,19 +63,19 @@ BARTOC. See
 ## Results
 
 | Consortium                                                    | #   | Contact                                                  | Suggest                                                                                                                                                                           |
-| ------------------------------------------------------------- | --- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|---------------------------------------------------------------|-----|----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [NFDI4Cat](https://semantic.farm/collection/0000011)          | 26  | Hendrik Borgelt, Alexander Behr, David Linke             | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000011&title=Add+prefix+X+to+NFDI4Cat)          |
-| [NFDI4Chem](https://semantic.farm/collection/0000014)         | 46  | Philip Strömert                                          | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000014&title=Add+prefix+X+to+NFDI4Chem)         |
-| [KonsortSWD](https://semantic.farm/collection/0000020)        | 37  | Noemi Betancort                                          | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000020&title=Add+prefix+X+to+KonsortSWD)        |
+| [NFDI4Chem](https://semantic.farm/collection/0000014)         | 48  | Philip Strömert                                          | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000014&title=Add+prefix+X+to+NFDI4Chem)         |
+| [KonsortSWD](https://semantic.farm/collection/0000020)        | 42  | Noemi Betancort Cabrera                                  | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000020&title=Add+prefix+X+to+KonsortSWD)        |
 | [NFDI4Energy](https://semantic.farm/collection/0000021)       | 17  | Amanda Wein                                              | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000021&title=Add+prefix+X+to+NFDI4Energy)       |
 | [NFDI4ING](https://semantic.farm/collection/0000022)          | 103 | Dorothea Iglezakis, Giacomo Lanza, Susanne Arndt         | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000022&title=Add+prefix+X+to+NFDI4ING)          |
 | [DataPLANT](https://semantic.farm/collection/0000023)         | 39  | Kathryn Dumschott, Angela Kranz, Hannah Dörpholz         | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000023&title=Add+prefix+X+to+DataPLANT)         |
 | [FAIRmat](https://semantic.farm/collection/0000024)           | 4   | Markus Kühbach                                           | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000024&title=Add+prefix+X+to+FAIRmat)           |
 | [NFDI4Culture](https://semantic.farm/collection/0000025)      | 30  | Tabea Tietz                                              | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000025&title=Add+prefix+X+to+NFDI4Culture)      |
-| [DAPHNE4NFDI](https://semantic.farm/collection/0000026)       |     | Heike Görzig, Rolf Krahl                                 | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000026&title=Add+prefix+X+to+DAPHNE4NFDI)       |
-| [MaRDI](https://semantic.farm/collection/0000027)             | 8   | Björn Schembera                                          | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000027&title=Add+prefix+X+to+MaRDI)             |
+| [DAPHNE4NFDI](https://semantic.farm/collection/0000026)       |     | Heike Görzig, Rolf Krahl, Paul Millar                    | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000026&title=Add+prefix+X+to+DAPHNE4NFDI)       |
+| [MaRDI](https://semantic.farm/collection/0000027)             | 10  | Björn Schembera                                          | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000027&title=Add+prefix+X+to+MaRDI)             |
 | [BERD@NFDI](https://semantic.farm/collection/0000028)         | 3   | Fidan Limani, Atif Latif                                 | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000028&title=Add+prefix+X+to+BERD@NFDI)         |
-| [NFDI4DataScience](https://semantic.farm/collection/0000029)  | 3   | Benjamin Zapilko                                         | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000029&title=Add+prefix+X+to+NFDI4DataScience)  |
+| [NFDI4DataScience](https://semantic.farm/collection/0000029)  | 8   | Benjamin Zapilko                                         | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000029&title=Add+prefix+X+to+NFDI4DataScience)  |
 | [NFDI4Earth](https://semantic.farm/collection/0000030)        | 27  | Auriol Degbelo                                           | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000030&title=Add+prefix+X+to+NFDI4Earth)        |
 | [NFDI-MatWerk](https://semantic.farm/collection/0000031)      | 6   | Ebrahim Nourouzi, Heike Fliegl                           | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000031&title=Add+prefix+X+to+NFDI-MatWerk)      |
 | [PUNCH4NFDI](https://semantic.farm/collection/0000032)        |     | Harry Enke                                               | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000032&title=Add+prefix+X+to+PUNCH4NFDI)        |
@@ -85,6 +89,6 @@ BARTOC. See
 | [NFDI4Biodiversity](https://semantic.farm/collection/0000040) | 65  | Naouel Karam, Ralph Schäfermeier                         | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000040&title=Add+prefix+X+to+NFDI4Biodiversity) |
 | [NFDI4Health](https://semantic.farm/collection/0000041)       | 38  | Matthias Löbe                                            | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000041&title=Add+prefix+X+to+NFDI4Health)       |
 | [NFDI4Microbiota](https://semantic.farm/collection/0000042)   |     | Anandhi Iyappan, Noriko Cassman, Maja Magel              | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000042&title=Add+prefix+X+to+NFDI4Microbiota)   |
-| [NFDI4Immuno](https://semantic.farm/collection/0000043)       |     | Ulrik Stervbo, Sebastian Böhm                            | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000043&title=Add+prefix+X+to+NFDI4Immuno)       |
+| [NFDI4Immuno](https://semantic.farm/collection/0000043)       | 7   | Ulrik Stervbo, Sebastian Böhm                            | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000043&title=Add+prefix+X+to+NFDI4Immuno)       |
 
 Regenerate this chart with `uv run generate_table.py`.

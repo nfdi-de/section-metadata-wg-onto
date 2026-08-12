@@ -1,9 +1,19 @@
-# Objective B - Assessing Mapping and Alignment Standards
+---
+layout: page
+title: Objective B - Assessing Mapping and Alignment Standards
+permalink: /objectives/B/
+---
 
-_GitHub Epic <https://github.com/nfdi-de/section-metadata-wg-onto/issues/7>_
+[GitHub Epic](https://github.com/nfdi-de/section-metadata-wg-onto/issues/7)
+
+## Subdirectories
+
+- [Tools](tools/README.md)
+
+## Quarto
 
 The recommendation document managed in this directory is written in file
-**[`index.qmd`](index.qmd)** in Markdown syntax using
+**[`quarto.qmd`](quarto.qmd)** in Markdown syntax using
 [quarto](https://quarto.org/) so both HTML and PDF can be generated from one
 source. Please consult the quarto documentation or just write Markdown.
 
