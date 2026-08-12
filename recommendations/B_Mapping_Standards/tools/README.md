@@ -14,7 +14,7 @@ etc. nor software that simply implements object models and I/O for the formats.
 
 ## Contributing
 
-You should make a new markdown file in this folder named by the tool. Make the
+You should make a new Markdown file in this folder named by the tool. Make the
 name lowercase with dashes instead of spaces.
 
 Please include the following:
@@ -34,7 +34,7 @@ Please include the following:
      and uploaded to YouTube is also desirable
 5. Links to publications about or using the tool
 
-Importantly, the markdown file for each tool should explicit say how the tool
+Importantly, the Markdown file for each tool should explicit say how the tool
 supports linking, harmonizing, and mapping terminologies used throughout the
 NFDI, and how this promotes interoperability (in the context of harmonizing our
 used terminologies) within NFDI.
