@@ -1,4 +1,8 @@
-# Cross-Domain Interoperability Framework (CDIF)
+---
+layout: page
+title: Cross-Domain Interoperability Framework (CDIF)
+permalink: /objective/A/formats/cdif
+---
 
 This document gives some background information on the Cross-Domain
 Interoperability Framework (CDIF), based on existing standards (Schema.org,

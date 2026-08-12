@@ -1,4 +1,8 @@
-# CLARIN Concept Registry (CCR)
+---
+layout: page
+title: CLARIN Concept Registry (CCR)
+permalink: /objective/A/resources/ccr
+---
 
 [Common Language Resources and Technology Infrastructure (CLARIN)](https://www.clarin.eu/)
 is a digital infrastructure offering data, tools, and services to support

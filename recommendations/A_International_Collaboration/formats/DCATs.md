@@ -1,4 +1,8 @@
-# DCAT Application Profiles
+---
+layout: page
+title: DCAT Application Profiles
+permalink: /objective/A/formats/dcat
+---
 
 This document gives some background on the W3 Data Catalog (DCAT)
 recommendation. It deals with two parts:

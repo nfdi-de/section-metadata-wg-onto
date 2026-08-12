@@ -1,4 +1,10 @@
-# RDA Alignment of Multilingual Vocabularies in the Social Sciences and Humanities WG
+---
+layout: page
+title:
+  RDA Alignment of Multilingual Vocabularies in the Social Sciences and
+  Humanities WG
+permalink: /objective/A/working-groups/rda-multilingual-vocabularies
+---
 
 This working group intends to address challenges concerning the interoperability
 multilingual nature of controlled vocabularies in the social sciences and

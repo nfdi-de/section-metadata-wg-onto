@@ -20,10 +20,16 @@ find existing external mappings and crosswalks.
 
 ## Working Groups
 
-- [RDA FAIR Mappings Working Group](working-groups/rda-fair-mappings.md)
+- [RDA FAIR Mappings](working-groups/rda-fair-mappings)
+- [RDA Multilingual Vocabularies](working-groups/rda-multilingual-vocabularies)
+- [LIDO2RDF Working Group](working-groups/lido2rdf)
+- [RDA Data Granularity](working-groups/rda-data-granularity)
+
+## Resources
+
+- [CLARIN Concept Registry (CCR)](resources/ccr)
 
 ## Formats, Specifications, and Frameworks
 
-- [Cross-Domain Interoperability Framework (CDIF)](CDIF.md)
-- [Data Catalog Vocabulary (DCAT) Application Profiles](DCATs.md)
-- [CLARIN Concept Registry (CCR)](CCR.md)
+- [Cross-Domain Interoperability Framework (CDIF)](formats/cdif)
+- [DCAT Application Profiles](formats/dcat)

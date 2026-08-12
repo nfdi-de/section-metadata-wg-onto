@@ -1,4 +1,16 @@
-# RDA FAIR Mappings WG
+---
+layout: page
+title: RDA FAIR Mappings WG
+permalink: /objective/A/working-groups/rda-fair-mappings
+---
+
+The working group aims to develop guidelines for creating FAIR mappings and
+establish a machine-readable and actionable representation of these mappings. To
+do this, they plan to create a classification system, likely in the form of an
+ontology or taxonomy, based on the RDA Brokering Framework, Semantic Mapping
+Vocabulary (SEMAPV), and various use cases and. The work will involve
+collaboration with other existing RDA groups, as well as European and
+international organizations such as EOSC and CODATA.
 
 ## Resources
 
@@ -9,13 +21,3 @@
 | GitHub Repository | mapping-commons/rda-fair-mappings                                       |             | [GitHub](https://github.com/mapping-commons/rda-fair-mappings)                                                                                                                  |
 | RDA page          |                                                                         |             | [FAIR Mappings WG](https://www.rd-alliance.org/groups/fair-mappings-wg/activity/)                                                                                               |
 | Slack Channel     |                                                                         |             | [RDA FAIR Mappings WG Slack Channel](https://join.slack.com/t/obo-communitygroup/shared_invite/zt-2uc9962yt-aa8wuXeqB16EudpD3Psdcw)                                             |
-
-## Summary
-
-The working group aims to develop guidelines for creating FAIR mappings and
-establish a machine-readable and actionable representation of these mappings. To
-do this, they plan to create a classification system, likely in the form of an
-ontology or taxonomy, based on the RDA Brokering Framework, Semantic Mapping
-Vocabulary (SEMAPV), and various use cases and. The work will involve
-collaboration with other existing RDA groups, as well as European and
-international organizations such as EOSC and CODATA.

@@ -15,9 +15,14 @@ meet the specific needs of the NFDI community. The ultimate goal is to produce a
 set of guidelines that provide clear instructions and best practices for NFDI
 members on how to implement these standards and leverage the resulting mappings.
 
-## Subdirectories
+## Tools
 
-- [Tools](tools/README.md)
+- [Semantic Mapping Assembler and Reasoner (SeMRA)](tools/semra)
+- [SSSOM Curator](tools/sssom-curator)
+
+## Services
+
+- [Ontology Mapping Service (OXO)](tools/oxo)
 
 ## Quarto
 
