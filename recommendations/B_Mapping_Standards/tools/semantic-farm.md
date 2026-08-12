@@ -1,15 +1,18 @@
 # Semantic Farm
 
-The Semantic Farm is an open source, domain-agnostic, community curated semantic
-space registry, meta-registry, and compact identifier resolver. Here's what that
-means:
+The [Semantic Farm](https://semantic.farm) is an open source, domain-agnostic,
+community curated semantic space registry, meta-registry, and compact identifier
+resolver where all NFDI ontologies, terminologies, databases, and related
+resources
+[should be indexed](../../D_Development_Best_Practices/README.md#terminology-hosting-and-indexing).
+
+Here's what that means:
 
 1. **Registry** A collection of prefixes and metadata for ontologies,
-   terminologies, and other resources that assign ( persistent) identifiers.
-   Some other well-known registries are
-   [Identifiers.org](https://identifiers.org) (originally for the life
-   sciences), and the [BARTOC](https://bartoc.org) (originally for the
-   humanities).
+   terminologies, and other resources that assign (persistent) identifiers. Some
+   other well-known registries are [Identifiers.org](https://identifiers.org)
+   (originally for the life sciences), and the [BARTOC](https://bartoc.org)
+   (originally for the humanities).
 2. **Metaregistry** A collection of metadata about registries and mappings
    between their constituent prefixes.
 3. **Resolver** A tool for mapping
@@ -36,6 +39,20 @@ means:
 - Source code (https://github.com/biopragmatics/bioregistry/)
 - Website (https://semantic.farm/)
 - API Documentation (https://semantic.farm/docs)
+
+## Comparison to BARTOC
+
+The
+[Basic Registry of Thesauri, Ontologies, and Classifications (BARTOC)](https://bartoc.org)
+captures similar metadata to the Semantic Farm for resources that assign
+identifiers. The Semantic Farm imports records from BARTOC on a weekly basis,
+after which they're enriched by Semantic Farm community curators with additional
+metadata and narrative text to best support NFDI researchers in finding,
+accessing, and reusing the ontologies, terminologies, controlled vocabularies,
+and other resources contained within.
+
+For a more detailed comparison of when to use the Semantic Farm or BARTOC, see
+[here](../../D_Development_Best_Practices/semantic-farm-and-bartoc.md).
 
 ## Training Material
 
