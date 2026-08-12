@@ -21,9 +21,11 @@ later codified in the
 [SSSOM specification](https://mapping-commons.github.io/sssom/dev/chaining-rules/).
 
 OXO2 is a static resource - it doesn't have mechanisms for adding new mappings
-nor reviewing existing mappings. It has search capability based on term name or
+nor reviewing existing mappings. It has search capability based on term label or
 identifier and filtering based on source/target ontology, mapping set, or
-predicate type.
+predicate type. It displays mappings in a tabular way, but does not have
+graph-based visualization nor exploration.
 
-OXO2 is maintained by [Henriette Harmse](https://github.com/henrietteharmse)
-with nearly all commits assisted by Anthropic's Claude.
+OXO2 is primarily maintained by
+[Henriette Harmse](https://github.com/henrietteharmse) with nearly all recent
+commits assisted by Anthropic's Claude.
