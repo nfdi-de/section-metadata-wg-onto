@@ -11,8 +11,8 @@ or reason over semantic mappings.
 The goal of this folder isn't to highlight mapping formats like SSSOM, JSKOS,
 etc. nor software that simply implements object models and I/O for the formats.
 
-| Name                                                      | Description                                                    |
-| --------------------------------------------------------- | -------------------------------------------------------------- |
+| Name                                                     | Description                                                    |
+| -------------------------------------------------------- | -------------------------------------------------------------- |
 | [SSSOM Curator](sssom-curator)                           | Lexical prediction of semantic mappings and curation interface |
 | [Semantic Mapping Reasoner and Assembler (SeMRA)](semra) | Reasoning-based prediction of semantic mappings                |
 

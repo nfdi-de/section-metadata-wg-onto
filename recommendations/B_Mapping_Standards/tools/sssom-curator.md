@@ -21,8 +21,8 @@ and made domain-agnostic.
 ### Artifacts
 
 Mappings that are curated in the Biomappings project are stored in SSSOM under
-version control in the GitHub repository. They can be accessed through [this
-PURL](https://w3id.org/biopragmatics/biomappings/sssom/biomappings.sssom.tsv).
+version control in the GitHub repository. They can be accessed through
+[this PURL](https://w3id.org/biopragmatics/biomappings/sssom/biomappings.sssom.tsv).
 
 ### Training Material
 
