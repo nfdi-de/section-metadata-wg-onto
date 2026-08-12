@@ -11,8 +11,14 @@ The successor project OXO2 ([homepage](https://wwwdev.ebi.ac.uk/oxo2/);
 [GitHub](https://github.com/EBISPOT/OXO2);
 [preprint](https://arxiv.org/abs/2506.04286)) is built using the
 [Simple Standard for Sharing Ontological Mappings (SSSOM)](https://mapping-commons.github.io/sssom/)
-as a data model and includes inferred semantic mappings partially based on
-SeMRA's inference rules.
+as a data model. It includes additional semantic mappings beyond OBO Foundry
+ontologies such as those listed in the
+[Mapping Commons Registry](https://mapping-commons.github.io). It additionally
+generates inferred semantic mappings partially based on the inference rules
+developed for the
+[Semantic Mapping Assembler and Reasoner (SeMRA)](../tools/semra.md) that were
+later codified in the
+[SSSOM specification](https://mapping-commons.github.io/sssom/dev/chaining-rules/).
 
 OXO2 is a static resource - it doesn't have mechanisms for adding new mappings
 nor reviewing existing mappings. It has search capability based on term name or
