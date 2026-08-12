@@ -4,3 +4,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
+header_pages:
+  - recommendations/README.md
+  - mappings/README.md

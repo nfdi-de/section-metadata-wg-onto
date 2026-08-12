@@ -1,9 +1,24 @@
 ---
 layout: objective
-title: Objective D - NFDI's Best Practices for Terminology Development and Publishing
-permalink: /objectives/D/
+title:
+  Objective D - NFDI's Best Practices for Terminology Development and Publishing
+permalink: /objective/D/
 epic: 31
 ---
+
+The goal of Objective D is to create and continuously update a collaborative
+resource that captures evolving best practices, standards, and tools that should
+be considered when tackling terminology development projects within the NFDI.
+This living document will: Provide a glossary of key terms and definitions in
+the field of terminology engineering; Offer practical how-to's and guidelines
+for applying international standards, such as the OBO principles and SSSOM;
+Introduce common and open tools and approaches, including ODK, MOD-profiles,
+design patterns and terminology hosting, to facilitate and harmonize terminology
+development; Document and share best practices and examples of successful
+terminology development projects, after they have been informed and discussed
+within the working group via the regular communication channels; Ultimately,
+Serve as a living document, regularly updated to reflect new developments and
+advancements in the field of terminology engineering.
 
 ## Target audience
 

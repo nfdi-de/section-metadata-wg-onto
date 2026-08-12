@@ -1,9 +1,14 @@
 ---
 layout: objective
 title: Objective E - NFDI’s Used Terminologies
-permalink: /objectives/E/
+permalink: /objective/E/
 epic: 32
 ---
+
+The goal of Objective E is to collect which consortium reuses, develops or
+evaluates which terminologies in a common machine actionable manner that allows
+further analyses regarding common needs and synergies. Use this collection as a
+basis for our work and recommendations associated with the other objectives.
 
 The [Semantic Farm](https://semantic.farm) is a registry of ontologies,
 terminologies, databases, and other resources that assign (persistent)
@@ -62,7 +67,7 @@ BARTOC. See
 ## Results
 
 | Consortium                                                    | #   | Contact                                                  | Suggest                                                                                                                                                                           |
-|---------------------------------------------------------------|-----|----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------------------------------------------------------- | --- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [NFDI4Cat](https://semantic.farm/collection/0000011)          | 26  | Hendrik Borgelt, Alexander Behr, David Linke             | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000011&title=Add+prefix+X+to+NFDI4Cat)          |
 | [NFDI4Chem](https://semantic.farm/collection/0000014)         | 48  | Philip Strömert                                          | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000014&title=Add+prefix+X+to+NFDI4Chem)         |
 | [KonsortSWD](https://semantic.farm/collection/0000020)        | 42  | Noemi Betancort Cabrera                                  | [Add prefix to collection](https://github.com/biopragmatics/bioregistry/issues/new?template=add-collection-prefix.yml&collection=0000020&title=Add+prefix+X+to+KonsortSWD)        |
