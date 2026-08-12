@@ -37,3 +37,6 @@ We have bi-monthly meetings according to these schedules:
 
 To get started contributing an issue or changes to the documents in this
 repository, see [CONTRIBUTING.md](.github/CONTRIBUTING.md).
+
+For a guide on how to upload documents to GitHub, see
+[here](tutorials/uploading-to-github).
