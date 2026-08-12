@@ -1,4 +1,8 @@
-# RDA Data Granularity WG (work completed)
+---
+layout: page
+title: RDA Data Granularity WG
+permalink: /objective/A/working-groups/rda-data-granularity
+---
 
 The efficient and effective reuse of data requires that users, be they humans or
 machines, be able to find and access data at fine levels of granularity. The

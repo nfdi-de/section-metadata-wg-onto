@@ -1,4 +1,8 @@
-# Ontology Mapping Service (OXO)
+---
+layout: page
+title: Ontology Mapping Service (OXO)
+permalink: /objective/B/services/oxo
+---
 
 The European Bioinformatics Institute (EBI) published the Ontology Mapping
 Service (OXO) in [2019](https://doi.org/10.1016/j.drudis.2019.05.020) as an

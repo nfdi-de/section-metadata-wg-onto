@@ -1,4 +1,8 @@
-# Semantic Reasoning Assembler and Mapper (SeMRA)
+---
+layout: page
+title: Semantic Reasoning Assembler and Mapper (SeMRA)
+permalink: /objective/B/tools/semra
+---
 
 The Semantic Mapping Reasoner and Assembler (SeMRA;
 https://github.com/biopragmatics/semra) is an open source Python package that

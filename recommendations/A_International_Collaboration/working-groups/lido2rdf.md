@@ -1,4 +1,8 @@
-# LIDO2RDF WG
+---
+layout: page
+title: LIDO2RDF WG
+permalink: /objective/A/working-groups/lido2rdf
+---
 
 [Lightweight Information Describing Objects (LIDO)](https://icom-documentation.mini.icom.museum/working-groups/lido/lido-overview/about-lido/what-is-lido/)
 is a format for contributing collection objects information for resource

@@ -1,6 +1,10 @@
-## SSSOM Curator
+---
+layout: page
+title: SSSOM Curator
+permalink: /objective/B/tools/sssom-curator
+---
 
-SSSOM Curator (https://github.com/cthoyt/sssom-curator) is an open source
+[SSSOM Curator](https://github.com/cthoyt/sssom-curator) is an open source
 project that has a few parts:
 
 1. A simple Python-based workflow for generating lexical mappings between
@@ -17,8 +21,8 @@ and made domain-agnostic.
 ### Artifacts
 
 Mappings that are curated in the Biomappings project are stored in SSSOM under
-version control in the GitHub repository. They can be accessed through this
-PURL: https://w3id.org/biopragmatics/biomappings/sssom/biomappings.sssom.tsv
+version control in the GitHub repository. They can be accessed through
+[this PURL](https://w3id.org/biopragmatics/biomappings/sssom/biomappings.sssom.tsv).
 
 ### Training Material
 

@@ -1,9 +1,33 @@
-# Objective B - Assessing Mapping and Alignment Standards
+---
+layout: objective
+title: Objective B - Assessing Mapping and Alignment Standards
+permalink: /objective/B/
+epic: 7
+---
 
-_GitHub Epic <https://github.com/nfdi-de/section-metadata-wg-onto/issues/7>_
+The goal of Objective B is to assess and evaluate existing standards and tools
+for creating, validating/benchmarking, documenting and publishing terminology
+mappings and alignments, such as SSSOM, OAEI, and RML, to determine their
+applicability and suitability for the NFDI context. This assessment will inform
+the development of guidelines and recommendations for implementing these
+standards within the NFDI, including any necessary adaptations or extensions to
+meet the specific needs of the NFDI community. The ultimate goal is to produce a
+set of guidelines that provide clear instructions and best practices for NFDI
+members on how to implement these standards and leverage the resulting mappings.
+
+## Tools
+
+- [Semantic Mapping Assembler and Reasoner (SeMRA)](tools/semra)
+- [SSSOM Curator](tools/sssom-curator)
+
+## Services
+
+- [Ontology Mapping Service (OXO)](tools/oxo)
+
+## Quarto
 
 The recommendation document managed in this directory is written in file
-**[`index.qmd`](index.qmd)** in Markdown syntax using
+**[`quarto.qmd`](quarto.qmd)** in Markdown syntax using
 [quarto](https://quarto.org/) so both HTML and PDF can be generated from one
 source. Please consult the quarto documentation or just write Markdown.
 

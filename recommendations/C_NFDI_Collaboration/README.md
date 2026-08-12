@@ -1,6 +1,21 @@
-# Objective C - NFDI-wide Collaboration on Use Cases
+---
+layout: objective
+title: Objective C - NFDI-wide Collaboration on Use Cases
+permalink: /objective/C/
+epic: 30
+---
 
-GitHub Epic: https://github.com/nfdi-de/section-metadata-wg-onto/issues/30
+The goal of Objective C is to provide a clearing house of experiences from
+within the NFDI in mapping and harmonizing terminologies. We will collect and
+evaluate mapping experiences, maintain communication with use cases — inviting
+NFDI participants to exchange their experience and/or surveying them as
+necessary — and evaluate them in the context of other objectives. The goal is to
+provide clear examples for others who are attempting mappings and harmonization
+but also to define improvements that enhance interoperability and reduce mapping
+costs in the future. In contrast to objective A that considers a more
+international perspective, this objective focuses more on NFDI wide internal
+exchange and discussions. The insights and conclusions obtained in Objective C
+will be shared as part of objective A on a broader international level.
 
 ## Information about NFDICore ontology
 

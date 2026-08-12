@@ -1,4 +1,8 @@
-# Mapping Tools
+---
+layout: page
+title: Mapping Tools
+permalink: /objective/B/tools
+---
 
 The goal of this folder is to highlight mapping tools, i.e., concrete
 implementations of reusable tools that can be used to predict, review, curate,
@@ -7,10 +11,10 @@ or reason over semantic mappings.
 The goal of this folder isn't to highlight mapping formats like SSSOM, JSKOS,
 etc. nor software that simply implements object models and I/O for the formats.
 
-| Name                                                        | Description                                                    |
-| ----------------------------------------------------------- | -------------------------------------------------------------- |
-| [SSSOM Curator](sssom-curator.md)                           | Lexical prediction of semantic mappings and curation interface |
-| [Semantic Mapping Reasoner and Assembler (SeMRA)](semra.md) | Reasoning-based prediction of semantic mappings                |
+| Name                                                     | Description                                                    |
+| -------------------------------------------------------- | -------------------------------------------------------------- |
+| [SSSOM Curator](sssom-curator)                           | Lexical prediction of semantic mappings and curation interface |
+| [Semantic Mapping Reasoner and Assembler (SeMRA)](semra) | Reasoning-based prediction of semantic mappings                |
 
 ## Contributing
 
