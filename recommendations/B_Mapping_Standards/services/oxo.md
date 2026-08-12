@@ -1,0 +1,23 @@
+# Ontology Mapping Service (OXO)
+
+The European Bioinformatics Institute (EBI) published the Ontology Mapping
+Service (OXO) in [2019](https://doi.org/10.1016/j.drudis.2019.05.020) as an
+interactive browser of mappings extracted from ontologies listed in the EBI's
+Ontology Lookup Service (OLS). At the time of publication, this was limited to
+[OBO Foundry ontologies](https://obofoundry.org/), which mostly used imprecise
+`oboInOwl:hasDbXref` mappings.
+
+The successor project OXO2 ([homepage](https://wwwdev.ebi.ac.uk/oxo2/);
+[GitHub](https://github.com/EBISPOT/OXO2);
+[preprint](https://arxiv.org/abs/2506.04286)) is built using the
+[Simple Standard for Sharing Ontological Mappings (SSSOM)](https://mapping-commons.github.io/sssom/)
+as a data model and includes inferred semantic mappings partially based on
+SeMRA's inference rules.
+
+OXO2 is a static resource - it doesn't have mechanisms for adding new mappings
+nor reviewing existing mappings. It has search capability based on term name or
+identifier and filtering based on source/target ontology, mapping set, or
+predicate type.
+
+OXO2 is maintained by [Henriette Harmse](https://github.com/henrietteharmse)
+with nearly all commits assisted by Anthropic's Claude.
