@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: objective
 title: Objective D - NFDI's Best Practices for Terminology Development and Publishing
 permalink: /objectives/D/
+epic: 31
 ---
-
-[GitHub Epic](https://github.com/nfdi-de/section-metadata-wg-onto/issues/31)
 
 ## Target audience
 

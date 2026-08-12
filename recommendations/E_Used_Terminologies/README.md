@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: objective
 title: Objective E - NFDI’s Used Terminologies
 permalink: /objectives/E/
+epic: 32
 ---
-
-[GitHub Epic](https://github.com/nfdi-de/section-metadata-wg-onto/issues/32)
 
 The [Semantic Farm](https://semantic.farm) is a registry of ontologies,
 terminologies, databases, and other resources that assign (persistent)

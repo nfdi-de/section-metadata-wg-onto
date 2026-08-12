@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: objective
 title: Objective B - Assessing Mapping and Alignment Standards
 permalink: /objectives/B/
+epic: 7
 ---
-
-[GitHub Epic](https://github.com/nfdi-de/section-metadata-wg-onto/issues/7)
 
 ## Subdirectories
 

@@ -2,9 +2,8 @@
 layout: objective
 title: Objective A - Collaborating Internationally
 permalink: /objectives/A/
+epic: 29
 ---
-
-[GitHub Epic](https://github.com/nfdi-de/section-metadata-wg-onto/issues/29)
 
 ## Working Groups
 

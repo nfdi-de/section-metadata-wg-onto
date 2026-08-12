@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: objective
 title: Objective C - NFDI-wide Collaboration on Use Cases
 permalink: /objectives/C/
+epic: 30
 ---
-
-[GitHub Epic](https://github.com/nfdi-de/section-metadata-wg-onto/issues/30)
 
 ## Information about NFDICore ontology
 
