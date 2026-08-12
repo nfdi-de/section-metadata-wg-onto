@@ -21,7 +21,8 @@ later codified in the
 [SSSOM specification](https://mapping-commons.github.io/sssom/dev/chaining-rules/).
 
 OXO2 is a static resource - it doesn't have mechanisms for adding new mappings
-nor reviewing existing mappings. It has search capability based on term label or
+nor reviewing existing mappings. It's also not a user/developer-facing tool for
+making new inferences. It has search capability based on term label or
 identifier and filtering based on source/target ontology, mapping set, or
 predicate type. It displays mappings in a tabular way, but does not have
 graph-based visualization nor exploration.
