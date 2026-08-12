@@ -10,3 +10,4 @@ Formats, Specifications, Frameworks:
 
 - [Cross-Domain Interoperability Framework (CDIF)](CDIF.md)
 - [Data Catalog Vocabulary (DCAT) Application Profiles](DCATs.md)
+- [CLARIN Concept Registry (CCR)](CCR.md)

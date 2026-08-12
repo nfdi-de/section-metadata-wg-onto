@@ -1,5 +1,7 @@
 # section-metadata-wg-onto
 
+[![DOI](https://zenodo.org/badge/762137697.svg)](https://doi.org/10.5281/zenodo.20662774)
+
 This repository is meant to organize the work of the
 [NFDI Section (Meta)Data](https://www.nfdi.de/section-metadata/) Working Group
 Ontology Harmonization and Mapping.
@@ -35,3 +37,6 @@ We have bi-monthly meetings according to these schedules:
 
 To get started contributing an issue or changes to the documents in this
 repository, see [CONTRIBUTING.md](.github/CONTRIBUTING.md).
+
+For a guide on how to upload documents to GitHub, see
+[here](tutorials/uploading-to-github).
