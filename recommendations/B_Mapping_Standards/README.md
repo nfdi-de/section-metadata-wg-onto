@@ -22,7 +22,7 @@ members on how to implement these standards and leverage the resulting mappings.
 
 ## Services
 
-- [Ontology Mapping Service (OXO)](tools/oxo)
+- [Ontology Mapping Service (OXO)](services/oxo)
 
 ## Quarto
 
