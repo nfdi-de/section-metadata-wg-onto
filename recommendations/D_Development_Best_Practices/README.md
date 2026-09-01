@@ -112,17 +112,17 @@ https://github.com/nfdi-de/section-metadata-wg-onto/pull/28/commits/38410712b3c8
      particular requirement may be ignored for ontologies that are not expected
      to fit within the set of OBO ontologies. However, the point stands that a
      commonly agreed upon annotation property should be used to provide the
-     definitions – if not IAO:0000115, then maybe
+     definitions – if not IAO:0000115, then maybe
      [skos:definition](http://www.w3.org/2004/02/skos/core#definition).
    - It is furthermore recommended that definitions be annotated with source
-     informations.
-7. **Consistent use of relations and annotations** – The terminology should use
+     information.
+7. **Consistent use of relations and annotations** – The terminology should use
    relations (object properties) ideally coming from a single unified source,
    that is commonly used by other terminologies of the field. Likewise for
    annotation properties.
    - This is derived from OBO Foundry Principle #7, which mandates the use of
      relation from OBO's Relation Ontology (RO), but RO might not be suitable
-     for all terminologies outside of OBO.
+     for all terminologies outside OBO.
 8. **Documentation** - The owners of the terminology should strive to provide as
    much documentation as possible.
    - OBO Foundry principle #8
@@ -166,9 +166,9 @@ https://github.com/nfdi-de/section-metadata-wg-onto/pull/28/commits/38410712b3c8
 16. **Attribution** - The terminology should attribute contributions.
     - Contributors to the terminology and to individual terms should be
       identified by a proper semantic identifier, ideally an
-      [ORCID ID](https://orcid.org/).
+      [Open Researcher and Contributor ID (ORCID)](https://orcid.org).
     - A consistent set of annotation properties should be used to convey
-      attribution informations. In the absence of field-specific recommendations
+      attribution information. In the absence of field-specific recommendations
       (which would take precedence over those guidelines as per Principle 0), we
       recommend either <http://purl.org/dc/terms/creator> for the initial
       creator of a term and <http://purl.org/dc/terms/contributor> for any
