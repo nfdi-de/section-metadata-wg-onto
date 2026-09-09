@@ -184,7 +184,7 @@ https://github.com/nfdi-de/section-metadata-wg-onto/pull/28/commits/38410712b3c8
     tools (so-called “generative artificial intelligence” or genAI) during the
     development of a terminology MUST be disclosed.
     - If such tools are used routinely as part of the development process, how
-      their are used and for which parts of the development (e.g. drafting
+      they are used and for which parts of the development (e.g. drafting
       textual definitions, generating candidate synonyms, proposing class
       hierarchies, etc.) MUST be documented.
     - If they are used to generate precise parts of the terminology, this SHOULD
