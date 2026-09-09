@@ -180,6 +180,19 @@ https://github.com/nfdi-de/section-metadata-wg-onto/pull/28/commits/38410712b3c8
       consistently used to that effect. Possible candidates include
       <http://www.w3.org/2000/01/rdf-schema#seeAlso> or (notably for biomedical
       ontologies) <http://purl.obolibrary.org/obo/IAO_0000233>.
+17. **Disclosure of Generative AI Use** - Any use of probabilistic automation
+    tools (so-called “generative artificial intelligence” or genAI) during the
+    development of a terminology MUST be disclosed.
+    - If such tools are used routinely as part of the development process, how
+      their are used and for which parts of the development (e.g. drafting
+      textual definitions, generating candidate synonyms, proposing class
+      hierarchies, etc.) MUST be documented.
+    - If they are used to generate precise parts of the terminology, this SHOULD
+      be disclosed in a machine-readable way at the lowest applicable level,
+      ideally as axiom annotations.
+    - The editors of the terminology remain fully responsible for the content
+      that is ultimately incorporated into the terminology, regardless of which
+      tools were used to produce said content.
 
 ## Term Reuse
 
